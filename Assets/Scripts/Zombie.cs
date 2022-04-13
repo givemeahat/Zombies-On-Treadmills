@@ -1,0 +1,121 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Zombie : MonoBehaviour
+{
+    public float speed = 5f;
+
+    public Treadmill startTreadmill;
+    public Treadmill currentTreadmill;
+
+    public Transform nextWaypoint;
+
+    public int currentDirection;
+
+    public void Spawn()
+    {
+        nextWaypoint = startTreadmill.waypoint;
+        StartCoroutine(MoveToWaypoint());
+        currentTreadmill = startTreadmill;
+    }
+
+    public void NextTreadmill()
+    {
+        currentDirection = currentTreadmill.currentDirection;
+        //south
+        if (currentDirection == 0)
+        {
+            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, -Vector2.up);
+            if (hit.collider != null)
+            {
+                DetermineType(hit);
+            }
+            else return;
+        }
+        //east
+        if (currentDirection == 90)
+        {
+            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, Vector2.right);
+            if (hit.collider != null)
+            {
+                DetermineType(hit);
+            }
+            else return;
+        }        
+        //north
+        if (currentDirection == 180)
+        {
+            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, Vector2.up);
+            if (hit.collider != null)
+            {
+                DetermineType(hit);
+            }
+            else return;
+        }        
+        //west
+        if (currentDirection == 270)
+        {
+            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, -Vector2.right);
+            if (hit.collider != null)
+            {
+                DetermineType(hit);
+            }
+            else return;
+        }
+    }
+
+    public void DetermineType(RaycastHit2D hit)
+    {
+        if (hit.collider.gameObject.tag == "Treadmill")
+        {
+            print(hit.collider.name);
+            currentTreadmill = hit.collider.gameObject.GetComponent<Treadmill>();
+            nextWaypoint = currentTreadmill.waypoint;
+            StartCoroutine(MoveToWaypoint());
+        }
+        if (hit.collider.gameObject.tag == "House")
+        {
+            print(hit.collider.name);
+            House house = hit.collider.gameObject.GetComponent<House>();
+            nextWaypoint = house.waypoint;
+            StartCoroutine(MoveToFinalWaypoint());
+        }
+        if (hit.collider.gameObject.tag == "Volcano")
+        {
+            print(hit.collider.name);
+            Volcano volcano = hit.collider.gameObject.GetComponent<Volcano>();
+            currentTreadmill = null;
+            nextWaypoint = volcano.waypoint;
+            StartCoroutine(MoveToFinalWaypoint());
+        }
+    }
+
+    IEnumerator MoveToWaypoint()
+    {
+        Vector3 startPos = this.transform.position;
+        Vector3 endPos = nextWaypoint.position;
+        float time = 0;
+        while (time < speed)
+        {
+            time += Time.deltaTime;
+            Vector3 pos = Vector3.Lerp(startPos, endPos, time / speed);
+            this.transform.position = pos;
+            yield return null;
+        }
+        NextTreadmill();
+    }
+    IEnumerator MoveToFinalWaypoint()
+    {
+        Vector3 startPos = this.transform.position;
+        Vector3 endPos = nextWaypoint.position;
+        float time = 0;
+        while (time < speed)
+        {
+            time += Time.deltaTime;
+            Vector3 pos = Vector3.Lerp(startPos, endPos, time / speed);
+            this.transform.position = pos;
+            yield return null;
+        }
+    }
+}
