@@ -17,6 +17,7 @@ public class Treadmill : MonoBehaviour
     public void OnMouseDown()
     {
         if (isRotating) return;
+        this.GetComponent<AudioSource>().PlayOneShot(this.GetComponent<AudioSource>().clip);
         StartCoroutine(RotateTreadmill());
     }
 

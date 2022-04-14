@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Zombie : MonoBehaviour
 {
+    public GameManager gm;
     public float speed = 5f;
 
     public Treadmill startTreadmill;
@@ -15,6 +16,7 @@ public class Zombie : MonoBehaviour
 
     public void Spawn()
     {
+        gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
         nextWaypoint = startTreadmill.waypoint;
         StartCoroutine(MoveToWaypoint());
         currentTreadmill = startTreadmill;
@@ -79,7 +81,7 @@ public class Zombie : MonoBehaviour
             print(hit.collider.name);
             House house = hit.collider.gameObject.GetComponent<House>();
             nextWaypoint = house.waypoint;
-            StartCoroutine(MoveToFinalWaypoint());
+            StartCoroutine(MoveToFinalWaypoint(house.gameObject));
         }
         if (hit.collider.gameObject.tag == "Volcano")
         {
@@ -87,7 +89,7 @@ public class Zombie : MonoBehaviour
             Volcano volcano = hit.collider.gameObject.GetComponent<Volcano>();
             currentTreadmill = null;
             nextWaypoint = volcano.waypoint;
-            StartCoroutine(MoveToFinalWaypoint());
+            StartCoroutine(MoveToFinalWaypoint(volcano.gameObject));
         }
     }
 
@@ -105,7 +107,7 @@ public class Zombie : MonoBehaviour
         }
         NextTreadmill();
     }
-    IEnumerator MoveToFinalWaypoint()
+    IEnumerator MoveToFinalWaypoint(GameObject finalGO)
     {
         Vector3 startPos = this.transform.position;
         Vector3 endPos = nextWaypoint.position;
@@ -116,6 +118,14 @@ public class Zombie : MonoBehaviour
             Vector3 pos = Vector3.Lerp(startPos, endPos, time / speed);
             this.transform.position = pos;
             yield return null;
+        }
+        if (finalGO.tag == "House")
+        {
+            gm.UpdatePeopleKilled();
+        }
+        if (finalGO.tag == "Volcano")
+        {
+            gm.UpdateZombiesKilled();
         }
     }
 }
