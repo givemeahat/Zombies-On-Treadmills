@@ -25,6 +25,7 @@ public class Zombie : MonoBehaviour
     public void NextTreadmill()
     {
         currentDirection = currentTreadmill.currentDirection;
+        startTreadmill = currentTreadmill;
         //south
         if (currentDirection == 0)
         {
@@ -71,26 +72,37 @@ public class Zombie : MonoBehaviour
     {
         if (hit.collider.gameObject.tag == "Treadmill")
         {
-            print(hit.collider.name);
             currentTreadmill = hit.collider.gameObject.GetComponent<Treadmill>();
             nextWaypoint = currentTreadmill.waypoint;
             StartCoroutine(MoveToWaypoint());
         }
         if (hit.collider.gameObject.tag == "House")
         {
-            print(hit.collider.name);
             House house = hit.collider.gameObject.GetComponent<House>();
             nextWaypoint = house.waypoint;
             StartCoroutine(MoveToFinalWaypoint(house.gameObject));
         }
         if (hit.collider.gameObject.tag == "Volcano")
         {
-            print(hit.collider.name);
             Volcano volcano = hit.collider.gameObject.GetComponent<Volcano>();
             currentTreadmill = null;
             nextWaypoint = volcano.waypoint;
             StartCoroutine(MoveToFinalWaypoint(volcano.gameObject));
         }
+    }
+
+    public void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.gameObject.tag == "House" || coll.gameObject.tag == "Volcano")
+        {
+            StartCoroutine(DestroyZombie());
+        }
+    }
+
+    IEnumerator DestroyZombie()
+    {
+        yield return new WaitForSeconds(speed + .1f);
+        Destroy(this.gameObject);
     }
 
     IEnumerator MoveToWaypoint()
