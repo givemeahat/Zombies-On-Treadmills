@@ -9,19 +9,53 @@ public class Treadmill : MonoBehaviour
     public int currentDirection;
     public Transform waypoint;
 
+    public SpriteRenderer spriteRend;
+    public Sprite verticalSprite;
+    public Sprite horizontalSprite;
+
     private void Start()
     {
-        currentDirection = Mathf.RoundToInt(this.gameObject.transform.eulerAngles.z);
+        spriteRend = this.GetComponent<SpriteRenderer>();
+        //currentDirection = Mathf.RoundToInt(this.gameObject.transform.eulerAngles.z);
     }
 
     public void OnMouseDown()
     {
-        if (isRotating) return;
         this.GetComponent<AudioSource>().PlayOneShot(this.GetComponent<AudioSource>().clip);
-        StartCoroutine(RotateTreadmill());
+        currentDirection += 90;
+        if (currentDirection == 360)
+        {
+            currentDirection = 0;
+        }
+        //StartCoroutine(RotateTreadmill());
+        switch (currentDirection)
+        {
+            case 0:
+                spriteRend.sprite = verticalSprite;
+                spriteRend.flipX = false;
+                spriteRend.flipY = true;
+                break;
+            case 90:
+                Debug.Log("90");
+                spriteRend.sprite = horizontalSprite;
+                spriteRend.flipX = false;
+                spriteRend.flipY = false;
+                break;
+            case 180:
+                Debug.Log("180");
+                spriteRend.sprite = verticalSprite;
+                spriteRend.flipX = false;
+                spriteRend.flipY = false;
+                break;
+            case 270:
+                spriteRend.sprite = horizontalSprite;
+                spriteRend.flipX = true;
+                spriteRend.flipY = false;
+                break;
+        }
     }
 
-    IEnumerator RotateTreadmill()
+    /*IEnumerator RotateTreadmill()
     {
         isRotating = true;
         float startRotation = this.gameObject.transform.eulerAngles.z;
@@ -40,6 +74,7 @@ public class Treadmill : MonoBehaviour
         {
             currentDirection = 0;
         }
+
         isRotating = false;
-    }
+    }*/
 }

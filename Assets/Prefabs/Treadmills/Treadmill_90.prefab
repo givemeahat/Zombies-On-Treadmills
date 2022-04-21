@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 7476827996756150696}
   - component: {fileID: 1474660638270739009}
   m_Layer: 6
-  m_Name: Treadmill_Vertical_Placeholder
+  m_Name: Treadmill_90
   m_TagString: Treadmill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -187,8 +187,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 95acf772a08b156409cd5f1f9009c0cb, type: 3}
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: 05a12564a7b09b442b4e33f43351384c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -211,8 +211,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 143f14eb4dd96d64fbe60d7ab9e85b3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentDirection: 0
+  currentDirection: 90
   waypoint: {fileID: 7476827996555806731}
+  spriteRend: {fileID: 0}
+  verticalSprite: {fileID: 21300000, guid: 272363d687a7bb946928630ca08d7bcc, type: 3}
+  horizontalSprite: {fileID: 21300000, guid: 05a12564a7b09b442b4e33f43351384c, type: 3}
 --- !u!61 &7476827996756150696
 BoxCollider2D:
   m_ObjectHideFlags: 0

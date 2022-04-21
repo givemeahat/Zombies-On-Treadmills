@@ -34,7 +34,9 @@ public class Zombie : MonoBehaviour
             {
                 DetermineType(hit);
             }
-            else return;
+            else
+                Debug.Log("AH");
+                return;
         }
         //east
         if (currentDirection == 90)
@@ -44,7 +46,8 @@ public class Zombie : MonoBehaviour
             {
                 DetermineType(hit);
             }
-            else return;
+            else Debug.Log("AH");
+            return;
         }        
         //north
         if (currentDirection == 180)
@@ -54,7 +57,8 @@ public class Zombie : MonoBehaviour
             {
                 DetermineType(hit);
             }
-            else return;
+            else Debug.Log("AH");
+            return;
         }        
         //west
         if (currentDirection == 270)
@@ -64,7 +68,8 @@ public class Zombie : MonoBehaviour
             {
                 DetermineType(hit);
             }
-            else return;
+            else Debug.Log("AH");
+            return;
         }
     }
 
@@ -72,6 +77,7 @@ public class Zombie : MonoBehaviour
     {
         if (hit.collider.gameObject.tag == "Treadmill")
         {
+            Debug.Log("hello " + hit.collider.name);
             currentTreadmill = hit.collider.gameObject.GetComponent<Treadmill>();
             nextWaypoint = currentTreadmill.waypoint;
             StartCoroutine(MoveToWaypoint());
