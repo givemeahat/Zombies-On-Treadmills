@@ -36,13 +36,11 @@ public class Treadmill : MonoBehaviour
                 spriteRend.flipY = true;
                 break;
             case 90:
-                Debug.Log("90");
                 spriteRend.sprite = horizontalSprite;
                 spriteRend.flipX = false;
                 spriteRend.flipY = false;
                 break;
             case 180:
-                Debug.Log("180");
                 spriteRend.sprite = verticalSprite;
                 spriteRend.flipX = false;
                 spriteRend.flipY = false;
