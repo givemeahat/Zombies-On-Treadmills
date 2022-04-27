@@ -9,24 +9,24 @@ public class Zombie : MonoBehaviour
 
     public Treadmill startTreadmill;
     public Treadmill currentTreadmill;
-
     public Transform nextWaypoint;
 
     public int currentDirection;
+    SpriteRenderer zombieRend;
 
     public void Spawn()
     {
-        gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
         nextWaypoint = startTreadmill.waypoint;
         StartCoroutine(MoveToWaypoint());
         currentTreadmill = startTreadmill;
+        zombieRend = this.GetComponent<SpriteRenderer>();
     }
 
     public void NextTreadmill()
     {
         currentDirection = currentTreadmill.currentDirection;
         startTreadmill = currentTreadmill;
-        int layerMask = 6;
+        int layerMask = 1 << 7;
         layerMask = ~layerMask;
         //south
         if (currentDirection == 0)
@@ -36,20 +36,18 @@ public class Zombie : MonoBehaviour
             {
                 DetermineType(hit);
             }
-            else
-                Debug.Log("AH");
-                return;
+            else return;
         }
         //east
         if (currentDirection == 90)
         {
             RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, Vector2.right, 5f, layerMask);
+            zombieRend.flipX = false;
             if (hit.collider != null)
             {
                 DetermineType(hit);
             }
-            else Debug.Log("AH");
-            return;
+            else return;
         }        
         //north
         if (currentDirection == 180)
@@ -59,24 +57,27 @@ public class Zombie : MonoBehaviour
             {
                 DetermineType(hit);
             }
-            else Debug.Log("AH");
-            return;
+            else return;
         }        
         //west
         if (currentDirection == 270)
         {
             RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, -Vector2.right, 5f, layerMask);
+            zombieRend.flipX = true;
             if (hit.collider != null)
             {
                 DetermineType(hit);
             }
-            else Debug.Log("AH");
-            return;
+            else return;
         }
     }
 
     public void DetermineType(RaycastHit2D hit)
     {
+        if (hit.collider.gameObject.tag == "Zombie")
+        {
+            Debug.Log("wee woo wee woo");
+        }
         if (hit.collider.gameObject.tag == "Treadmill")
         {
             currentTreadmill = hit.collider.gameObject.GetComponent<Treadmill>();
@@ -98,10 +99,7 @@ public class Zombie : MonoBehaviour
             nextWaypoint = volcano.waypoint;
             StartCoroutine(MoveToFinalWaypoint(volcano.gameObject));
         }
-        else
-        {
-            Debug.Log("Ooops");
-        }
+        else Debug.Log("hello " + hit.collider.name);
     }
     public void OnTriggerEnter2D(Collider2D coll)
     {

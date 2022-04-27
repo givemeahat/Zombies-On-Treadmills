@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7452917015697522468, guid: b96c3d4b8fae5124aa3b4668ad7ccc7d, type: 3}
       propertyPath: m_Name
-      value: Treadmill_180
+      value: Treadmill_180_4
       objectReference: {fileID: 0}
     - target: {fileID: 7452917015697522473, guid: b96c3d4b8fae5124aa3b4668ad7ccc7d, type: 3}
       propertyPath: m_RootOrder
@@ -279,7 +279,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 837655387454805933, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 837655387454805933, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -323,7 +323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 837655387454805942, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
       propertyPath: m_Name
-      value: Treadmill_270
+      value: Treadmill_270_15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
@@ -2588,7 +2588,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 837655387454805933, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 837655387454805933, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2632,7 +2632,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 837655387454805942, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
       propertyPath: m_Name
-      value: Treadmill_270
+      value: Treadmill_270_16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
@@ -2690,7 +2690,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.5
+  orthographic size: 2
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2734,7 +2734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minFov: 1
   maxFov: 2
-  sensitivity: 0.3
+  sensitivity: 0.6
   minX: -0.57
   maxX: -0.57
   minY: -5
@@ -2819,7 +2819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 837655387454805942, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
       propertyPath: m_Name
-      value: Treadmill_270
+      value: Treadmill_270_2
       objectReference: {fileID: 0}
     - target: {fileID: 837655387973706452, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
       propertyPath: m_Icon
@@ -2926,7 +2926,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 837655387454805933, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 837655387454805933, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2970,11 +2970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 837655387454805942, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
       propertyPath: m_Name
-      value: Treadmill_270
-      objectReference: {fileID: 0}
-    - target: {fileID: 837655387454805942, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      value: Treadmill_270_14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
@@ -3084,7 +3080,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4159507144940422705, guid: ebfaba011639a7a42b4c0ef6709a293a, type: 3}
       propertyPath: m_Name
-      value: Treadmill_0
+      value: Treadmill_0_10
       objectReference: {fileID: 0}
     - target: {fileID: 4159507144940422705, guid: ebfaba011639a7a42b4c0ef6709a293a, type: 3}
       propertyPath: m_IsActive
@@ -3092,7 +3088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4159507144940422708, guid: ebfaba011639a7a42b4c0ef6709a293a, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4159507144940422708, guid: ebfaba011639a7a42b4c0ef6709a293a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3145,11 +3141,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7476827996756150692, guid: 1020da4dbc3f28f43862ece20c278d19, type: 3}
       propertyPath: m_Name
-      value: Treadmill_90
+      value: Treadmill_90_12
       objectReference: {fileID: 0}
     - target: {fileID: 7476827996756150697, guid: 1020da4dbc3f28f43862ece20c278d19, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7476827996756150697, guid: 1020da4dbc3f28f43862ece20c278d19, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3202,7 +3198,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7452917015697522468, guid: b96c3d4b8fae5124aa3b4668ad7ccc7d, type: 3}
       propertyPath: m_Name
-      value: Treadmill_180
+      value: Treadmill_180_3
       objectReference: {fileID: 0}
     - target: {fileID: 7452917015697522473, guid: b96c3d4b8fae5124aa3b4668ad7ccc7d, type: 3}
       propertyPath: m_RootOrder
@@ -3350,9 +3346,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cecabba08333135409f92a09b187e7c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gm: {fileID: 0}
   zombiePrefab: {fileID: 8054272494696224265, guid: d0565222d307187448c07a8009ba693e, type: 3}
   zombiesSpawned: []
-  numberOfZombies: 3
+  numberOfZombies: 14
   timeBetweenZombies: 0.75
   startingTreadmill: {fileID: 352306481}
 --- !u!1001 &1035372203
@@ -3459,7 +3456,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7476827996756150692, guid: 1020da4dbc3f28f43862ece20c278d19, type: 3}
       propertyPath: m_Name
-      value: Treadmill_90
+      value: Treadmill_90_1
       objectReference: {fileID: 0}
     - target: {fileID: 7476827996756150697, guid: 1020da4dbc3f28f43862ece20c278d19, type: 3}
       propertyPath: m_RootOrder
@@ -3545,13 +3542,13 @@ Transform:
   - {fileID: 1572826620}
   - {fileID: 250831500}
   - {fileID: 1074237943}
-  - {fileID: 945292838}
-  - {fileID: 1592426982}
-  - {fileID: 796410045}
   - {fileID: 526311687}
   - {fileID: 1043833999}
   - {fileID: 1367446838}
   - {fileID: 2065508655}
+  - {fileID: 796410045}
+  - {fileID: 1592426982}
+  - {fileID: 945292838}
   - {fileID: 1721152544}
   - {fileID: 1694892453}
   - {fileID: 815376013}
@@ -3729,7 +3726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 837655387454805942, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
       propertyPath: m_Name
-      value: Treadmill_270
+      value: Treadmill_270_9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
@@ -4584,7 +4581,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7476827996756150692, guid: 1020da4dbc3f28f43862ece20c278d19, type: 3}
       propertyPath: m_Name
-      value: Treadmill_90
+      value: Treadmill_90_6
       objectReference: {fileID: 0}
     - target: {fileID: 7476827996756150697, guid: 1020da4dbc3f28f43862ece20c278d19, type: 3}
       propertyPath: m_RootOrder
@@ -4726,7 +4723,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7476827996756150692, guid: 1020da4dbc3f28f43862ece20c278d19, type: 3}
       propertyPath: m_Name
-      value: Treadmill_90
+      value: Treadmill_90_7
       objectReference: {fileID: 0}
     - target: {fileID: 7476827996756150697, guid: 1020da4dbc3f28f43862ece20c278d19, type: 3}
       propertyPath: m_RootOrder
@@ -4983,7 +4980,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7476827996756150692, guid: 1020da4dbc3f28f43862ece20c278d19, type: 3}
       propertyPath: m_Name
-      value: Treadmill_90
+      value: Treadmill_90_8
       objectReference: {fileID: 0}
     - target: {fileID: 7476827996756150697, guid: 1020da4dbc3f28f43862ece20c278d19, type: 3}
       propertyPath: m_RootOrder
@@ -5130,11 +5127,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7476827996756150692, guid: 1020da4dbc3f28f43862ece20c278d19, type: 3}
       propertyPath: m_Name
-      value: Treadmill_90
+      value: Treadmill_90_13
       objectReference: {fileID: 0}
     - target: {fileID: 7476827996756150697, guid: 1020da4dbc3f28f43862ece20c278d19, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7476827996756150697, guid: 1020da4dbc3f28f43862ece20c278d19, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5231,7 +5228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 837655387454805942, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
       propertyPath: m_Name
-      value: Treadmill_270
+      value: Treadmill_270_5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
@@ -5310,11 +5307,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4159507144940422705, guid: ebfaba011639a7a42b4c0ef6709a293a, type: 3}
       propertyPath: m_Name
-      value: Treadmill_0
+      value: Treadmill_0_11
       objectReference: {fileID: 0}
     - target: {fileID: 4159507144940422708, guid: ebfaba011639a7a42b4c0ef6709a293a, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4159507144940422708, guid: ebfaba011639a7a42b4c0ef6709a293a, type: 3}
       propertyPath: m_LocalPosition.x
