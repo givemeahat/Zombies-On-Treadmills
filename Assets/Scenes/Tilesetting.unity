@@ -4626,6 +4626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Treadmill_270_2
       objectReference: {fileID: 0}
+    - target: {fileID: 837655387454805942, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 837655387973706452, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
       propertyPath: m_Icon
       value: 
