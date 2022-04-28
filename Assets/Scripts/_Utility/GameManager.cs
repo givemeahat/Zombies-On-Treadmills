@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +11,12 @@ public class GameManager : MonoBehaviour
 
     public Text zombiesKilledText;
     public Text peopleKilledText;
+
+    public void RestartLevel()
+    {
+        int levelNum = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(levelNum);
+    }
 
     public void UpdateZombiesKilled()
     {
