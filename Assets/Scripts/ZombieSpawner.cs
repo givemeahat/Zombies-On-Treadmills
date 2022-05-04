@@ -24,6 +24,7 @@ public class ZombieSpawner : MonoBehaviour
         {
             GameObject zombie = Instantiate(zombiePrefab, this.transform.position, Quaternion.identity);
             zombie.GetComponent<Zombie>().gm = gm;
+            zombie.GetComponent<Zombie>().randomness = gm.randomness;
             zombie.name = "Zombie " + x;
             zombie.GetComponent<Zombie>().startTreadmill = startingTreadmill;
             zombiesSpawned.Add(zombie.GetComponent<Zombie>());

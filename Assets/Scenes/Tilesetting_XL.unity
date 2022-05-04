@@ -11083,7 +11083,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 2
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -11128,8 +11128,8 @@ MonoBehaviour:
   minFov: 1
   maxFov: 5
   sensitivity: 0.6
-  minX: -0.65
-  maxX: -0.65
+  minX: -5
+  maxX: 5
   minY: -5
   maxY: -0.85
   minZ: -10

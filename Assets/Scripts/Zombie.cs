@@ -14,6 +14,8 @@ public class Zombie : MonoBehaviour
     public int currentDirection;
     SpriteRenderer zombieRend;
 
+    public float randomness;
+
     public void Spawn()
     {
         nextWaypoint = startTreadmill.waypoint;
@@ -24,14 +26,40 @@ public class Zombie : MonoBehaviour
 
     public void NextTreadmill()
     {
-        currentDirection = currentTreadmill.currentDirection;
+        float devianceRoll = Random.Range(.01f, 1);
+        Debug.Log("rolled " + devianceRoll);
+        if (randomness < devianceRoll)
+        {
+            currentDirection = currentTreadmill.currentDirection;
+        }
+        else
+        {
+            Debug.Log("WOMP");
+            int dirRoll = Random.Range(0, 3);
+            if (dirRoll == 0)
+            {
+                currentDirection = 0;
+            }
+            if (dirRoll == 1)
+            {
+                currentDirection = 90;
+            }
+            if (dirRoll == 2)
+            {
+                currentDirection = 180;
+            }
+            if (dirRoll == 3)
+            {
+                currentDirection = 270;
+            }
+        }
         startTreadmill = currentTreadmill;
         int layerMask = 1 << 7;
         layerMask = ~layerMask;
         //south
         if (currentDirection == 0)
         {
-            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, -Vector2.up, 5f, layerMask);
+            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, -Vector2.up, 1f, layerMask);
             if (hit.collider != null)
             {
                 DetermineType(hit);
@@ -41,7 +69,7 @@ public class Zombie : MonoBehaviour
         //east
         if (currentDirection == 90)
         {
-            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, Vector2.right, 5f, layerMask);
+            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, Vector2.right, 1f, layerMask);
             zombieRend.flipX = false;
             if (hit.collider != null)
             {
@@ -52,7 +80,7 @@ public class Zombie : MonoBehaviour
         //north
         if (currentDirection == 180)
         {
-            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, Vector2.up, 5f, layerMask);
+            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, Vector2.up, 1f, layerMask);
             if (hit.collider != null)
             {
                 DetermineType(hit);
@@ -76,7 +104,6 @@ public class Zombie : MonoBehaviour
     {
         if (hit.collider.gameObject.tag == "Zombie")
         {
-            Debug.Log("wee woo wee woo");
         }
         if (hit.collider.gameObject.tag == "Treadmill")
         {
@@ -86,20 +113,17 @@ public class Zombie : MonoBehaviour
         }
         if (hit.collider.gameObject.tag == "House")
         {
-            Debug.Log("hello " + hit.collider.name);
             House house = hit.collider.gameObject.GetComponent<House>();
             nextWaypoint = house.waypoint;
             StartCoroutine(MoveToFinalWaypoint(house.gameObject));
         }
         if (hit.collider.gameObject.tag == "Volcano")
         {
-            Debug.Log("hello " + hit.collider.name);
             Volcano volcano = hit.collider.gameObject.GetComponent<Volcano>();
             currentTreadmill = null;
             nextWaypoint = volcano.waypoint;
             StartCoroutine(MoveToFinalWaypoint(volcano.gameObject));
         }
-        else Debug.Log("hello " + hit.collider.name);
     }
     public void OnTriggerEnter2D(Collider2D coll)
     {

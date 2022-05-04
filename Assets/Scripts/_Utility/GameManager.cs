@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     public Text zombiesKilledText;
     public Text peopleKilledText;
 
+    public float randomness;
+
     public void RestartLevel()
     {
         int levelNum = SceneManager.GetActiveScene().buildIndex;
