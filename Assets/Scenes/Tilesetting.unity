@@ -4628,7 +4628,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.9
+  orthographic size: 1.89
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4671,7 +4671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minFov: 1
-  maxFov: 3
+  maxFov: 1.89
   sensitivity: 0.6
   minX: -0.65
   maxX: -0.65
