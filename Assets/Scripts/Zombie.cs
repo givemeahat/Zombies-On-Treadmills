@@ -15,6 +15,7 @@ public class Zombie : MonoBehaviour
     SpriteRenderer zombieRend;
 
     public float randomness;
+    bool isCompliant;
 
     public void Spawn()
     {
@@ -27,14 +28,14 @@ public class Zombie : MonoBehaviour
     public void NextTreadmill()
     {
         float devianceRoll = Random.Range(.01f, 1);
-        Debug.Log("rolled " + devianceRoll);
-        if (randomness < devianceRoll)
+        //Debug.Log("rolled " + devianceRoll);
+        if (devianceRoll >= randomness)
         {
             currentDirection = currentTreadmill.currentDirection;
+            isCompliant = true;
         }
         else
         {
-            Debug.Log("WOMP");
             int dirRoll = Random.Range(0, 3);
             if (dirRoll == 0)
             {
@@ -52,8 +53,14 @@ public class Zombie : MonoBehaviour
             {
                 currentDirection = 270;
             }
+            isCompliant = false;
         }
         startTreadmill = currentTreadmill;
+        CheckDirections();
+    }
+
+    public void CheckDirections()
+    {
         int layerMask = 1 << 7;
         layerMask = ~layerMask;
         //south
@@ -64,7 +71,9 @@ public class Zombie : MonoBehaviour
             {
                 DetermineType(hit);
             }
-            else return;
+            else if (isCompliant) return;
+            else currentDirection += 90;
+
         }
         //east
         if (currentDirection == 90)
@@ -75,8 +84,9 @@ public class Zombie : MonoBehaviour
             {
                 DetermineType(hit);
             }
-            else return;
-        }        
+            else if (isCompliant) return;
+            else currentDirection += 90;
+        }
         //north
         if (currentDirection == 180)
         {
@@ -85,8 +95,9 @@ public class Zombie : MonoBehaviour
             {
                 DetermineType(hit);
             }
-            else return;
-        }        
+            else if (isCompliant) return;
+            else currentDirection += 90;
+        }
         //west
         if (currentDirection == 270)
         {
@@ -96,7 +107,12 @@ public class Zombie : MonoBehaviour
             {
                 DetermineType(hit);
             }
-            else return;
+            else if (isCompliant) return;
+            else
+            {
+                currentDirection = 0;
+                CheckDirections();
+            }
         }
     }
 

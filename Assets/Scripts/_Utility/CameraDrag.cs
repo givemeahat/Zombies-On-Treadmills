@@ -69,17 +69,4 @@ public class CameraDrag : MonoBehaviour
         fov = Mathf.Clamp(fov, minFov, maxFov);
         GetComponent<Camera>().orthographicSize = fov;
     }
-
-    public void ResetCameraPos()
-    {
-        this.transform.position = resetPos;
-        this.transform.rotation = resetRot;
-    }
-
-    public void ResetCamera()
-    {
-        this.GetComponent<Camera>().orthographicSize = maxFov;
-        this.transform.position = resetPos;
-        this.transform.rotation = resetRot;
-    }
 }

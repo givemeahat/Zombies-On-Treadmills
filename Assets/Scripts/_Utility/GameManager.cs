@@ -13,6 +13,12 @@ public class GameManager : MonoBehaviour
     public Text peopleKilledText;
 
     public float randomness;
+    public Text zombieNoncomplianceRate;
+
+    private void Start()
+    {
+        zombieNoncomplianceRate.text = "Zombie Noncompliance: " + randomness * 100 + "%";
+    }
 
     public void RestartLevel()
     {
