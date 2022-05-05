@@ -22827,6 +22827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4608492583049084287}
   - component: {fileID: 4608492583049084286}
+  - component: {fileID: 4608492583049084274}
   m_Layer: 0
   m_Name: GM
   m_TagString: GM
@@ -22834,6 +22835,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608492583049084274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608492583049084273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c88847406804546896c0176244e4e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treadmills: []
 --- !u!114 &4608492583049084286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22850,6 +22864,8 @@ MonoBehaviour:
   peopleKilled: 0
   zombiesKilledText: {fileID: 3588644491972777890}
   peopleKilledText: {fileID: 3588644491642540446}
+  randomness: 0
+  zombieNoncomplianceRate: {fileID: 0}
 --- !u!4 &4608492583049084287
 Transform:
   m_ObjectHideFlags: 0

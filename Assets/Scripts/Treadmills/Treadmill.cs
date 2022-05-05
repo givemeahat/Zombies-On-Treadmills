@@ -13,8 +13,14 @@ public class Treadmill : MonoBehaviour
     public Sprite verticalSprite;
     public Sprite horizontalSprite;
 
+    public bool doNotDrop;
+
+    GameObject gm;
+
     private void Start()
     {
+        gm = GameObject.FindGameObjectWithTag("GM");
+        gm.GetComponent<SpawnManager>().treadmills.Add(this.gameObject);
         spriteRend = this.GetComponent<SpriteRenderer>();
         //currentDirection = Mathf.RoundToInt(this.gameObject.transform.eulerAngles.z);
     }
