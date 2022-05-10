@@ -134,6 +134,7 @@ MonoBehaviour:
   spriteRend: {fileID: 0}
   verticalSprite: {fileID: 21300000, guid: 272363d687a7bb946928630ca08d7bcc, type: 3}
   horizontalSprite: {fileID: 21300000, guid: 05a12564a7b09b442b4e33f43351384c, type: 3}
+  doNotDrop: 0
 --- !u!61 &7452917015697522472
 BoxCollider2D:
   m_ObjectHideFlags: 0

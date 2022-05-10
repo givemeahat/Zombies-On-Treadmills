@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public enum GameState { PLANNING, RUNNING, END };
+    public GameState currentGameState = GameState.PLANNING;
+
     public int zombiesKilled = 0;
     public int peopleKilled = 0;
 
@@ -36,13 +39,6 @@ public class GameManager : MonoBehaviour
         peopleKilled++;
         peopleKilledText.text = "People Killed: " + peopleKilled;
     }
-    public void WinGame()
-    {
+    
 
-    }
-
-    public void LoseGame()
-    {
-
-    }
 }
