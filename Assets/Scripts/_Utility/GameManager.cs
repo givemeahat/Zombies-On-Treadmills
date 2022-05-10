@@ -18,6 +18,9 @@ public class GameManager : MonoBehaviour
     public float randomness;
     public Text zombieNoncomplianceRate;
 
+    public GameObject menu;
+    public GameObject levelEndScreen;
+
     private void Start()
     {
         zombieNoncomplianceRate.text = "Zombie Noncompliance: " + randomness * 100 + "%";
@@ -39,6 +42,9 @@ public class GameManager : MonoBehaviour
         peopleKilled++;
         peopleKilledText.text = "People Killed: " + peopleKilled;
     }
-    
-
+    public void EndGame()
+    {
+        currentGameState = GameState.END;
+        levelEndScreen.SetActive(true);
+    }
 }
