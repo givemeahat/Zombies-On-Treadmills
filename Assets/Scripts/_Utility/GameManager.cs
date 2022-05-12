@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
 
     public Text zombiesKilledText;
     public Text peopleKilledText;
+    public Image humanDeathsImage;
 
     public float randomness;
     public Text zombieNoncomplianceRate;
@@ -36,11 +37,15 @@ public class GameManager : MonoBehaviour
     {
         zombiesKilled++;
         zombiesKilledText.text = "Zombies Killed: " + zombiesKilled;
+        float ratio = peopleKilled / zombiesKilled;
+        humanDeathsImage.fillAmount = ratio;
     }
     public void UpdatePeopleKilled()
     {
         peopleKilled++;
         peopleKilledText.text = "People Killed: " + peopleKilled;
+        float ratio = peopleKilled / zombiesKilled;
+        humanDeathsImage.fillAmount = ratio;
     }
     public void EndGame()
     {

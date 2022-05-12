@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: a94d38480343ce446ab26730dd47f3c0
+guid: 4764455af5675df4d8ce5aed30618a63
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8484099478181777005
-    second: RatioBar_Sheet_0
+      213: -8716641231582879057
+    second: LED_Outline
   - first:
-      213: 394738094679287733
-    second: RatioBar_Sheet_1
+      213: -2686258690861033720
+    second: LED_Dim
   - first:
-      213: 1535797611210245184
-    second: RatioBar_Sheet_2
+      213: -217463548088859788
+    second: LED_Bright
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -112,64 +112,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RatioBar_Sheet_0
+      name: LED_Outline
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 9, y: 3, z: 9, w: 12}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6e0a1456839db570800000000000000
-      internalID: 8484099478181777005
+      spriteID: fa2aafc8bf4480780800000000000000
+      internalID: -8716641231582879057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RatioBar_Sheet_1
+      name: LED_Dim
       rect:
         serializedVersion: 2
-        x: 64
+        x: 14
         y: 0
-        width: 64
-        height: 64
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 3, y: 3, z: 3, w: 3}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b76ca8a4346a7500800000000000000
-      internalID: 394738094679287733
+      spriteID: 8071c6cf3fd78bad0800000000000000
+      internalID: -2686258690861033720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RatioBar_Sheet_2
+      name: LED_Bright
       rect:
         serializedVersion: 2
-        x: 128
+        x: 28
         y: 0
-        width: 64
-        height: 64
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 3, y: 4, z: 3, w: 3}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04484175acf305510800000000000000
-      internalID: 1535797611210245184
+      spriteID: 47341902e0a6bfcf0800000000000000
+      internalID: -217463548088859788
       vertices: []
       indices: 
       edges: []
