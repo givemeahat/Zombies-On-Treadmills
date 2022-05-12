@@ -29,50 +29,6 @@ public class CameraDrag : MonoBehaviour
         fov += Input.GetAxis("Mouse ScrollWheel") * sensitivity;
         fov = Mathf.Clamp(fov, minFov, maxFov);
         GetComponent<Camera>().orthographicSize = fov;
-
-        /*Vector2 mousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-
-        float left = Screen.width * 0.2f;
-        float right = Screen.width - (Screen.width * 0.2f);
-
-        if (mousePosition.x < left || mousePosition.y < left)
-        {
-            cameraDragging = true;
-        }
-        else if (mousePosition.x > right || mousePosition.y > right)
-        {
-            cameraDragging = true;
-        }
-
-        if (cameraDragging)
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                dragOrigin = Input.mousePosition;
-                return;
-            }
-
-            if (!Input.GetMouseButton(0)) return;
-
-            Vector3 pos = Camera.main.ScreenToViewportPoint(Input.mousePosition - dragOrigin);
-            Vector3 move = new Vector3(pos.x * dragSpeed, pos.y * dragSpeed, 0);
-
-            if (move.x > 0f || move.y > 0f)
-            {
-                if (this.transform.position.x < outerRight || this.transform.position.y < outerRight)
-                {
-                    transform.Translate(move, Space.World);
-                }
-            }
-            else
-            {
-                if (this.transform.position.x > outerLeft || this.transform.position.y < outerLeft)
-                {
-                    transform.Translate(move, Space.World);
-                }
-            }
-        }*/
-
     }
 
     /*public float minFov;

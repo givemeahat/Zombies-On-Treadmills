@@ -6,7 +6,7 @@ using UnityEditor;
 public class SpawnManager : MonoBehaviour
 {
     public GameManager gm;
-    public bool randomDropLevel;
+    public bool isFrenzy;
     public List<ZombieSpawner> zombieSpawners;
 
     //Random Drop Settings
@@ -23,7 +23,7 @@ public class SpawnManager : MonoBehaviour
     public void Spawn()
     {
         gm.currentGameState = GameManager.GameState.RUNNING;
-        if (randomDropLevel)
+        if (isFrenzy)
         {
             for (var x = 0; x < numberOfSpawns; x++)
             {
