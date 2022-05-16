@@ -22,7 +22,6 @@ public class SpawnManager : MonoBehaviour
 
     public void Spawn()
     {
-        gm.currentGameState = GameManager.GameState.RUNNING;
         if (isFrenzy)
         {
             for (var x = 0; x < numberOfSpawns; x++)
@@ -50,6 +49,5 @@ public class SpawnManager : MonoBehaviour
                 spawner.BeginSpawn();
             }
         }
-
     }
 }

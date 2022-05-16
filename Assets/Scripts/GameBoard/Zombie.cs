@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Zombie : MonoBehaviour
 {
+    public ZombieSpawner spawner;
     public GameManager gm;
     public float speed;
     public float fallSpeed;
@@ -161,6 +162,8 @@ public class Zombie : MonoBehaviour
     IEnumerator DestroyZombie()
     {
         yield return new WaitForSeconds(speed + .1f);
+        gm.zombiesInScene.Remove(this.gameObject);
+        gm.CheckZombies();
         Destroy(this.gameObject);
     }
 

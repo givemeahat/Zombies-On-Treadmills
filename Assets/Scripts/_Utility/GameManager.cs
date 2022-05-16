@@ -25,12 +25,28 @@ public class GameManager : MonoBehaviour
     public GameObject menu;
     public GameObject levelEndScreen;
 
+    public List<GameObject> zombiesInScene;
+
     private void Start()
     {
         zombieNoncomplianceRate.text = "Zombie Noncompliance: " + randomness * 100 + "%";
         numberOfZombiesTotal = this.GetComponent<SpawnManager>().numberOfSpawns * this.GetComponent<SpawnManager>().zombiesToSpawn;
     }
 
+    public void CheckZombies()
+    {
+        if (zombiesInScene.Count > 0)
+        {
+            Debug.Log("can we pretend that airplanes in the night sky were like shooting stars....");
+            return;
+        }
+        if (zombiesInScene.Count == 0)
+        {
+            Debug.Log("ha he");
+            EndGame();
+            return;
+        }
+    }
     public void RestartLevel()
     {
         int levelNum = SceneManager.GetActiveScene().buildIndex;
