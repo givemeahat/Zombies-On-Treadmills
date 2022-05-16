@@ -43,7 +43,6 @@ public class GameManager : MonoBehaviour
         //zombiesKilledText.text = ""+zombiesKilled;
         ratio = peopleKilled / numberOfZombiesTotal;
         ratio = ratio / 1;
-        Debug.Log(ratio);
         humanDeathsImage.fillAmount = ratio;
     }
     public void UpdatePeopleKilled()

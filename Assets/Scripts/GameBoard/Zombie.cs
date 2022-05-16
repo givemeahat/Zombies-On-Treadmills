@@ -5,7 +5,9 @@ using UnityEngine;
 public class Zombie : MonoBehaviour
 {
     public GameManager gm;
-    public float speed = 5f;
+    public float speed;
+    public float fallSpeed;
+    public Transform startPosition;
 
     public Treadmill startTreadmill;
     public Treadmill currentTreadmill;
@@ -20,9 +22,9 @@ public class Zombie : MonoBehaviour
     public void Spawn()
     {
         nextWaypoint = startTreadmill.waypoint;
-        StartCoroutine(MoveToWaypoint());
+        StartCoroutine(MoveToWaypoint(fallSpeed));
         currentTreadmill = startTreadmill;
-        zombieRend = this.GetComponent<SpriteRenderer>();
+        zombieRend = GetComponent<SpriteRenderer>();
     }
 
     public void NextTreadmill()
@@ -127,14 +129,11 @@ public class Zombie : MonoBehaviour
 
     public void DetermineType(RaycastHit2D hit)
     {
-        if (hit.collider.gameObject.tag == "Zombie")
-        {
-        }
         if (hit.collider.gameObject.tag == "Treadmill")
         {
             currentTreadmill = hit.collider.gameObject.GetComponent<Treadmill>();
             nextWaypoint = currentTreadmill.waypoint;
-            StartCoroutine(MoveToWaypoint());
+            StartCoroutine(MoveToWaypoint(speed));
         }
         if (hit.collider.gameObject.tag == "House")
         {
@@ -150,6 +149,7 @@ public class Zombie : MonoBehaviour
             StartCoroutine(MoveToFinalWaypoint(volcano.gameObject));
         }
     }
+
     public void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.tag == "House" || coll.gameObject.tag == "Volcano")
@@ -164,17 +164,22 @@ public class Zombie : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    IEnumerator MoveToWaypoint()
+    IEnumerator MoveToWaypoint(float moveSpeed)
     {
         Vector3 startPos = this.transform.position;
         Vector3 endPos = nextWaypoint.position;
         float time = 0;
-        while (time < speed)
+        while (time < moveSpeed)
         {
             time += Time.deltaTime;
-            Vector3 pos = Vector3.Lerp(startPos, endPos, time / speed);
+            Vector3 pos = Vector3.Lerp(startPos, endPos, time / moveSpeed);
             this.transform.position = pos;
             yield return null;
+        }
+        if (!GetComponent<BoxCollider2D>().enabled)
+        {
+            yield return new WaitForSeconds(.5f);
+            GetComponent<BoxCollider2D>().enabled = true;
         }
         NextTreadmill();
     }
