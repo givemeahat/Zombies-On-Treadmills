@@ -9,8 +9,11 @@ public class GameManager : MonoBehaviour
     public enum GameState { PLANNING, RUNNING, END };
     public GameState currentGameState = GameState.PLANNING;
 
-    public int zombiesKilled = 0;
-    public int peopleKilled = 0;
+    public float zombiesKilled = 0;
+    public float peopleKilled = 0;
+
+    int numberOfZombiesTotal;
+    public float ratio;
 
     public Text zombiesKilledText;
     public Text peopleKilledText;
@@ -25,6 +28,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         zombieNoncomplianceRate.text = "Zombie Noncompliance: " + randomness * 100 + "%";
+        numberOfZombiesTotal = this.GetComponent<SpawnManager>().numberOfSpawns * this.GetComponent<SpawnManager>().zombiesToSpawn;
     }
 
     public void RestartLevel()
@@ -36,15 +40,18 @@ public class GameManager : MonoBehaviour
     public void UpdateZombiesKilled()
     {
         zombiesKilled++;
-        zombiesKilledText.text = "Zombies Killed: " + zombiesKilled;
-        float ratio = peopleKilled / zombiesKilled;
+        //zombiesKilledText.text = ""+zombiesKilled;
+        ratio = peopleKilled / numberOfZombiesTotal;
+        ratio = ratio / 1;
+        Debug.Log(ratio);
         humanDeathsImage.fillAmount = ratio;
     }
     public void UpdatePeopleKilled()
     {
         peopleKilled++;
-        peopleKilledText.text = "People Killed: " + peopleKilled;
-        float ratio = peopleKilled / zombiesKilled;
+        //peopleKilledText.text = ""+peopleKilled;
+        ratio = peopleKilled / numberOfZombiesTotal;
+        ratio = ratio / 1;
         humanDeathsImage.fillAmount = ratio;
     }
     public void EndGame()

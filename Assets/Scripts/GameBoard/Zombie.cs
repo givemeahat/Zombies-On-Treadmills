@@ -70,8 +70,12 @@ public class Zombie : MonoBehaviour
             if (hit.collider != null)
             {
                 DetermineType(hit);
+                return;
             }
-            else if (isCompliant) return;
+            else if (isCompliant)
+            {
+                currentDirection += 90;
+            }
             else currentDirection += 90;
 
         }
@@ -83,8 +87,12 @@ public class Zombie : MonoBehaviour
             if (hit.collider != null)
             {
                 DetermineType(hit);
+                return;
             }
-            else if (isCompliant) return;
+            else if (isCompliant)
+            {
+                currentDirection += 90;
+            }
             else currentDirection += 90;
         }
         //north
@@ -94,8 +102,12 @@ public class Zombie : MonoBehaviour
             if (hit.collider != null)
             {
                 DetermineType(hit);
+                return;
             }
-            else if (isCompliant) return;
+            else if (isCompliant)
+            {
+                currentDirection += 90;
+            }
             else currentDirection += 90;
         }
         //west
@@ -106,13 +118,10 @@ public class Zombie : MonoBehaviour
             if (hit.collider != null)
             {
                 DetermineType(hit);
+                return;
             }
-            else if (isCompliant) return;
-            else
-            {
-                currentDirection = 0;
-                CheckDirections();
-            }
+            currentDirection = 0;
+            CheckDirections();
         }
     }
 
