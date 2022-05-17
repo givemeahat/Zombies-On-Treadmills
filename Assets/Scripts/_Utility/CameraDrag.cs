@@ -24,15 +24,17 @@ public class CameraDrag : MonoBehaviour
 
     void Update()
     {
-        float xMove = Input.GetAxisRaw("Horizontal"); // d key changes value to 1, a key changes value to -1
-        float yMove = Input.GetAxisRaw("Vertical"); // w key changes value to 1, s key changes value to -1
-        rb.velocity = new Vector3(xMove, yMove, rb.velocity.z) * speed; // Creates velocity in direction of value equal to keypress (WASD). rb.velocity.y deals with falling + jumping by setting velocity to y. 
+        float xMove = Input.GetAxisRaw("Horizontal");
+        float yMove = Input.GetAxisRaw("Vertical");
+        rb.velocity = new Vector3(xMove, yMove, rb.velocity.z) * speed;
 
         float fov = GetComponent<Camera>().orthographicSize;
         fov += Input.GetAxis("Mouse ScrollWheel") * sensitivity;
         fov = Mathf.Clamp(fov, minFov, maxFov);
         GetComponent<Camera>().orthographicSize = fov;
-
+        float boxSize = fov * 200;
+        cameraBoxSize = new Vector3(boxSize, boxSize, boxSize);
+        GetComponent<BoxCollider>().size = cameraBoxSize;
     }
 
     /*public float minFov;

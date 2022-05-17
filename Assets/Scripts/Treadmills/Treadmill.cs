@@ -1,6 +1,7 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Treadmill : MonoBehaviour
 {
@@ -27,6 +28,7 @@ public class Treadmill : MonoBehaviour
 
     public void OnMouseDown()
     {
+        if (EventSystem.current.IsPointerOverGameObject()) return;
         Debug.Log("H???");
         this.GetComponent<AudioSource>().PlayOneShot(this.GetComponent<AudioSource>().clip);
         currentDirection += 90;

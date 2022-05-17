@@ -27,17 +27,27 @@ public class GameManager : MonoBehaviour
 
     public List<GameObject> zombiesInScene;
 
+    float currentTimeScale = 1;
+
     private void Start()
     {
         zombieNoncomplianceRate.text = "Zombie Noncompliance: " + randomness * 100 + "%";
         numberOfZombiesTotal = this.GetComponent<SpawnManager>().numberOfSpawns * this.GetComponent<SpawnManager>().zombiesToSpawn;
     }
-
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.E))
+        {
+            if (!menu.activeInHierarchy)
+            {
+                menu.SetActive(true);
+            }
+        }
+    }
     public void CheckZombies()
     {
         if (zombiesInScene.Count > 0)
         {
-            Debug.Log("can we pretend that airplanes in the night sky were like shooting stars....");
             return;
         }
         if (zombiesInScene.Count == 0)
@@ -73,5 +83,28 @@ public class GameManager : MonoBehaviour
     {
         currentGameState = GameState.END;
         levelEndScreen.SetActive(true);
+    }
+    public void ResumeGame()
+    {
+        Time.timeScale = currentTimeScale;
+    }
+    public void PauseGame()
+    {
+        Time.timeScale = 0;
+    }
+    public void NormalTimeMode()
+    {
+        Time.timeScale = 1;
+        currentTimeScale = 1;
+    }
+    public void DoubleTimeMode()
+    {
+        Time.timeScale = 2;
+        currentTimeScale = 2;
+    }
+    public void QuadTimeMode()
+    {
+        Time.timeScale = 4;
+        currentTimeScale = 4;
     }
 }
