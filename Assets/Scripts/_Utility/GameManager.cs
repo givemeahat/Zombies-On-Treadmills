@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public enum GameState { PLANNING, RUNNING, END };
     public GameState currentGameState = GameState.PLANNING;
 
+    public int level;
+    public LevelManager levelManager;
     public float zombiesKilled = 0;
     public float peopleKilled = 0;
 
@@ -26,14 +28,19 @@ public class GameManager : MonoBehaviour
     public GameObject levelEndScreen;
 
     public List<GameObject> zombiesInScene;
-
     float currentTimeScale = 1;
+
+    private void Awake()
+    {
+        levelManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
+    }
 
     private void Start()
     {
         zombieNoncomplianceRate.text = "Zombie Noncompliance: " + randomness * 100 + "%";
         numberOfZombiesTotal = this.GetComponent<SpawnManager>().numberOfSpawns * this.GetComponent<SpawnManager>().zombiesToSpawn;
     }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.E))
@@ -44,6 +51,7 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+
     public void CheckZombies()
     {
         if (zombiesInScene.Count > 0)
@@ -57,12 +65,22 @@ public class GameManager : MonoBehaviour
             return;
         }
     }
+
     public void RestartLevel()
     {
         int levelNum = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(levelNum);
     }
 
+    public void EndGame()
+    {
+        currentGameState = GameState.END;
+        levelEndScreen.SetActive(true);
+        Vector2 finalRatio = new Vector2(peopleKilled, zombiesKilled);
+        levelManager.SaveScore(level, finalRatio);
+    }
+
+    #region UPDATING UI STUFF
     public void UpdateZombiesKilled()
     {
         zombiesKilled++;
@@ -74,16 +92,14 @@ public class GameManager : MonoBehaviour
     public void UpdatePeopleKilled()
     {
         peopleKilled++;
-        peopleKilledText.text = "People Killed: "+peopleKilled;
+        peopleKilledText.text = "People Killed: " + peopleKilled;
         ratio = peopleKilled / numberOfZombiesTotal;
         ratio = ratio / 1;
         humanDeathsImage.fillAmount = ratio;
     }
-    public void EndGame()
-    {
-        currentGameState = GameState.END;
-        levelEndScreen.SetActive(true);
-    }
+    #endregion
+
+    #region TIME STUFF
     public void ResumeGame()
     {
         Time.timeScale = currentTimeScale;
@@ -107,4 +123,5 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 4;
         currentTimeScale = 4;
     }
+    #endregion
 }
