@@ -1635,6 +1635,7 @@ MonoBehaviour:
   currentGameState: 0
   level: 0
   levelManager: {fileID: 0}
+  lvlMgrPrefab: {fileID: 6333739807392025348, guid: fb0b19d02b7527f468aa7e775705257a, type: 3}
   zombiesKilled: 0
   peopleKilled: 0
   numberOfZombiesTotal: 0
@@ -2926,6 +2927,18 @@ PrefabInstance:
     - target: {fileID: 6480927037093651398, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480927037093651399, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8316453508570049570}
+    - target: {fileID: 6480927037093651399, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenLevelSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480927037093651399, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6480927037093651416, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
       propertyPath: m_Color.b

@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 
     public int level;
     public LevelManager levelManager;
+    public GameObject lvlMgrPrefab;
     public float zombiesKilled = 0;
     public float peopleKilled = 0;
 
@@ -32,7 +33,15 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        levelManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
+        if (GameObject.FindGameObjectWithTag("LevelManager"))
+        {
+            levelManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
+        }
+        else
+        {
+            Instantiate(lvlMgrPrefab);
+            levelManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
+        }
     }
 
     private void Start()
@@ -76,6 +85,11 @@ public class GameManager : MonoBehaviour
     {
         int levelNum = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(levelNum);
+    }
+
+    public void OpenLevelSelect()
+    {
+        levelManager.levelSelectScreen.SetActive(true);
     }
 
     public void EndGame()
