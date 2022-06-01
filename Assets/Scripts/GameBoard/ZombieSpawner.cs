@@ -14,10 +14,16 @@ public class ZombieSpawner : MonoBehaviour
 
     public Treadmill startingTreadmill;
 
+    public Animator anim;
+
     public void Awake()
     {
         gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
         randomness = gm.randomness;
+        if (!gm.gameObject.GetComponent<SpawnManager>().isFrenzy)
+        {
+            anim.Play("Target_Set");
+        }
     }
 
     public void BeginSpawn()

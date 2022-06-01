@@ -11,6 +11,7 @@ public class CameraDrag : MonoBehaviour
 
     public float speed = 5f;    
     public float speedModifier = 1f;
+    public float boxModifier = 1f;
 
     Rigidbody rb;
     float horizontal;
@@ -32,7 +33,7 @@ public class CameraDrag : MonoBehaviour
         fov += Input.GetAxis("Mouse ScrollWheel") * sensitivity;
         fov = Mathf.Clamp(fov, minFov, maxFov);
         GetComponent<Camera>().orthographicSize = fov;
-        float boxSize = fov * 200;
+        float boxSize = fov * 200 * boxModifier;
         cameraBoxSize = new Vector3(boxSize, boxSize, boxSize);
         GetComponent<BoxCollider>().size = cameraBoxSize;
     }
