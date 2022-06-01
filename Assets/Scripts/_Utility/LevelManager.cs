@@ -30,5 +30,6 @@ public class LevelManager : MonoBehaviour
     public void GoToScene(int sceneNumber)
     {
         SceneManager.LoadScene(sceneNumber);
+        //Save game here
     }
 }

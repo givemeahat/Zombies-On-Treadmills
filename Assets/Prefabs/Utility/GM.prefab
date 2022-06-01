@@ -264,7 +264,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 373, y: -297.5001}
-  m_SizeDelta: {x: 265.5, y: 33}
+  m_SizeDelta: {x: 296.15, y: 33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5520672008364766711
 CanvasRenderer:
@@ -1632,6 +1632,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameState: 0
+  level: 0
+  levelManager: {fileID: 0}
   zombiesKilled: 0
   peopleKilled: 0
   ratio: 0
@@ -2514,7 +2516,7 @@ PrefabInstance:
     - target: {fileID: 6480927037093651399, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
       propertyPath: m_TargetGraphic
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1544098316184190861}
     - target: {fileID: 6480927037093651399, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2538,6 +2540,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6480927037093651398, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
   m_PrefabInstance: {fileID: 5520672009360432213}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1544098316184190861 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6480927037093651416, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
+  m_PrefabInstance: {fileID: 5520672009360432213}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5520672009402792585
 PrefabInstance:
   m_ObjectHideFlags: 0
