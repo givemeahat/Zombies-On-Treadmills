@@ -149,7 +149,7 @@ MonoBehaviour:
   gm: {fileID: 0}
   zombiePrefab: {fileID: 8054272494696224265, guid: d0565222d307187448c07a8009ba693e, type: 3}
   zombiesSpawned: []
-  numberOfZombies: 1
+  numberOfZombies: 0
   timeBetweenZombies: 0.75
   startingTreadmill: {fileID: 0}
   anim: {fileID: 1162189183852006182}

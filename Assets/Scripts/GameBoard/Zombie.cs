@@ -69,7 +69,7 @@ public class Zombie : MonoBehaviour
         //south
         if (currentDirection == 0)
         {
-            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, -Vector2.up, 1f, layerMask);
+            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, -Vector2.up, .5f, layerMask);
             if (hit.collider != null)
             {
                 DetermineType(hit);
@@ -85,7 +85,7 @@ public class Zombie : MonoBehaviour
         //east
         if (currentDirection == 90)
         {
-            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, Vector2.right, 1f, layerMask);
+            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, Vector2.right, .5f, layerMask);
             zombieRend.flipX = false;
             if (hit.collider != null)
             {
@@ -101,7 +101,7 @@ public class Zombie : MonoBehaviour
         //north
         if (currentDirection == 180)
         {
-            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, Vector2.up, 1f, layerMask);
+            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, Vector2.up, .5f, layerMask);
             if (hit.collider != null)
             {
                 DetermineType(hit);
@@ -116,7 +116,7 @@ public class Zombie : MonoBehaviour
         //west
         if (currentDirection == 270)
         {
-            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, -Vector2.right, 5f, layerMask);
+            RaycastHit2D hit = Physics2D.Raycast(currentTreadmill.waypoint.transform.position, -Vector2.right, .5f, layerMask);
             zombieRend.flipX = true;
             if (hit.collider != null)
             {

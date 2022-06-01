@@ -18,6 +18,13 @@ public class SpawnManager : MonoBehaviour
     private void Start()
     {
         gm = this.GetComponent<GameManager>();
+        if (!isFrenzy)
+        {
+            foreach (ZombieSpawner spawner in zombieSpawners)
+            {
+                spawner.numberOfZombies = zombiesToSpawn;
+            }
+        }
     }
 
     public void Spawn()

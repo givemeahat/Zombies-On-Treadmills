@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public float zombiesKilled = 0;
     public float peopleKilled = 0;
 
-    int numberOfZombiesTotal;
+    public int numberOfZombiesTotal;
     public float ratio;
 
     public Text zombiesKilledText;
@@ -38,7 +38,14 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         zombieNoncomplianceRate.text = "Zombie Noncompliance: " + randomness * 100 + "%";
-        numberOfZombiesTotal = this.GetComponent<SpawnManager>().numberOfSpawns * this.GetComponent<SpawnManager>().zombiesToSpawn;
+        if (this.GetComponent<SpawnManager>().isFrenzy)
+        {
+            numberOfZombiesTotal = this.GetComponent<SpawnManager>().numberOfSpawns * this.GetComponent<SpawnManager>().zombiesToSpawn;
+        }
+        else
+        {
+            numberOfZombiesTotal = this.GetComponent<SpawnManager>().zombieSpawners.Count * this.GetComponent<SpawnManager>().zombiesToSpawn;
+        }
     }
 
     private void Update()
@@ -60,7 +67,6 @@ public class GameManager : MonoBehaviour
         }
         if (zombiesInScene.Count == 0)
         {
-            Debug.Log("ha he");
             EndGame();
             return;
         }
