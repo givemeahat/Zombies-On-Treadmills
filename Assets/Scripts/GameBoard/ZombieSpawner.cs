@@ -18,6 +18,7 @@ public class ZombieSpawner : MonoBehaviour
 
     public void Awake()
     {
+        startingTreadmill = gameObject.GetComponentInParent<Treadmill>();
         gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
         randomness = gm.randomness;
         if (!gm.gameObject.GetComponent<SpawnManager>().isFrenzy)

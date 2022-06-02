@@ -15,6 +15,9 @@ public class GameManager : MonoBehaviour
     public float zombiesKilled = 0;
     public float peopleKilled = 0;
 
+    public Text ratioZombiesKilledText;
+    public Text ratioPeopleKilledText;
+
     public int numberOfZombiesTotal;
     public float ratio;
 
@@ -33,6 +36,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        Time.timeScale = 1;
         if (GameObject.FindGameObjectWithTag("LevelManager"))
         {
             levelManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
@@ -105,6 +109,7 @@ public class GameManager : MonoBehaviour
     {
         zombiesKilled++;
         zombiesKilledText.text = "Zombies Destroyed: " + zombiesKilled;
+        ratioZombiesKilledText.text = "Destroyed Zombies: " + zombiesKilled;
         ratio = peopleKilled / numberOfZombiesTotal;
         ratio = ratio / 1;
         humanDeathsImage.fillAmount = ratio;
@@ -113,6 +118,7 @@ public class GameManager : MonoBehaviour
     {
         peopleKilled++;
         peopleKilledText.text = "People Killed: " + peopleKilled;
+        ratioPeopleKilledText.text = "People Killed: " + peopleKilled;
         ratio = peopleKilled / numberOfZombiesTotal;
         ratio = ratio / 1;
         humanDeathsImage.fillAmount = ratio;

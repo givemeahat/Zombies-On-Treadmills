@@ -22,6 +22,7 @@ public class Zombie : MonoBehaviour
 
     public void Spawn()
     {
+        this.GetComponent<Animator>().Play("Zombie_Fall In");
         nextWaypoint = startTreadmill.waypoint;
         StartCoroutine(MoveToWaypoint(fallSpeed));
         currentTreadmill = startTreadmill;
