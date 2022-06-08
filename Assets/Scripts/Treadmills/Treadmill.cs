@@ -14,6 +14,15 @@ public class Treadmill : MonoBehaviour
     public Sprite verticalSprite;
     public Sprite horizontalSprite;
 
+    //purple
+    Color westColor = new Color(1, 0.8156863f, 1f, 1f);
+    //green
+    Color northColor = new Color(0.8196079f, 1, 0.8196079f, 1);
+    //orangey
+    Color eastColor = new Color(1, 1, 0.8156863f, 1);
+    //reddish
+    Color southColor = new Color(1, .7686275f, .7686275f, 1);
+
     public bool doNotDrop;
 
     GameObject gm;
@@ -39,21 +48,25 @@ public class Treadmill : MonoBehaviour
         switch (currentDirection)
         {
             case 0:
+                spriteRend.color = southColor;
                 spriteRend.sprite = verticalSprite;
                 spriteRend.flipX = false;
                 spriteRend.flipY = true;
                 break;
             case 90:
+                spriteRend.color = eastColor;
                 spriteRend.sprite = horizontalSprite;
                 spriteRend.flipX = false;
                 spriteRend.flipY = false;
                 break;
             case 180:
+                spriteRend.color = northColor;
                 spriteRend.sprite = verticalSprite;
                 spriteRend.flipX = false;
                 spriteRend.flipY = false;
                 break;
             case 270:
+                spriteRend.color = westColor;
                 spriteRend.sprite = horizontalSprite;
                 spriteRend.flipX = true;
                 spriteRend.flipY = false;
