@@ -5,7 +5,7 @@ using UnityEngine;
 public class ZombieSpawner : MonoBehaviour
 {
     public GameManager gm;
-    public GameObject zombiePrefab;
+    public GameObject[] zombiePrefabs;
     public List<Zombie> zombiesSpawned;
     public int numberOfZombies;
 
@@ -32,7 +32,7 @@ public class ZombieSpawner : MonoBehaviour
         Debug.Log("Spawning");
         for (var x = 0; x < numberOfZombies; x++)
         {
-            GameObject zombie = Instantiate(zombiePrefab, new Vector3(this.transform.position.x, this.transform.position.y+10, this.transform.position.z), Quaternion.identity);
+            GameObject zombie = Instantiate(zombiePrefabs[Random.Range(0, zombiePrefabs.Length)], new Vector3(this.transform.position.x, this.transform.position.y+10, this.transform.position.z), Quaternion.identity);
             zombie.GetComponent<Zombie>().gm = gm;
             zombie.GetComponent<Zombie>().spawner = this;
             zombie.GetComponent<Zombie>().randomness = randomness;

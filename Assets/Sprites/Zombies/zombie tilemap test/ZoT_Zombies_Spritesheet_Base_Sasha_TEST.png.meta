@@ -14,6 +14,9 @@ TextureImporter:
   - first:
       213: -3919797053047146467
     second: ZoT_Zombies_Spritesheet_Base_Sasha_TEST_3
+  - first:
+      213: -2391333090996780143
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_TEST_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -122,8 +125,8 @@ TextureImporter:
         y: 0
         width: 24
         height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -143,8 +146,8 @@ TextureImporter:
         y: 0
         width: 24
         height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -164,8 +167,8 @@ TextureImporter:
         y: 0
         width: 24
         height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -185,8 +188,8 @@ TextureImporter:
         y: 0
         width: 24
         height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,6 +197,27 @@ TextureImporter:
       bones: []
       spriteID: d18708529551a99c0800000000000000
       internalID: -3919797053047146467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_TEST_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193008b393740ded0800000000000000
+      internalID: -2391333090996780143
       vertices: []
       indices: 
       edges: []

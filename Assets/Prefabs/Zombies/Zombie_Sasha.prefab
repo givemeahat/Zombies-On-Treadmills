@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7129276853776773273}
   - component: {fileID: 8192148485293219253}
   m_Layer: 7
-  m_Name: Zombie_Placeholder
+  m_Name: Zombie_Sasha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8054272494696224265}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 25
-  m_Sprite: {fileID: 21300000, guid: 2a6a5f21370d0ea44acb4cf319169458, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Sprite: {fileID: -2802352853746227313, guid: babde8d23f63bc6469e5dec90763675c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -145,8 +145,8 @@ BoxCollider2D:
   m_Offset: {x: -0.0015745014, y: 0.18579035}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.19, y: 0.35}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.24, y: 0.36}
     newSize: {x: 4.73, y: 4.73}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

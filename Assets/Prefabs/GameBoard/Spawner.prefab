@@ -147,7 +147,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gm: {fileID: 0}
-  zombiePrefab: {fileID: 8054272494696224265, guid: d0565222d307187448c07a8009ba693e, type: 3}
+  zombiePrefabs:
+  - {fileID: 8054272494696224265, guid: d0565222d307187448c07a8009ba693e, type: 3}
+  - {fileID: 8054272494696224265, guid: fd7481c432edede4a9d46da5b58d639d, type: 3}
+  - {fileID: 8054272494696224265, guid: ea7d77c547152a2469625a4dc8cd6628, type: 3}
+  - {fileID: 8054272494696224265, guid: 607bf32b1fa8979469e6057e5e16f9a1, type: 3}
+  - {fileID: 8054272494696224265, guid: 7531b5ceaecfe004ea6962d05215ff88, type: 3}
   zombiesSpawned: []
   numberOfZombies: 0
   timeBetweenZombies: 0.75
