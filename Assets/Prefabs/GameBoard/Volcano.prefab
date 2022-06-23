@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2180578217378772304}
   - component: {fileID: 2180578217378772310}
   m_Layer: 6
-  m_Name: Volcano_Placeholder
+  m_Name: Volcano
   m_TagString: Volcano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 12
-  m_Sprite: {fileID: 21300000, guid: aa4f69866121e3845900ab1e991cf500, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 452c823478fb0ac45970c20ee8fb1415, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -248,7 +248,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 11
-  m_Sprite: {fileID: 21300000, guid: 13caef5e1d588c441a59c0fd2bd96746, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 94cb804b5368a904994e19563e6939d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

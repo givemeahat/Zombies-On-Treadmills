@@ -13,6 +13,7 @@ public class Treadmill : MonoBehaviour
     public SpriteRenderer spriteRend;
     public Sprite verticalSprite;
     public Sprite horizontalSprite;
+    public GameObject arrow;
 
     //purple
     Color westColor = new Color(1, 0.8156863f, 1f, 1f);
@@ -50,24 +51,32 @@ public class Treadmill : MonoBehaviour
             case 0:
                 spriteRend.color = southColor;
                 spriteRend.sprite = verticalSprite;
+                arrow.transform.eulerAngles = new Vector3(arrow.transform.rotation.x, arrow.transform.rotation.y, 180);
+                arrow.transform.localPosition = Vector3.zero;
                 spriteRend.flipX = false;
                 spriteRend.flipY = true;
                 break;
             case 90:
                 spriteRend.color = eastColor;
                 spriteRend.sprite = horizontalSprite;
+                arrow.transform.eulerAngles = new Vector3(arrow.transform.rotation.x, arrow.transform.rotation.y, 270);
+                arrow.transform.localPosition = new Vector3(arrow.transform.localPosition.x, .08f, arrow.transform.localPosition.z);
                 spriteRend.flipX = false;
                 spriteRend.flipY = false;
                 break;
             case 180:
                 spriteRend.color = northColor;
                 spriteRend.sprite = verticalSprite;
+                arrow.transform.eulerAngles = new Vector3(arrow.transform.rotation.x, arrow.transform.rotation.y, 0);
+                arrow.transform.localPosition = Vector3.zero;
                 spriteRend.flipX = false;
                 spriteRend.flipY = false;
                 break;
             case 270:
                 spriteRend.color = westColor;
                 spriteRend.sprite = horizontalSprite;
+                arrow.transform.eulerAngles = new Vector3(arrow.transform.rotation.x, arrow.transform.rotation.y, 90);
+                arrow.transform.localPosition = new Vector3(arrow.transform.localPosition.x, .08f, arrow.transform.localPosition.z);
                 spriteRend.flipX = true;
                 spriteRend.flipY = false;
                 break;
