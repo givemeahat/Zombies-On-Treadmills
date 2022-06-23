@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: 2d09245d235437e42a7f78f9258f435a
+guid: cc609355b07f5cc47b8eca0999d0b6ae
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 612017501250087633
-    second: menu sprites_sheet_0
+      213: -7990558842946334724
+    second: level selection buttons-Sheet_0
   - first:
-      213: -4406093096367141056
-    second: menu sprites_sheet_1
+      213: 8365064145886556215
+    second: level selection buttons-Sheet_1
   - first:
-      213: 9190878693795804457
-    second: menu sprites_sheet_2
+      213: 4146947816550337504
+    second: level selection buttons-Sheet_2
   - first:
-      213: -6197309623264583188
-    second: menu sprites_sheet_3
+      213: 650303473950402630
+    second: level selection buttons-Sheet_3
   - first:
-      213: 1333378385729167149
-    second: menu sprites_sheet_4
+      213: 7013096311888303067
+    second: level selection buttons-Sheet_4
+  - first:
+      213: -1637155257996630228
+    second: level selection buttons-Sheet_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -118,7 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: menu sprites_sheet_0
+      name: level selection buttons-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -132,14 +135,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1da655ebca25e7800800000000000000
-      internalID: 612017501250087633
+      spriteID: cffc3517115db1190800000000000000
+      internalID: -7990558842946334724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: menu sprites_sheet_1
+      name: level selection buttons-Sheet_1
       rect:
         serializedVersion: 2
         x: 64
@@ -153,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04f4cbf5ca96ad2c0800000000000000
-      internalID: -4406093096367141056
+      spriteID: 730bcea458da61470800000000000000
+      internalID: 8365064145886556215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: menu sprites_sheet_2
+      name: level selection buttons-Sheet_2
       rect:
         serializedVersion: 2
         x: 128
@@ -174,14 +177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 925b7650a7f8c8f70800000000000000
-      internalID: 9190878693795804457
+      spriteID: 0eb8093511bec8930800000000000000
+      internalID: 4146947816550337504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: menu sprites_sheet_3
+      name: level selection buttons-Sheet_3
       rect:
         serializedVersion: 2
         x: 192
@@ -195,14 +198,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce1643e7bbbbef9a0800000000000000
-      internalID: -6197309623264583188
+      spriteID: 64824096097560900800000000000000
+      internalID: 650303473950402630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: menu sprites_sheet_4
+      name: level selection buttons-Sheet_4
       rect:
         serializedVersion: 2
         x: 256
@@ -216,8 +219,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2f1298c39c118210800000000000000
-      internalID: 1333378385729167149
+      spriteID: bd354bd40f5835160800000000000000
+      internalID: 7013096311888303067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level selection buttons-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27a2f487f7a749e0800000000000000
+      internalID: -1637155257996630228
       vertices: []
       indices: 
       edges: []
