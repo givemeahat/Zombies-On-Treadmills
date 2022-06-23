@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelManager : MonoBehaviour
+public class DataManager : MonoBehaviour
 {
     public Vector2[] scores;
     public GameObject levelSelectScreen;
@@ -31,5 +31,21 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneNumber);
         //Save game here
+    }
+
+    public void SavePlayer()
+    {
+        SaveSystem.SavePlayer(this);
+        Debug.Log("Saving Player");
+    }
+    public void LoadPlayer()
+    {
+        PlayerData data = SaveSystem.LoadPlayer();
+        //currentLevel = data.currentLevel;
+        Debug.Log("has loaded player");
+    }
+    public void WipeData()
+    {
+        SaveSystem.WipePlayer();
     }
 }

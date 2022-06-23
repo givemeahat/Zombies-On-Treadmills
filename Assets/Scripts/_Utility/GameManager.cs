@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public GameState currentGameState = GameState.PLANNING;
 
     public int level;
-    public LevelManager levelManager;
+    public DataManager dataManager;
     public GameObject lvlMgrPrefab;
     public float zombiesKilled = 0;
     public float peopleKilled = 0;
@@ -39,12 +39,12 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         if (GameObject.FindGameObjectWithTag("LevelManager"))
         {
-            levelManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
+            dataManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<DataManager>();
         }
         else
         {
             Instantiate(lvlMgrPrefab);
-            levelManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
+            dataManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<DataManager>();
         }
     }
 
@@ -93,7 +93,7 @@ public class GameManager : MonoBehaviour
 
     public void OpenLevelSelect()
     {
-        levelManager.levelSelectScreen.SetActive(true);
+        dataManager.levelSelectScreen.SetActive(true);
     }
 
     public void EndGame()
@@ -101,8 +101,24 @@ public class GameManager : MonoBehaviour
         currentGameState = GameState.END;
         levelEndScreen.SetActive(true);
         Vector2 finalRatio = new Vector2(peopleKilled, zombiesKilled);
-        levelManager.SaveScore(level, finalRatio);
+        dataManager.SaveScore(level, finalRatio);
     }
+
+    #region SAVE SYSTEM
+    public void SaveGame()
+    {
+        dataManager.SavePlayer();
+    }
+    public void LoadPlayer()
+    {
+        dataManager.LoadPlayer();
+    }
+    public void WipeGame()
+    {
+        dataManager.WipeData();
+    }
+
+    #endregion
 
     #region UPDATING UI STUFF
     public void UpdateZombiesKilled()
