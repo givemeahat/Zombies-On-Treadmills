@@ -29,6 +29,7 @@ public class DataManager : MonoBehaviour
     }
     public void GoToScene(int sceneNumber)
     {
+        SavePlayer();
         SceneManager.LoadScene(sceneNumber);
         //Save game here
     }

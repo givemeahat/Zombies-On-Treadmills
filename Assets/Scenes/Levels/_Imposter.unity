@@ -10841,6 +10841,10 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5520672008552727513, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.86
+      objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727514, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: maxFov
       value: 3
@@ -10912,10 +10916,6 @@ PrefabInstance:
     - target: {fileID: 8316453508570049581, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_Name
       value: GM
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316453508570049581, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049582, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: isFrenzy
