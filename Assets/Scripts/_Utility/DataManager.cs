@@ -7,6 +7,7 @@ public class DataManager : MonoBehaviour
 {
     public Vector2[] scores;
     public GameObject levelSelectScreen;
+    public int currentLevel;
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +43,8 @@ public class DataManager : MonoBehaviour
     public void LoadPlayer()
     {
         PlayerData data = SaveSystem.LoadPlayer();
-        //currentLevel = data.currentLevel;
+        currentLevel = data.currentLevel;
+        scores = data.scores;
         Debug.Log("has loaded player");
     }
     public void WipeData()
