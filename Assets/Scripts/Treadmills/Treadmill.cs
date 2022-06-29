@@ -36,15 +36,10 @@ public class Treadmill : MonoBehaviour
         //currentDirection = Mathf.RoundToInt(this.gameObject.transform.eulerAngles.z);
     }
 
-    public void OnMouseDown()
+    public void Rotate()
     {
-        if (EventSystem.current.IsPointerOverGameObject()) return;
         this.GetComponent<AudioSource>().PlayOneShot(this.GetComponent<AudioSource>().clip);
-        currentDirection += 90;
-        if (currentDirection == 360)
-        {
-            currentDirection = 0;
-        }
+
         //StartCoroutine(RotateTreadmill());
         switch (currentDirection)
         {

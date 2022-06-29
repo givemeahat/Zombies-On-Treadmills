@@ -9,7 +9,6 @@ public class DataManager : MonoBehaviour
     public GameObject levelSelectScreen;
     public int currentLevel;
 
-    // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(this);
