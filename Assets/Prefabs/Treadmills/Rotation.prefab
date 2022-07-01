@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8865127283051806835}
   m_Layer: 6
   m_Name: Right Rotate
-  m_TagString: Untagged
+  m_TagString: Treadmill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,7 +84,7 @@ GameObject:
   - component: {fileID: 1285235446257084216}
   m_Layer: 6
   m_Name: Left Rotate
-  m_TagString: Untagged
+  m_TagString: Treadmill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,11 +153,11 @@ GameObject:
   - component: {fileID: 2206575669076515388}
   m_Layer: 6
   m_Name: Rotation
-  m_TagString: Untagged
+  m_TagString: Treadmill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2206575669076515388
 Transform:
   m_ObjectHideFlags: 0

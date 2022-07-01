@@ -133,7 +133,7 @@ public class Zombie : MonoBehaviour
     {
         if (hit.collider.gameObject.tag == "Treadmill")
         {
-            currentTreadmill = hit.collider.gameObject.GetComponent<Treadmill>();
+            currentTreadmill = hit.collider.gameObject.GetComponentInParent<Treadmill>();
             nextWaypoint = currentTreadmill.waypoint;
             StartCoroutine(MoveToWaypoint(speed));
         }

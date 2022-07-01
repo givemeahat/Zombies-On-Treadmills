@@ -20,7 +20,7 @@ public class Treadmill : MonoBehaviour
     //green
     Color northColor = new Color(0.8196079f, 1, 0.8196079f, 1);
     //orangey
-    Color eastColor = new Color(1, 1, 0.8156863f, 1);
+    Color eastColor = new Color(1, 0.8823511f, 0.6179246f, 1);
     //reddish
     Color southColor = new Color(1, .7686275f, .7686275f, 1);
 
