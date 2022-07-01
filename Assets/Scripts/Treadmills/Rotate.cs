@@ -6,8 +6,8 @@ using UnityEngine.EventSystems;
 public class Rotate : MonoBehaviour
 {
     public bool isClockwise;
-    Treadmill tm;
-    private void Start()
+    public Treadmill tm;
+    private void Awake()
     {
         tm = this.GetComponentInParent<Treadmill>();
     }

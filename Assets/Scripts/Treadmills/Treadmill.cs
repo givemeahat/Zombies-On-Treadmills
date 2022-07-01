@@ -15,6 +15,8 @@ public class Treadmill : MonoBehaviour
     public Sprite horizontalSprite;
     public GameObject arrow;
 
+    public GameObject rotation;
+
     //purple
     Color westColor = new Color(1, 0.8156863f, 1f, 1f);
     //green

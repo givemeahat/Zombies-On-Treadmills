@@ -33,7 +33,7 @@ Transform:
   m_Children:
   - {fileID: 837655387589282323}
   - {fileID: 837655387973706455}
-  - {fileID: 2586393387805657145}
+  - {fileID: 7845855725169330674}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
@@ -106,6 +106,7 @@ MonoBehaviour:
   verticalSprite: {fileID: 21300000, guid: 228fcf1e195054f42ac9d52bf1022138, type: 3}
   horizontalSprite: {fileID: 21300000, guid: a772b9e242a241842bcf8a7c0066142e, type: 3}
   arrow: {fileID: 837655387589282320}
+  rotation: {fileID: 3057823067591681928}
   doNotDrop: 0
 --- !u!61 &837655387454805928
 BoxCollider2D:
@@ -114,7 +115,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837655387454805942}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -239,9 +240,9 @@ GameObject:
   m_Component:
   - component: {fileID: 837655387589282323}
   - component: {fileID: 837655387589282322}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Arrow
-  m_TagString: Untagged
+  m_TagString: Treadmill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -320,9 +321,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 837655387973706455}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Waypoint
-  m_TagString: Untagged
+  m_TagString: Treadmill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -341,7 +342,7 @@ Transform:
   m_Father: {fileID: 837655387454805933}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &4430385297519284741
+--- !u!1001 &8249821388013933518
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -398,8 +399,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e863451715b7d2546a7749d2f59000d3, type: 3}
---- !u!4 &2586393387805657145 stripped
+--- !u!1 &3057823067591681928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6346364858219476038, guid: e863451715b7d2546a7749d2f59000d3, type: 3}
+  m_PrefabInstance: {fileID: 8249821388013933518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7845855725169330674 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2206575669076515388, guid: e863451715b7d2546a7749d2f59000d3, type: 3}
-  m_PrefabInstance: {fileID: 4430385297519284741}
+  m_PrefabInstance: {fileID: 8249821388013933518}
   m_PrefabAsset: {fileID: 0}

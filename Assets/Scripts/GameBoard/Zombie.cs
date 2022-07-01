@@ -43,18 +43,22 @@ public class Zombie : MonoBehaviour
             int dirRoll = Random.Range(0, 3);
             if (dirRoll == 0)
             {
+                Debug.Log("0");
                 currentDirection = 0;
             }
             if (dirRoll == 1)
             {
+                Debug.Log("90");
                 currentDirection = 90;
             }
             if (dirRoll == 2)
             {
+                Debug.Log("180");
                 currentDirection = 180;
             }
             if (dirRoll == 3)
             {
+                Debug.Log("270");
                 currentDirection = 270;
             }
             isCompliant = false;
@@ -65,6 +69,7 @@ public class Zombie : MonoBehaviour
 
     public void CheckDirections()
     {
+        currentTreadmill.rotation.SetActive(false);
         int layerMask = 1 << 7;
         layerMask = ~layerMask;
         //south
@@ -131,9 +136,17 @@ public class Zombie : MonoBehaviour
 
     public void DetermineType(RaycastHit2D hit)
     {
+        currentTreadmill.rotation.SetActive(true);
+        if (hit.collider.gameObject.tag == "Rotation")
+        {
+            Debug.Log(hit.collider.gameObject.name + " ????");
+            currentTreadmill = hit.collider.gameObject.GetComponent<Rotate>().tm;
+            nextWaypoint = currentTreadmill.waypoint;
+            StartCoroutine(MoveToWaypoint(speed));
+        }
         if (hit.collider.gameObject.tag == "Treadmill")
         {
-            currentTreadmill = hit.collider.gameObject.GetComponentInParent<Treadmill>();
+            currentTreadmill = hit.collider.gameObject.GetComponent<Treadmill>();
             nextWaypoint = currentTreadmill.waypoint;
             StartCoroutine(MoveToWaypoint(speed));
         }
