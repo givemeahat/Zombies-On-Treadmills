@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 4159507144940422710}
   - component: {fileID: 4159507144940422711}
   - component: {fileID: 4159507144940422704}
+  - component: {fileID: 9011831240645768162}
   m_Layer: 6
   m_Name: Treadmill_0
   m_TagString: Treadmill
@@ -312,6 +313,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &9011831240645768162
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4159507144940422705}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4159507145523706069
 GameObject:
   m_ObjectHideFlags: 0
