@@ -17,6 +17,8 @@ public class Treadmill : MonoBehaviour
 
     public GameObject rotation;
 
+    public Animator anim;
+
     //purple
     Color westColor = new Color(1, 0.8156863f, 1f, 1f);
     //green
@@ -32,12 +34,17 @@ public class Treadmill : MonoBehaviour
 
     private void Start()
     {
+        anim = this.GetComponent<Animator>();
+        anim.speed = 0;
         gm = GameObject.FindGameObjectWithTag("GM");
         gm.GetComponent<SpawnManager>().treadmills.Add(this.gameObject);
         spriteRend = this.GetComponent<SpriteRenderer>();
         //currentDirection = Mathf.RoundToInt(this.gameObject.transform.eulerAngles.z);
     }
-
+    public void PlayAnimation()
+    {
+        anim.speed = 1.5f;
+    }
     public void Rotate()
     {
         this.GetComponent<AudioSource>().PlayOneShot(this.GetComponent<AudioSource>().clip);

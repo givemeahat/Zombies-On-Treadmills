@@ -29,6 +29,10 @@ public class SpawnManager : MonoBehaviour
 
     public void Spawn()
     {
+        foreach(GameObject tm in treadmills)
+        {
+            tm.SendMessage("PlayAnimation");
+        }
         if (isFrenzy)
         {
             for (var x = 0; x < numberOfSpawns; x++)
