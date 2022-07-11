@@ -138,6 +138,7 @@ MonoBehaviour:
   horizontalSprite: {fileID: 21300000, guid: a772b9e242a241842bcf8a7c0066142e, type: 3}
   arrow: {fileID: 7452917016049297379}
   rotation: {fileID: 5587605553582600191}
+  anim: {fileID: 0}
   doNotDrop: 0
 --- !u!61 &7452917015697522472
 BoxCollider2D:
@@ -269,7 +270,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7452917015697522468}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 0d87c0d2c8dbb6e489cf323ecba00cdf, type: 2}
   m_CullingMode: 0

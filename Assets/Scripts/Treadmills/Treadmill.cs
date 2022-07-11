@@ -35,6 +35,8 @@ public class Treadmill : MonoBehaviour
     private void Start()
     {
         anim = this.GetComponent<Animator>();
+        if (currentDirection == 0 || currentDirection == 180) anim.Play("Treadmill_Running_Vertical");
+        if (currentDirection == 90 || currentDirection == 270) anim.Play("Treadmill_Running_Horizontal");
         anim.speed = 0;
         gm = GameObject.FindGameObjectWithTag("GM");
         gm.GetComponent<SpawnManager>().treadmills.Add(this.gameObject);
@@ -53,6 +55,7 @@ public class Treadmill : MonoBehaviour
         switch (currentDirection)
         {
             case 0:
+                anim.Play("Treadmill_Running_Vertical");
                 spriteRend.color = southColor;
                 spriteRend.sprite = verticalSprite;
                 arrow.transform.eulerAngles = new Vector3(arrow.transform.rotation.x, arrow.transform.rotation.y, 180);
@@ -61,6 +64,7 @@ public class Treadmill : MonoBehaviour
                 spriteRend.flipY = true;
                 break;
             case 90:
+                anim.Play("Treadmill_Running_Horizontal");
                 spriteRend.color = eastColor;
                 spriteRend.sprite = horizontalSprite;
                 arrow.transform.eulerAngles = new Vector3(arrow.transform.rotation.x, arrow.transform.rotation.y, 270);
@@ -69,6 +73,7 @@ public class Treadmill : MonoBehaviour
                 spriteRend.flipY = false;
                 break;
             case 180:
+                anim.Play("Treadmill_Running_Vertical");
                 spriteRend.color = northColor;
                 spriteRend.sprite = verticalSprite;
                 arrow.transform.eulerAngles = new Vector3(arrow.transform.rotation.x, arrow.transform.rotation.y, 0);
@@ -77,6 +82,7 @@ public class Treadmill : MonoBehaviour
                 spriteRend.flipY = false;
                 break;
             case 270:
+                anim.Play("Treadmill_Running_Horizontal");
                 spriteRend.color = westColor;
                 spriteRend.sprite = horizontalSprite;
                 arrow.transform.eulerAngles = new Vector3(arrow.transform.rotation.x, arrow.transform.rotation.y, 90);
