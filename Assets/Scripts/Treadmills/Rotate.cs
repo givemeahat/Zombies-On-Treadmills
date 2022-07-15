@@ -7,9 +7,19 @@ public class Rotate : MonoBehaviour
 {
     public bool isClockwise;
     public Treadmill tm;
+    public GameObject indicator;
+
     private void Awake()
     {
         tm = this.GetComponentInParent<Treadmill>();
+    }
+    public void OnMouseExit()
+    {
+        indicator.SetActive(false);
+    }
+    public void OnMouseOver()
+    {
+        indicator.SetActive(true);
     }
     public void OnMouseDown()
     {

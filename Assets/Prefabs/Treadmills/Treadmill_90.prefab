@@ -220,6 +220,7 @@ MonoBehaviour:
   horizontalSprite: {fileID: 21300000, guid: a772b9e242a241842bcf8a7c0066142e, type: 3}
   arrow: {fileID: 7476827996168442211}
   rotation: {fileID: 5960052038423438601}
+  anim: {fileID: 0}
   doNotDrop: 0
 --- !u!61 &7476827996756150696
 BoxCollider2D:
