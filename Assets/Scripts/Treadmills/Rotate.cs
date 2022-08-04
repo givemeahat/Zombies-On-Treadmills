@@ -59,7 +59,7 @@ public class Rotate : MonoBehaviour
     {
         if (Input.GetMouseButton(0) && isMouseOver)
         {
-            if (Mathf.Abs(endPos.y - startPos.y) < 1f)
+            if (Mathf.Abs(endPos.y - startPos.y) < .1f)
             {
                 //moving right
                 if (endPos.x > startPos.x)
@@ -78,7 +78,7 @@ public class Rotate : MonoBehaviour
                     return;
                 }
             }
-            else if (Mathf.Abs(endPos.x - startPos.x) < 1f)
+            else if (Mathf.Abs(endPos.x - startPos.x) < .1f)
             {
                 //moving up
                 if (endPos.y > startPos.y)
@@ -111,6 +111,7 @@ public class Rotate : MonoBehaviour
         startPos = cam.ScreenToWorldPoint(Input.mousePosition) + camOffset;
         lr.SetPosition(0, startPos);
         lr.useWorldSpace = true;
+        tm.tmm.activeTreadmill = tm;
     }
     public void OnMouseDrag()
     {
@@ -120,11 +121,21 @@ public class Rotate : MonoBehaviour
     public void OnMouseOver()
     {
         isMouseOver = true;
+        if (Input.GetMouseButton(0))
+        {
+            if (tm.currentDirection != tm.tmm.activeTreadmill.currentDirection)
+            {
+                tm.currentDirection = tm.tmm.activeTreadmill.currentDirection;
+                tm.Rotate();
+            }
+        }
     }
     private void OnMouseUp()
     {
         lr.enabled = false;
         isMouseOver = false;
+        startPos = new Vector3(0, 0, 0);
+        endPos = new Vector3(0, 0, 0);
     }
     /*public void OnMouseExit()
     {
