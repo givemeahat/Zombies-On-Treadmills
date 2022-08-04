@@ -16,6 +16,8 @@ public class Rotate : MonoBehaviour
 
     Vector3 camOffset = new Vector3(0, 0, 10);
 
+    bool isMouseOver = false;
+
     private void Awake()
     {
         tm = this.GetComponentInParent<Treadmill>();
@@ -28,7 +30,7 @@ public class Rotate : MonoBehaviour
         cam = Camera.main;
     }
 
-    void Update()
+    /*void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -51,6 +53,52 @@ public class Rotate : MonoBehaviour
         {
             lr.enabled = false;
         }
+    }*/
+
+    public void Update()
+    {
+        if (Input.GetMouseButton(0) && isMouseOver)
+        {
+            if (Mathf.Abs(endPos.y - startPos.y) < 1f)
+            {
+                //moving right
+                if (endPos.x > startPos.x)
+                {
+                    Debug.Log("moving right");
+                    tm.currentDirection = 90;
+                    tm.Rotate();
+                    return;
+                }
+                //moving left
+                if (endPos.x < startPos.x)
+                {
+                    Debug.Log("moving left");
+                    tm.currentDirection = 270;
+                    tm.Rotate();
+                    return;
+                }
+            }
+            else if (Mathf.Abs(endPos.x - startPos.x) < 1f)
+            {
+                //moving up
+                if (endPos.y > startPos.y)
+                {
+                    Debug.Log("moving up");
+                    tm.currentDirection = 180;
+                    tm.Rotate();
+                    return;
+                }
+                //moving down
+                if (endPos.y < startPos.y)
+                {
+                    Debug.Log("moving down");
+                    tm.currentDirection = 0;
+                    tm.Rotate();
+                    return;
+                }
+            }
+            else return;
+        }
     }
     public void OnMouseDown()
     {
@@ -69,9 +117,14 @@ public class Rotate : MonoBehaviour
         endPos = cam.ScreenToWorldPoint(Input.mousePosition) + camOffset;
         lr.SetPosition(1, endPos);
     }
+    public void OnMouseOver()
+    {
+        isMouseOver = true;
+    }
     private void OnMouseUp()
     {
         lr.enabled = false;
+        isMouseOver = false;
     }
     /*public void OnMouseExit()
     {
