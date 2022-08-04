@@ -205,6 +205,7 @@ public class Zombie : MonoBehaviour
         Vector3 startPos = this.transform.position;
         Vector3 endPos = nextWaypoint.position;
         float time = 0;
+       
         while (time < speed)
         {
             time += Time.deltaTime;
@@ -218,6 +219,7 @@ public class Zombie : MonoBehaviour
         }
         if (finalGO.tag == "Volcano")
         {
+            finalGO.GetComponent<Volcano>().smokeFX.GetComponent<Animator>().SetTrigger("ZombieDeath");
             gm.UpdateZombiesKilled();
         }
     }

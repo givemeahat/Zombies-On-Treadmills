@@ -67,11 +67,11 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _JellyX: 0.005
-    - _JellyXB: 0.005
+    - _JellyXB: -0.005
     - _JellyXBs: 1
     - _JellyXs: 1
     - _JellyY: 0.005
-    - _JellyYB: 0.005
+    - _JellyYB: -0.005
     - _JellyYBs: 1
     - _JellyYs: 1
     - _Metallic: 0

@@ -1,7 +1,367 @@
 fileFormatVersion: 2
 guid: 87af496875f12c94f8294ee85f05ad43
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3332140874445636410
+    second: _100x100_VolcanoSmoke_ZombieDeath_0
+  - first:
+      213: -3400251508960260937
+    second: _100x100_VolcanoSmoke_ZombieDeath_1
+  - first:
+      213: -5544769507363972145
+    second: _100x100_VolcanoSmoke_ZombieDeath_2
+  - first:
+      213: -8139108416629286354
+    second: _100x100_VolcanoSmoke_ZombieDeath_3
+  - first:
+      213: -4268673024532531978
+    second: _100x100_VolcanoSmoke_ZombieDeath_4
+  - first:
+      213: -359114527548663645
+    second: _100x100_VolcanoSmoke_ZombieDeath_5
+  - first:
+      213: 1167045197095676597
+    second: _100x100_VolcanoSmoke_ZombieDeath_6
+  - first:
+      213: -4170795704394202959
+    second: _100x100_VolcanoSmoke_ZombieDeath_7
+  - first:
+      213: 9158610928270789987
+    second: _100x100_VolcanoSmoke_ZombieDeath_8
+  - first:
+      213: 5675073017686789334
+    second: _100x100_VolcanoSmoke_ZombieDeath_9
+  - first:
+      213: -6414963625947007134
+    second: _100x100_VolcanoSmoke_ZombieDeath_10
+  - first:
+      213: -993374972376894954
+    second: _100x100_VolcanoSmoke_ZombieDeath_11
+  - first:
+      213: 2515731255843714089
+    second: _100x100_VolcanoSmoke_ZombieDeath_12
+  - first:
+      213: 8907437860035337874
+    second: _100x100_VolcanoSmoke_ZombieDeath_13
+  - first:
+      213: 3564956168038429025
+    second: _100x100_VolcanoSmoke_ZombieDeath_14
+  - first:
+      213: 7755516459163487559
+    second: _100x100_VolcanoSmoke_ZombieDeath_15
+  - first:
+      213: -8267063946083359790
+    second: _100x100_VolcanoSmoke_ZombieDeath_16
+  - first:
+      213: -2064206877242813872
+    second: _100x100_VolcanoSmoke_ZombieDeath_17
+  - first:
+      213: 8129241539307673013
+    second: _100x100_VolcanoSmoke_ZombieDeath_18
+  - first:
+      213: 6619768259624336296
+    second: _100x100_VolcanoSmoke_ZombieDeath_19
+  - first:
+      213: -952008217618248076
+    second: _100x100_VolcanoSmoke_ZombieDeath_20
+  - first:
+      213: -8031475670748196256
+    second: _100x100_VolcanoSmoke_ZombieDeath_21
+  - first:
+      213: -5917830987802078840
+    second: _100x100_VolcanoSmoke_ZombieDeath_22
+  - first:
+      213: -6703782107268343608
+    second: _100x100_VolcanoSmoke_ZombieDeath_23
+  - first:
+      213: 2939468645672743685
+    second: _100x100_VolcanoSmoke_ZombieDeath_24
+  - first:
+      213: 7529353060877065287
+    second: _100x100_VolcanoSmoke_ZombieDeath_25
+  - first:
+      213: -4424032424439238201
+    second: _100x100_VolcanoSmoke_ZombieDeath_26
+  - first:
+      213: -2633377108831517429
+    second: _100x100_VolcanoSmoke_ZombieDeath_27
+  - first:
+      213: -587967151454073858
+    second: _100x100_VolcanoSmoke_ZombieDeath_28
+  - first:
+      213: 1180013104936120472
+    second: _100x100_VolcanoSmoke_ZombieDeath_29
+  - first:
+      213: 7327660232674649597
+    second: _100x100_VolcanoSmoke_ZombieDeath_30
+  - first:
+      213: 3211732606455816153
+    second: _100x100_VolcanoSmoke_ZombieDeath_31
+  - first:
+      213: -4428263414560787334
+    second: _100x100_VolcanoSmoke_ZombieDeath_32
+  - first:
+      213: 1757143237527250422
+    second: _100x100_VolcanoSmoke_ZombieDeath_33
+  - first:
+      213: 1457669150144106734
+    second: _100x100_VolcanoSmoke_ZombieDeath_34
+  - first:
+      213: 5336039648940909054
+    second: _100x100_VolcanoSmoke_ZombieDeath_35
+  - first:
+      213: 7728559931870664570
+    second: _100x100_VolcanoSmoke_ZombieDeath_36
+  - first:
+      213: 6628492228319816877
+    second: _100x100_VolcanoSmoke_ZombieDeath_37
+  - first:
+      213: 6440919998633315195
+    second: _100x100_VolcanoSmoke_ZombieDeath_38
+  - first:
+      213: 8007973845039967415
+    second: _100x100_VolcanoSmoke_ZombieDeath_39
+  - first:
+      213: 6018415227159806950
+    second: _100x100_VolcanoSmoke_ZombieDeath_40
+  - first:
+      213: -6637280733442878061
+    second: _100x100_VolcanoSmoke_ZombieDeath_41
+  - first:
+      213: -7382729396743685849
+    second: _100x100_VolcanoSmoke_ZombieDeath_42
+  - first:
+      213: -6521317937079412922
+    second: _100x100_VolcanoSmoke_ZombieDeath_43
+  - first:
+      213: 321614292320333193
+    second: _100x100_VolcanoSmoke_ZombieDeath_44
+  - first:
+      213: 301635816853473286
+    second: _100x100_VolcanoSmoke_ZombieDeath_45
+  - first:
+      213: -5321985373703402745
+    second: _100x100_VolcanoSmoke_ZombieDeath_46
+  - first:
+      213: 1620906880359123172
+    second: _100x100_VolcanoSmoke_ZombieDeath_47
+  - first:
+      213: 1026454086806040778
+    second: _100x100_VolcanoSmoke_ZombieDeath_48
+  - first:
+      213: -2665528762560549236
+    second: _100x100_VolcanoSmoke_ZombieDeath_49
+  - first:
+      213: -2873104262227812866
+    second: _100x100_VolcanoSmoke_ZombieDeath_50
+  - first:
+      213: -7948283785588800841
+    second: _100x100_VolcanoSmoke_ZombieDeath_51
+  - first:
+      213: -6059107052297960996
+    second: _100x100_VolcanoSmoke_ZombieDeath_52
+  - first:
+      213: -3351509358891387
+    second: _100x100_VolcanoSmoke_ZombieDeath_53
+  - first:
+      213: 9208973154036197324
+    second: _100x100_VolcanoSmoke_ZombieDeath_54
+  - first:
+      213: -8064776087582194150
+    second: _100x100_VolcanoSmoke_ZombieDeath_55
+  - first:
+      213: 6307347105018974037
+    second: _100x100_VolcanoSmoke_ZombieDeath_56
+  - first:
+      213: -3614088450204621270
+    second: _100x100_VolcanoSmoke_ZombieDeath_57
+  - first:
+      213: -485143509331693243
+    second: _100x100_VolcanoSmoke_ZombieDeath_58
+  - first:
+      213: 50427851165983523
+    second: _100x100_VolcanoSmoke_ZombieDeath_59
+  - first:
+      213: -1755610692684633242
+    second: _100x100_VolcanoSmoke_ZombieDeath_60
+  - first:
+      213: -4553358647371069905
+    second: _100x100_VolcanoSmoke_ZombieDeath_61
+  - first:
+      213: 8865189674174406042
+    second: _100x100_VolcanoSmoke_ZombieDeath_62
+  - first:
+      213: 227319321595964530
+    second: _100x100_VolcanoSmoke_ZombieDeath_63
+  - first:
+      213: 1968799874464728864
+    second: _100x100_VolcanoSmoke_ZombieDeath_64
+  - first:
+      213: 7321467598484604642
+    second: _100x100_VolcanoSmoke_ZombieDeath_65
+  - first:
+      213: 6705117914844014822
+    second: _100x100_VolcanoSmoke_ZombieDeath_66
+  - first:
+      213: -8403802099759269165
+    second: _100x100_VolcanoSmoke_ZombieDeath_67
+  - first:
+      213: -3155601779938195059
+    second: _100x100_VolcanoSmoke_ZombieDeath_68
+  - first:
+      213: -6221655432254882444
+    second: _100x100_VolcanoSmoke_ZombieDeath_69
+  - first:
+      213: -6414136055968401194
+    second: _100x100_VolcanoSmoke_ZombieDeath_70
+  - first:
+      213: 8935377306172542647
+    second: _100x100_VolcanoSmoke_ZombieDeath_71
+  - first:
+      213: 7192845771593325429
+    second: _100x100_VolcanoSmoke_ZombieDeath_72
+  - first:
+      213: 7969979548641437615
+    second: _100x100_VolcanoSmoke_ZombieDeath_73
+  - first:
+      213: -2411368638108349795
+    second: _100x100_VolcanoSmoke_ZombieDeath_74
+  - first:
+      213: -7485943438484567663
+    second: _100x100_VolcanoSmoke_ZombieDeath_75
+  - first:
+      213: -2445491259019376766
+    second: _100x100_VolcanoSmoke_ZombieDeath_76
+  - first:
+      213: -6651606847105223043
+    second: _100x100_VolcanoSmoke_ZombieDeath_77
+  - first:
+      213: -8169961789616736897
+    second: _100x100_VolcanoSmoke_ZombieDeath_78
+  - first:
+      213: -1576249792376638533
+    second: _100x100_VolcanoSmoke_ZombieDeath_79
+  - first:
+      213: 3914073122505786331
+    second: _100x100_VolcanoSmoke_ZombieDeath_80
+  - first:
+      213: 1407899697593846820
+    second: _100x100_VolcanoSmoke_ZombieDeath_81
+  - first:
+      213: 1589460975259746038
+    second: _100x100_VolcanoSmoke_ZombieDeath_82
+  - first:
+      213: -3448539443222921699
+    second: _100x100_VolcanoSmoke_ZombieDeath_83
+  - first:
+      213: -4234042707447536175
+    second: _100x100_VolcanoSmoke_ZombieDeath_84
+  - first:
+      213: 1676349483236855188
+    second: _100x100_VolcanoSmoke_ZombieDeath_85
+  - first:
+      213: 2668450812809436447
+    second: _100x100_VolcanoSmoke_ZombieDeath_86
+  - first:
+      213: -2101419973024301879
+    second: _100x100_VolcanoSmoke_ZombieDeath_87
+  - first:
+      213: 8543267507453080316
+    second: _100x100_VolcanoSmoke_ZombieDeath_88
+  - first:
+      213: 3736842998431513740
+    second: _100x100_VolcanoSmoke_ZombieDeath_89
+  - first:
+      213: 2504773179673645404
+    second: _100x100_VolcanoSmoke_ZombieDeath_90
+  - first:
+      213: -2972656869852768980
+    second: _100x100_VolcanoSmoke_ZombieDeath_91
+  - first:
+      213: -3667838477092489103
+    second: _100x100_VolcanoSmoke_ZombieDeath_92
+  - first:
+      213: -4924919841704547095
+    second: _100x100_VolcanoSmoke_ZombieDeath_93
+  - first:
+      213: -6738547255308193449
+    second: _100x100_VolcanoSmoke_ZombieDeath_94
+  - first:
+      213: 3811710666246663185
+    second: _100x100_VolcanoSmoke_ZombieDeath_95
+  - first:
+      213: 4606755951898707301
+    second: _100x100_VolcanoSmoke_ZombieDeath_96
+  - first:
+      213: 7766615705852085566
+    second: _100x100_VolcanoSmoke_ZombieDeath_97
+  - first:
+      213: -5060880340432015258
+    second: _100x100_VolcanoSmoke_ZombieDeath_98
+  - first:
+      213: 5039074870168463843
+    second: _100x100_VolcanoSmoke_ZombieDeath_99
+  - first:
+      213: 1649214914573466583
+    second: _100x100_VolcanoSmoke_ZombieDeath_100
+  - first:
+      213: 609637058013677826
+    second: _100x100_VolcanoSmoke_ZombieDeath_101
+  - first:
+      213: 649575730467603233
+    second: _100x100_VolcanoSmoke_ZombieDeath_102
+  - first:
+      213: 5451707208941220743
+    second: _100x100_VolcanoSmoke_ZombieDeath_103
+  - first:
+      213: 1886113602258634867
+    second: _100x100_VolcanoSmoke_ZombieDeath_104
+  - first:
+      213: 6232331612859486384
+    second: _100x100_VolcanoSmoke_ZombieDeath_105
+  - first:
+      213: -8413239515259185700
+    second: _100x100_VolcanoSmoke_ZombieDeath_106
+  - first:
+      213: -3343444261349077584
+    second: _100x100_VolcanoSmoke_ZombieDeath_107
+  - first:
+      213: 2945436969229804268
+    second: _100x100_VolcanoSmoke_ZombieDeath_108
+  - first:
+      213: 9085870801274615747
+    second: _100x100_VolcanoSmoke_ZombieDeath_109
+  - first:
+      213: 2962264412768563039
+    second: _100x100_VolcanoSmoke_ZombieDeath_110
+  - first:
+      213: 7389551506304981243
+    second: _100x100_VolcanoSmoke_ZombieDeath_111
+  - first:
+      213: -2975871585185352942
+    second: _100x100_VolcanoSmoke_ZombieDeath_112
+  - first:
+      213: -1932983467861438684
+    second: _100x100_VolcanoSmoke_ZombieDeath_113
+  - first:
+      213: -491454016644380702
+    second: _100x100_VolcanoSmoke_ZombieDeath_114
+  - first:
+      213: 5894991222913084273
+    second: _100x100_VolcanoSmoke_ZombieDeath_115
+  - first:
+      213: -3741928560573530204
+    second: _100x100_VolcanoSmoke_ZombieDeath_116
+  - first:
+      213: -8031162205676943088
+    second: _100x100_VolcanoSmoke_ZombieDeath_117
+  - first:
+      213: -4220708697211502776
+    second: _100x100_VolcanoSmoke_ZombieDeath_118
+  - first:
+      213: -2640110761566556606
+    second: _100x100_VolcanoSmoke_ZombieDeath_119
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +392,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,7 +401,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -68,7 +428,31 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +461,2527 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccbb15778bd1c1d0800000000000000
+      internalID: -3332140874445636410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc00759441efc0d0800000000000000
+      internalID: -3400251508960260937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb1720b2850d03b0800000000000000
+      internalID: -5544769507363972145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a5b6694041c0f80800000000000000
+      internalID: -8139108416629286354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f432762080a2c4c0800000000000000
+      internalID: -4268673024532531978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a897c76d3b240bf0800000000000000
+      internalID: -359114527548663645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5baa6b96c6d223010800000000000000
+      internalID: 1167045197095676597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0cbd8976b5e16c0800000000000000
+      internalID: -4170795704394202959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d47976d1ce91f70800000000000000
+      internalID: 9158610928270789987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc00ad77d8e1ce40800000000000000
+      internalID: 5675073017686789334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2677064f19879f6a0800000000000000
+      internalID: -6414963625947007134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61236bac9b2d632f0800000000000000
+      internalID: -993374972376894954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92479ee8f3ca9e220800000000000000
+      internalID: 2515731255843714089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e95424a839d9b70800000000000000
+      internalID: 8907437860035337874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161b4c33fb4497130800000000000000
+      internalID: 3564956168038429025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d822e012121ab60800000000000000
+      internalID: 7755516459163487559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_16
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3234e442d754d80800000000000000
+      internalID: -8267063946083359790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052160328c67a53e0800000000000000
+      internalID: -2064206877242813872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_18
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b598c30c1ed0d070800000000000000
+      internalID: 8129241539307673013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_19
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab705ab8242edb50800000000000000
+      internalID: 6619768259624336296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_20
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e8c9de199c9c2f0800000000000000
+      internalID: -952008217618248076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0629cd61e677a8090800000000000000
+      internalID: -8031475670748196256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88112431214afdda0800000000000000
+      internalID: -5917830987802078840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c896ac01b167f2a0800000000000000
+      internalID: -6703782107268343608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_24
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503f8b5c8271bc820800000000000000
+      internalID: 2939468645672743685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_25
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cd31677b2ad7860800000000000000
+      internalID: 7529353060877065287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c13d7213fdaa92c0800000000000000
+      internalID: -4424032424439238201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_27
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05c374c87d547bd0800000000000000
+      internalID: -2633377108831517429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_28
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb4bfdadfe17d7f0800000000000000
+      internalID: -587967151454073858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_29
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890f50ebaaf306010800000000000000
+      internalID: 1180013104936120472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_30
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df52453782411b560800000000000000
+      internalID: 7327660232674649597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_31
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df96510acd529c20800000000000000
+      internalID: 3211732606455816153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_32
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74fe3be2e5ab82c0800000000000000
+      internalID: -4428263414560787334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5aa4cf670a26810800000000000000
+      internalID: 1757143237527250422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_34
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee092667e5eaa3410800000000000000
+      internalID: 1457669150144106734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_35
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1e5860acb6d0a40800000000000000
+      internalID: 5336039648940909054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_36
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77d7747f4c514b60800000000000000
+      internalID: 7728559931870664570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daca079ff822dfb50800000000000000
+      internalID: 6628492228319816877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_38
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b8f310d9eb26950800000000000000
+      internalID: 6440919998633315195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_39
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bce934b8c9022f60800000000000000
+      internalID: 8007973845039967415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_40
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e389ad13c4b58350800000000000000
+      internalID: 6018415227159806950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_41
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395d798b654a3e3a0800000000000000
+      internalID: -6637280733442878061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_42
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7293242aab64b8990800000000000000
+      internalID: -7382729396743685849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_43
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6479ffc33ef9f75a0800000000000000
+      internalID: -6521317937079412922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d2170be7a967400800000000000000
+      internalID: 321614292320333193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60806136d20af2400800000000000000
+      internalID: 301635816853473286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_46
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b859cef728426b0800000000000000
+      internalID: -5321985373703402745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_47
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8cac1483e9e7610800000000000000
+      internalID: 1620906880359123172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_48
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac07256bd82be3e00800000000000000
+      internalID: 1026454086806040778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_49
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8eedf886b3220bd0800000000000000
+      internalID: -2665528762560549236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_50
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd104755eea028d0800000000000000
+      internalID: -2873104262227812866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_51
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b28bf1420602b190800000000000000
+      internalID: -7948283785588800841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_52
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd147bb0d3ab9eba0800000000000000
+      internalID: -6059107052297960996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_53
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ea33be1d714fff0800000000000000
+      internalID: -3351509358891387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_54
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7af68da48dccf70800000000000000
+      internalID: 9208973154036197324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16499a90e8241090800000000000000
+      internalID: -8064776087582194150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_56
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f8eb536c2388750800000000000000
+      internalID: 6307347105018974037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_57
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2626bae3bd28ddc0800000000000000
+      internalID: -3614088450204621270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_58
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541b2357c8c6449f0800000000000000
+      internalID: -485143509331693243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_59
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323e88b0dd723b000800000000000000
+      internalID: 50427851165983523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_60
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ba7aa6061d2a7e0800000000000000
+      internalID: -1755610692684633242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_61
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f268e785f683fc0c0800000000000000
+      internalID: -4553358647371069905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_62
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d50a3f90b770b70800000000000000
+      internalID: 8865189674174406042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_63
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c6f46f7b9972300800000000000000
+      internalID: 227319321595964530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_64
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027cd4ffd05925b10800000000000000
+      internalID: 1968799874464728864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_65
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e605327df31b9560800000000000000
+      internalID: 7321467598484604642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8a263e73d5d0d50800000000000000
+      internalID: 6705117914844014822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_67
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daba29f382bf5b80800000000000000
+      internalID: -8403802099759269165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_68
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89813676ec0534d0800000000000000
+      internalID: -3155601779938195059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_69
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d719d195d38a9a0800000000000000
+      internalID: -6221655432254882444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_70
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d87afa9d396cf6a0800000000000000
+      internalID: -6414136055968401194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_71
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be408c7156d00c70800000000000000
+      internalID: 8935377306172542647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_72
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b9df3be1f12d360800000000000000
+      internalID: 7192845771593325429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_73
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7a6e73c2e0b9e60800000000000000
+      internalID: 7969979548641437615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_74
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ac807eff8198ed0800000000000000
+      internalID: -2411368638108349795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_75
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199067cda169c1890800000000000000
+      internalID: -7485943438484567663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_76
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287c3dc18aedf0ed0800000000000000
+      internalID: -2445491259019376766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76bcb470deb0b3a0800000000000000
+      internalID: -6651606847105223043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_78
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f753165e9077e9e80800000000000000
+      internalID: -8169961789616736897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_79
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb37b184a29002ae0800000000000000
+      internalID: -1576249792376638533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_80
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd38cdb64c4915630800000000000000
+      internalID: 3914073122505786331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_81
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c067ac05dd98310800000000000000
+      internalID: 1407899697593846820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_82
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fef3bee556ee0610800000000000000
+      internalID: 1589460975259746038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_83
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e36c4c5a35420d0800000000000000
+      internalID: -3448539443222921699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_84
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5a1ca2798ad35c0800000000000000
+      internalID: -4234042707447536175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_85
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d0ebb29f6934710800000000000000
+      internalID: 1676349483236855188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_86
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ddb1e40ed380520800000000000000
+      internalID: 2668450812809436447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_87
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccb9f71ba146d2e0800000000000000
+      internalID: -2101419973024301879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2b0eaa888cf8670800000000000000
+      internalID: 8543267507453080316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_89
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c7aee88eeebd330800000000000000
+      internalID: 3736842998431513740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_90
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c519f51afedb2c220800000000000000
+      internalID: 2504773179673645404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_91
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c251d41a3500fb6d0800000000000000
+      internalID: -2972656869852768980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_92
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178746f8658391dc0800000000000000
+      internalID: -3667838477092489103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_93
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec6def4f7b27abb0800000000000000
+      internalID: -4924919841704547095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_94
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751fb2149fedb72a0800000000000000
+      internalID: -6738547255308193449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_95
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c2338d7aae5e430800000000000000
+      internalID: 3811710666246663185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_96
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565c6df612c7eef30800000000000000
+      internalID: 4606755951898707301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_97
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35884ec5df88cb60800000000000000
+      internalID: 7766615705852085566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_98
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660bac1e42424c9b0800000000000000
+      internalID: -5060880340432015258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e92df075e36ee540800000000000000
+      internalID: 5039074870168463843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_100
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db7d651a3033e610800000000000000
+      internalID: 1649214914573466583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_101
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209c1dc9cadd57800800000000000000
+      internalID: 609637058013677826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_102
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1238c3d6fa1c30900800000000000000
+      internalID: 649575730467603233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_103
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783b06872da58ab40800000000000000
+      internalID: 5451707208941220743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_104
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37888a40452dc2a10800000000000000
+      internalID: 1886113602258634867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_105
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b05de2e490bd7650800000000000000
+      internalID: 6232331612859486384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_106
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd552b27c3b2e3b80800000000000000
+      internalID: -8413239515259185700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_107
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd48fb9823b991d0800000000000000
+      internalID: -3343444261349077584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_108
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2ee33615b40e820800000000000000
+      internalID: 2945436969229804268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_109
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c73111da5f771e70800000000000000
+      internalID: 9085870801274615747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fe9d5e9c31c1920800000000000000
+      internalID: 2962264412768563039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_111
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8d2c681f5fc8660800000000000000
+      internalID: 7389551506304981243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_112
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21339d36f8493b6d0800000000000000
+      internalID: -2975871585185352942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_113
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f8a6107c9ac25e0800000000000000
+      internalID: -1932983467861438684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_114
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7097afc210e29f0800000000000000
+      internalID: -491454016644380702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_115
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ba7c3c8473fc150800000000000000
+      internalID: 5894991222913084273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_116
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af302cbccff11cc0800000000000000
+      internalID: -3741928560573530204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_117
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019451d56849b8090800000000000000
+      internalID: -8031162205676943088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_118
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f7e4a5dc70d65c0800000000000000
+      internalID: -4220708697211502776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _100x100_VolcanoSmoke_ZombieDeath_119
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ea32110417c5bd0800000000000000
+      internalID: -2640110761566556606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -10352,5 +10352,9 @@ PrefabInstance:
       propertyPath: zombieSpawners.Array.data[2]
       value: 
       objectReference: {fileID: 932623678}
+    - target: {fileID: 9029770955905461323, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 3.540001
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}

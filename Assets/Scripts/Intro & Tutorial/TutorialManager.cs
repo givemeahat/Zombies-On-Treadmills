@@ -1,62 +1,97 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TutorialManager : MonoBehaviour
 {
+    //configure card switching here
+    public float timeBetweenCards = .2f;
+    public Vector3 activeCardScale;
+    public Vector3 inactiveCardScale;
+
+    //card switching utility
+    float moveAmt = 300;
+    bool hasFinishedTransition = true;
+
+    //card variables & card group
     public GameObject[] cards;
     public int tracker = 0;
     public GameObject cardGroup;
-    public GameObject currentCard;
-    GameObject prevCard;
 
-    float moveAmt = 300;
+    //tracking active/inactive cards
+    GameObject currentCard;
+    GameObject prevCard;
+    Vector3 newCardLocation;
+
+    //UI
+    public Button forwardButton;
+    public Button backwardButton;
+
+    private void Start()
+    {
+        currentCard = cards[0];
+    }
 
     public void MoveForwards()
     {
-        //if (tracker++ > cards.Length - 1) return;
-        /*if (tracker++ == cards.Length - 1)
+        if (!hasFinishedTransition)
         {
-            //end tutorial code here
-        }*/
-        prevCard = currentCard;
+            StopCoroutine(SwitchCards(newCardLocation));
+            cardGroup.transform.localPosition = newCardLocation;
+            currentCard.transform.localScale = activeCardScale;
+            prevCard.transform.localScale = inactiveCardScale;
+            hasFinishedTransition = true;
+        }
+        if (!backwardButton.interactable) backwardButton.interactable = true;
+
         tracker++;
+        if (tracker == cards.Length - 1)
+        {
+            forwardButton.interactable = false;
+        }
+        prevCard = currentCard;
         currentCard = cards[tracker];
-        Vector3 newCardLocation = new Vector3(cardGroup.transform.localPosition.x - moveAmt, 0, 0);
+        newCardLocation = new Vector3(cardGroup.transform.localPosition.x - moveAmt, 0, 0);
         StartCoroutine(SwitchCards(newCardLocation));
     }
     
     public void MoveBackwards()
     {
-        /*if (tracker-- < 0) return;
-        if (tracker-- == cards.Length - 1)
+        if (!hasFinishedTransition)
         {
-            tracker = 0;
-            currentCard = cards[tracker];
-            return;
-        }*/
-        prevCard = currentCard;
+            StopCoroutine(SwitchCards(newCardLocation));
+            cardGroup.transform.localPosition = newCardLocation;
+            currentCard.transform.localScale = activeCardScale;
+            prevCard.transform.localScale = inactiveCardScale;
+            hasFinishedTransition = true;
+        }
+        if (!forwardButton.interactable) forwardButton.interactable = true;
+
         tracker--;
+        if (tracker == 0)
+        {
+            backwardButton.interactable = false;
+        }
+        prevCard = currentCard;
         currentCard = cards[tracker];
-        Vector3 newCardLocation = new Vector3(cardGroup.transform.localPosition.x + moveAmt, 0, 0);
+        newCardLocation = new Vector3(cardGroup.transform.localPosition.x + moveAmt, 0, 0);
         StartCoroutine(SwitchCards(newCardLocation));
     }
 
     IEnumerator SwitchCards(Vector3 newCardLocation)
     {
         float elapsedTime = 0;
-        float waitTime = .2f;
         Vector3 startPos = cardGroup.transform.localPosition;
         Vector3 startCurrentCardScale = currentCard.transform.localScale;
         Vector3 startPrevCardScale = prevCard.transform.localScale;
-        Vector3 newCurrentCardScale = new Vector3(1, 1, 1);
-        Vector3 newPrevCardScale = new Vector3(.75f, .75f, .75f);
 
-        while (elapsedTime < waitTime)
+        while (elapsedTime < timeBetweenCards)
         {
-            currentCard.transform.localScale = Vector3.Lerp(startCurrentCardScale, newCurrentCardScale, (elapsedTime / waitTime));
-            prevCard.transform.localScale = Vector3.Lerp(startPrevCardScale, newPrevCardScale, (elapsedTime / waitTime));
-            cardGroup.transform.localPosition = Vector3.Lerp(startPos, newCardLocation, (elapsedTime / waitTime));
+            hasFinishedTransition = false;
+            currentCard.transform.localScale = Vector3.Lerp(startCurrentCardScale, activeCardScale, (elapsedTime / timeBetweenCards));
+            prevCard.transform.localScale = Vector3.Lerp(startPrevCardScale, inactiveCardScale, (elapsedTime / timeBetweenCards));
+            cardGroup.transform.localPosition = Vector3.Lerp(startPos, newCardLocation, (elapsedTime / timeBetweenCards));
 
             elapsedTime += Time.deltaTime;
 
@@ -64,7 +99,8 @@ public class TutorialManager : MonoBehaviour
         }
         
         cardGroup.transform.localPosition = newCardLocation;
-        currentCard.transform.localScale = newCurrentCardScale;
-        prevCard.transform.localScale = newPrevCardScale;
+        currentCard.transform.localScale = activeCardScale;
+        prevCard.transform.localScale = inactiveCardScale;
+        hasFinishedTransition = true;
     }
 }
