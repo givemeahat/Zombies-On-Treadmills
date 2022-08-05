@@ -14,6 +14,8 @@ public class IntroManager : MonoBehaviour
 
     public GameObject continueSymbol;
 
+    public GameObject[] tutImages;
+
     public void Start()
     {
         tutorialText.text = lines[lineTracker];
@@ -43,6 +45,24 @@ public class IntroManager : MonoBehaviour
     public void ProgressIntro()
     {
         lineTracker++;
+        if (lineTracker == 1)
+        {
+            tutImages[1].SetActive(true);
+            tutImages[0].SetActive(false);
+        }
+        if (lineTracker == 3)
+        {
+            tutImages[2].SetActive(true);
+            tutImages[1].SetActive(false);
+        }
+        if (lineTracker == 4)
+        {
+            tutImages[2].GetComponent<Animator>().Play("Intro3_Slide");
+        }
+        if (lineTracker == 5)
+        {
+            tutImages[2].GetComponent<Animator>().Play("Intro3_Zoom Out");
+        }
         if (lineTracker > lines.Length - 1)
         {
             //end intro here
