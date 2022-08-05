@@ -93,5 +93,5 @@ Material:
     - _GradientOutline1: {r: 1, g: 1, b: 1, a: 1}
     - _GradientOutline2: {r: 0, g: 0, b: 0, a: 1}
     - _ImageOutline: {r: 1, g: 1, b: 1, a: 1}
-    - _SolidOutline: {r: 0, g: 0, b: 0, a: 0.48235294}
+    - _SolidOutline: {r: 0, g: 0, b: 0, a: 0.2627451}
   m_BuildTextureStacks: []
