@@ -50,16 +50,16 @@ public class IntroManager : MonoBehaviour
             tutImages[1].SetActive(true);
             tutImages[0].SetActive(false);
         }
-        if (lineTracker == 3)
+        if (lineTracker == 2)
         {
             tutImages[2].SetActive(true);
             tutImages[1].SetActive(false);
         }
-        if (lineTracker == 4)
+        if (lineTracker == 3)
         {
             tutImages[2].GetComponent<Animator>().Play("Intro3_Slide");
         }
-        if (lineTracker == 5)
+        if (lineTracker == 4)
         {
             tutImages[2].GetComponent<Animator>().Play("Intro3_Zoom Out");
         }
@@ -68,15 +68,27 @@ public class IntroManager : MonoBehaviour
             //end intro here
             return;
         }
+        int currentImage = 0;
+        if (tutImages[0].activeInHierarchy) currentImage = 0;
+        if (tutImages[1].activeInHierarchy) currentImage = 1;
+        if (tutImages[2].activeInHierarchy) currentImage = 2;
+
         tutorialText.text = lines[lineTracker];
         tutorialTextEffect.Play();
-        StartCoroutine(WaitToPlayActiveAnimation());
+        StartCoroutine(WaitToPlayActiveAnimation(currentImage));
     }
 
-    IEnumerator WaitToPlayActiveAnimation()
+    IEnumerator WaitToPlayActiveAnimation(int currImage)
     {
-        float tutorialTimer = lines[lineTracker].Length / 50 + .5f;
-        yield return new WaitForSeconds(tutorialTimer);
+        //float tutorialTimer = lines[lineTracker].Length / 50 + .5f;
+        float waitTime = 0f;
+        if (tutImages[currImage].GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length == 0) waitTime = lines[lineTracker].Length / 25 + .5f;
+        else waitTime = tutImages[currImage].GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length;
+
+        if (currImage == 2 && lineTracker == 2) waitTime = 2f;
+        if (currImage == 2 && lineTracker == 3) waitTime = 9f;
+
+        yield return new WaitForSeconds(waitTime);
         continueSymbol.GetComponent<Animator>().Play("Return Symbol_Active");
         hasFinishedLine = true;
     }
