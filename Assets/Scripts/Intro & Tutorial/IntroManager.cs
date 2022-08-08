@@ -82,7 +82,8 @@ public class IntroManager : MonoBehaviour
     {
         //float tutorialTimer = lines[lineTracker].Length / 50 + .5f;
         float waitTime = 0f;
-        if (tutImages[currImage].GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length == 0) waitTime = lines[lineTracker].Length / 25 + .5f;
+        if (tutImages[currImage].GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length == 0 || tutImages[currImage].GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
+            waitTime = lines[lineTracker].Length / 25 + .2f;
         else waitTime = tutImages[currImage].GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length;
 
         if (currImage == 2 && lineTracker == 2) waitTime = 2f;

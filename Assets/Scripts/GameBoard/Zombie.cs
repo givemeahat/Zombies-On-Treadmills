@@ -31,8 +31,11 @@ public class Zombie : MonoBehaviour
 
     public void NextTreadmill()
     {
+        if (gameObject.name == "Zombie_Sasha(Clone)")
+        {
+            if (!GetComponent<Animator>().GetBool("IsWalking")) GetComponent<Animator>().SetBool("IsWalking", true);
+        }
         float devianceRoll = Random.Range(.01f, 1);
-        //Debug.Log("rolled " + devianceRoll);
         if (devianceRoll >= randomness)
         {
             currentDirection = currentTreadmill.currentDirection;
@@ -41,26 +44,7 @@ public class Zombie : MonoBehaviour
         else
         {
             int dirRoll = Random.Range(0, 3);
-            if (dirRoll == 0)
-            {
-                Debug.Log("0");
-                currentDirection = 0;
-            }
-            if (dirRoll == 1)
-            {
-                Debug.Log("90");
-                currentDirection = 90;
-            }
-            if (dirRoll == 2)
-            {
-                Debug.Log("180");
-                currentDirection = 180;
-            }
-            if (dirRoll == 3)
-            {
-                Debug.Log("270");
-                currentDirection = 270;
-            }
+            currentDirection = dirRoll * 90;
             isCompliant = false;
         }
         startTreadmill = currentTreadmill;
@@ -136,10 +120,32 @@ public class Zombie : MonoBehaviour
 
     public void DetermineType(RaycastHit2D hit)
     {
+        if (gameObject.name == "Zombie_Sasha(Clone)")
+        {
+            switch (currentDirection)
+            {
+                case 0:
+                    GetComponent<Animator>().SetBool("IsVertical", true);
+                    GetComponent<Animator>().SetBool("IsFacingAway", false);
+                    break;
+                case 90:
+                    GetComponent<Animator>().SetBool("IsVertical", false);
+                    GetComponent<Animator>().SetBool("IsFacingAway", false);
+                    break;
+                case 180:
+                    GetComponent<Animator>().SetBool("IsVertical", true);
+                    GetComponent<Animator>().SetBool("IsFacingAway", true);
+                    break;
+                case 270:
+                    GetComponent<Animator>().SetBool("IsVertical", false);
+                    GetComponent<Animator>().SetBool("IsFacingAway", false);
+                    break;
+            }
+        }
+
         currentTreadmill.rotation.SetActive(true);
         if (hit.collider.gameObject.tag == "Rotation")
         {
-            Debug.Log(hit.collider.gameObject.name + " ????");
             currentTreadmill = hit.collider.gameObject.GetComponent<Rotate>().tm;
             nextWaypoint = currentTreadmill.waypoint;
             StartCoroutine(MoveToWaypoint(speed));

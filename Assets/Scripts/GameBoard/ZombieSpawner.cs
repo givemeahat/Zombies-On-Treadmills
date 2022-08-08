@@ -36,7 +36,7 @@ public class ZombieSpawner : MonoBehaviour
             zombie.GetComponent<Zombie>().gm = gm;
             zombie.GetComponent<Zombie>().spawner = this;
             zombie.GetComponent<Zombie>().randomness = randomness;
-            zombie.name = "Zombie " + x;
+            //zombie.name = "Zombie " + x;
             zombie.GetComponent<Zombie>().startTreadmill = startingTreadmill;
             zombiesSpawned.Add(zombie.GetComponent<Zombie>());
             gm.zombiesInScene.Add(zombie);

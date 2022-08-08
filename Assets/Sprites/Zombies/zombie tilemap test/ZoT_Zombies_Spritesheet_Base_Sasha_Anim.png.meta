@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: 4586d9b49cb916847a506cefabf08402
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8759281102811411017
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_0
+  - first:
+      213: -1744929108686440310
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_1
+  - first:
+      213: 3951074421438328777
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_2
+  - first:
+      213: -6363542656033334702
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_3
+  - first:
+      213: -3993284043922303687
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_4
+  - first:
+      213: -6221205480363158929
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_5
+  - first:
+      213: 9193993426702641344
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_6
+  - first:
+      213: 6580280770157513823
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_7
+  - first:
+      213: 2175568192136952511
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_8
+  - first:
+      213: 7579583083537655270
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_9
+  - first:
+      213: 5491529871213099969
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_10
+  - first:
+      213: -2824282906501265983
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_11
+  - first:
+      213: 217904359919333001
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_12
+  - first:
+      213: -109197519770204064
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_13
+  - first:
+      213: 347587355696332860
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_14
+  - first:
+      213: 5388658990905255460
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_15
+  - first:
+      213: -7754445762459111079
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_16
+  - first:
+      213: 2860974609918632165
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_17
+  - first:
+      213: 8919237440305271170
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_18
+  - first:
+      213: 7049457968816225535
+    second: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +92,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,7 +101,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -68,7 +128,31 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +161,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942bddc11c73f8970800000000000000
+      internalID: 8759281102811411017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 144
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88718e7834c8c7e0800000000000000
+      internalID: -1744929108686440310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfa6faa04905d630800000000000000
+      internalID: 3951074421438328777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 144
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a561a7ba720b7a0800000000000000
+      internalID: -6363542656033334702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93596c2c1510598c0800000000000000
+      internalID: -3993284043922303687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 108
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f629d34b396d9a9a0800000000000000
+      internalID: -6221205480363158929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 108
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c823e94f40a79f70800000000000000
+      internalID: 9193993426702641344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 108
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c82932f7ad15b50800000000000000
+      internalID: 6580280770157513823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba36fc7ebb213e10800000000000000
+      internalID: 2175568192136952511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e562d7f7a6103960800000000000000
+      internalID: 7579583083537655270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb7a1f8255d53c40800000000000000
+      internalID: 5491529871213099969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5c8c409a12ec8d0800000000000000
+      internalID: -2824282906501265983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e20006cd6260300800000000000000
+      internalID: 217904359919333001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_13
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 36
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0684ebf2f6d0c7ef0800000000000000
+      internalID: -109197519770204064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 36
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3082b0cbd0e2d400800000000000000
+      internalID: 347587355696332860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 36
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4266f984dcc58ca40800000000000000
+      internalID: 5388658990905255460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9517792f9aca26490800000000000000
+      internalID: -7754445762459111079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0ac97ef3934b720800000000000000
+      internalID: 2860974609918632165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28192c0223f77cb70800000000000000
+      internalID: 8919237440305271170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Zombies_Spritesheet_Base_Sasha_Anim_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc765a4ca4b4d160800000000000000
+      internalID: 7049457968816225535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
