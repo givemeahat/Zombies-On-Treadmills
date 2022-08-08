@@ -9,6 +9,8 @@ public class ZombieSpawner : MonoBehaviour
     public List<Zombie> zombiesSpawned;
     public int numberOfZombies;
 
+    int currentDirection;
+
     public float timeBetweenZombies = .2f;
     float randomness;
 
@@ -21,9 +23,34 @@ public class ZombieSpawner : MonoBehaviour
         startingTreadmill = gameObject.GetComponentInParent<Treadmill>();
         gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
         randomness = gm.randomness;
+        currentDirection = this.GetComponentInParent<Treadmill>().currentDirection;
+        if (currentDirection == 0 || currentDirection == 180)
+        {
+            this.transform.localPosition = new Vector3(0, 0, 0);
+        }
+        else
+        {
+            this.transform.localPosition = new Vector3(0, 0.06f, 0);
+        }
         if (!gm.gameObject.GetComponent<SpawnManager>().isFrenzy)
         {
             anim.Play("Target_Set");
+        }
+    }
+
+    private void Update()
+    {
+        if (this.GetComponentInParent<Treadmill>().currentDirection != currentDirection)
+        {
+            currentDirection = this.GetComponentInParent<Treadmill>().currentDirection;
+            if (currentDirection == 0 || currentDirection == 180)
+            {
+                this.transform.localPosition = new Vector3(0, 0, 0);
+            }
+            else
+            {
+                this.transform.localPosition = new Vector3(0, 0.06f, 0);
+            }
         }
     }
 
