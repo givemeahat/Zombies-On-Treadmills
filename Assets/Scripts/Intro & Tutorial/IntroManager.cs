@@ -63,6 +63,14 @@ public class IntroManager : MonoBehaviour
         {
             tutImages[2].GetComponent<Animator>().Play("Intro3_Zoom Out");
         }
+        if (lineTracker == 5)
+        {
+            tutImages[2].GetComponent<Animator>().Play("Intro3_Zombies Fall");
+        }
+        if (lineTracker == 6)
+        {
+            tutImages[2].GetComponent<Animator>().Play("Intro3_Fade Out");
+        }
         if (lineTracker > lines.Length - 1)
         {
             //end intro here
