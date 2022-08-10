@@ -7031,6 +7031,7 @@ GameObject:
   - component: {fileID: 1130382469}
   - component: {fileID: 1130382471}
   - component: {fileID: 1130382470}
+  - component: {fileID: 1130382472}
   m_Layer: 0
   m_Name: Gameboard
   m_TagString: Untagged
@@ -7270,6 +7271,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1130382472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130382468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc9b5772d37cc024581abedbba28c10c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeTreadmill: {fileID: 0}
 --- !u!1 &1139146564
 GameObject:
   m_ObjectHideFlags: 0
@@ -8173,7 +8187,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 23
-      m_TileSpriteIndex: 18
+      m_TileSpriteIndex: 19
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8313,7 +8327,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 9
-      m_TileSpriteIndex: 5
+      m_TileSpriteIndex: 18
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8396,8 +8410,8 @@ Tilemap:
     m_Data: {fileID: 6794551657775793492, guid: 41549f02196556c428801002572004c1, type: 3}
   - m_RefCount: 19
     m_Data: {fileID: 4608501150764515188, guid: 41549f02196556c428801002572004c1, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -2748706255990705946, guid: 41549f02196556c428801002572004c1, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 3
     m_Data: {fileID: -4716488154828864477, guid: 6948149777c5ba84eba0d2d63acb14a4, type: 3}
   - m_RefCount: 3
@@ -8423,9 +8437,9 @@ Tilemap:
   - m_RefCount: 4
     m_Data: {fileID: 2549702949316085873, guid: 6948149777c5ba84eba0d2d63acb14a4, type: 3}
   - m_RefCount: 1
+    m_Data: {fileID: -2748706255990705946, guid: 41549f02196556c428801002572004c1, type: 3}
+  - m_RefCount: 1
     m_Data: {fileID: -1918618662356808553, guid: 41549f02196556c428801002572004c1, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -2893061900465839422, guid: 41549f02196556c428801002572004c1, type: 3}
   - m_RefCount: 1

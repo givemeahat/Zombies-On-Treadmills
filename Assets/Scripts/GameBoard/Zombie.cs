@@ -6,7 +6,7 @@ public class Zombie : MonoBehaviour
 {
     public ZombieSpawner spawner;
     public GameManager gm;
-    public float speed;
+    float speed = .65f;
     public float fallSpeed;
     public Transform startPosition;
 

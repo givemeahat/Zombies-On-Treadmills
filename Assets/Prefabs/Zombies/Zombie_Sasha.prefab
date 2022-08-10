@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawner: {fileID: 0}
   gm: {fileID: 0}
-  speed: 0.5
+  speed: 0.3
   fallSpeed: 1.5
   startPosition: {fileID: 0}
   startTreadmill: {fileID: 0}

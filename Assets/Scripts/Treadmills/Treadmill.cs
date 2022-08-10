@@ -51,8 +51,6 @@ public class Treadmill : MonoBehaviour
     }
     public void Rotate()
     {
-        this.GetComponent<AudioSource>().PlayOneShot(this.GetComponent<AudioSource>().clip);
-
         //StartCoroutine(RotateTreadmill());
         switch (currentDirection)
         {
@@ -64,6 +62,7 @@ public class Treadmill : MonoBehaviour
                 arrow.transform.localPosition = Vector3.zero;
                 spriteRend.flipX = false;
                 spriteRend.flipY = true;
+                this.GetComponent<AudioSource>().PlayOneShot(this.GetComponent<AudioSource>().clip);
                 break;
             case 90:
                 anim.Play("Treadmill_Running_Horizontal");
@@ -73,6 +72,7 @@ public class Treadmill : MonoBehaviour
                 arrow.transform.localPosition = new Vector3(arrow.transform.localPosition.x, .08f, arrow.transform.localPosition.z);
                 spriteRend.flipX = false;
                 spriteRend.flipY = false;
+                this.GetComponent<AudioSource>().PlayOneShot(this.GetComponent<AudioSource>().clip);
                 break;
             case 180:
                 anim.Play("Treadmill_Running_Vertical");
@@ -82,6 +82,7 @@ public class Treadmill : MonoBehaviour
                 arrow.transform.localPosition = Vector3.zero;
                 spriteRend.flipX = false;
                 spriteRend.flipY = false;
+                this.GetComponent<AudioSource>().PlayOneShot(this.GetComponent<AudioSource>().clip);
                 break;
             case 270:
                 anim.Play("Treadmill_Running_Horizontal");
@@ -91,6 +92,7 @@ public class Treadmill : MonoBehaviour
                 arrow.transform.localPosition = new Vector3(arrow.transform.localPosition.x, .08f, arrow.transform.localPosition.z);
                 spriteRend.flipX = true;
                 spriteRend.flipY = false;
+                this.GetComponent<AudioSource>().PlayOneShot(this.GetComponent<AudioSource>().clip);
                 break;
         }
     }
