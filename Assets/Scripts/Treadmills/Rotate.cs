@@ -112,6 +112,7 @@ public class Rotate : MonoBehaviour
         lr.SetPosition(0, startPos);
         lr.useWorldSpace = true;
         tm.tmm.activeTreadmill = tm;
+        tm.GetComponent<AudioSource>().PlayOneShot(tm.GetComponent<AudioSource>().clip);
     }
     public void OnMouseDrag()
     {
@@ -127,6 +128,7 @@ public class Rotate : MonoBehaviour
             {
                 tm.currentDirection = tm.tmm.activeTreadmill.currentDirection;
                 tm.Rotate();
+                tm.GetComponent<AudioSource>().PlayOneShot(tm.GetComponent<AudioSource>().clip);
             }
         }
     }
