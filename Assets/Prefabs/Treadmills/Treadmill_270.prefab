@@ -57,7 +57,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3935251c133990f4aa19d8a2bf1d4428, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -108,7 +108,9 @@ MonoBehaviour:
   horizontalSprite: {fileID: 21300000, guid: a772b9e242a241842bcf8a7c0066142e, type: 3}
   arrow: {fileID: 837655387589282320}
   rotation: {fileID: 3057823067591681928}
+  anim: {fileID: 0}
   doNotDrop: 0
+  tmm: {fileID: 0}
 --- !u!61 &837655387454805928
 BoxCollider2D:
   m_ObjectHideFlags: 0

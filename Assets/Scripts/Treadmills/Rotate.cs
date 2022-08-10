@@ -99,6 +99,13 @@ public class Rotate : MonoBehaviour
             }
             else return;
         }
+        if (Input.GetMouseButtonUp(0))
+        {
+            if (tm.GetComponent<SpriteRenderer>().material.GetFloat("_OutlineEnabled") == 1f)
+            {
+                tm.GetComponent<SpriteRenderer>().material.SetFloat("_OutlineEnabled", 0);
+            }
+        }
     }
     public void OnMouseDown()
     {
@@ -124,6 +131,8 @@ public class Rotate : MonoBehaviour
         isMouseOver = true;
         if (Input.GetMouseButton(0))
         {
+            tm.GetComponent<SpriteRenderer>().material.SetFloat("_OutlineEnabled", 1);
+
             if (tm.currentDirection != tm.tmm.activeTreadmill.currentDirection)
             {
                 tm.currentDirection = tm.tmm.activeTreadmill.currentDirection;
@@ -138,6 +147,7 @@ public class Rotate : MonoBehaviour
         isMouseOver = false;
         startPos = new Vector3(0, 0, 0);
         endPos = new Vector3(0, 0, 0);
+        tm.GetComponent<SpriteRenderer>().material.SetFloat("_OutlineEnabled", 0);
     }
     /*public void OnMouseExit()
     {
