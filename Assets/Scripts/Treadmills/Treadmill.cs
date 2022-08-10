@@ -31,10 +31,12 @@ public class Treadmill : MonoBehaviour
     public bool doNotDrop;
 
     GameObject gm;
+    public TreadmillManager tmm;
 
     private void Start()
     {
         anim = this.GetComponent<Animator>();
+        tmm = this.GetComponentInParent<TreadmillManager>();
         if (currentDirection == 0 || currentDirection == 180) anim.Play("Treadmill_Running_Vertical");
         if (currentDirection == 90 || currentDirection == 270) anim.Play("Treadmill_Running_Horizontal");
         anim.speed = 0;
@@ -93,26 +95,4 @@ public class Treadmill : MonoBehaviour
         }
     }
 
-    /*IEnumerator RotateTreadmill()
-    {
-        isRotating = true;
-        float startRotation = this.gameObject.transform.eulerAngles.z;
-        float endRotation = startRotation - 90f;
-        float time = 0;
-        while (time < duration)
-        {
-            time += Time.deltaTime;
-            float zRotation = Mathf.Lerp(startRotation, endRotation, time / duration);
-            transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y, zRotation);
-            yield return null;
-        }
-        transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y, endRotation);
-        currentDirection = Mathf.RoundToInt(endRotation);
-        if (currentDirection == 360)
-        {
-            currentDirection = 0;
-        }
-
-        isRotating = false;
-    }*/
 }

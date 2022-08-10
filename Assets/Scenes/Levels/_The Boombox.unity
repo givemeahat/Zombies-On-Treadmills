@@ -20558,6 +20558,7 @@ GameObject:
   - component: {fileID: 1130382469}
   - component: {fileID: 1130382471}
   - component: {fileID: 1130382470}
+  - component: {fileID: 1130382472}
   m_Layer: 0
   m_Name: Gameboard
   m_TagString: Untagged
@@ -20998,6 +20999,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1130382472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130382468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc9b5772d37cc024581abedbba28c10c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeTreadmill: {fileID: 0}
 --- !u!1001 &1138930416
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32260,11 +32274,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727514, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: maxFov
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727514, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727514, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: boxModifier
