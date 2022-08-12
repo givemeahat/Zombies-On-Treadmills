@@ -30,7 +30,12 @@ public class TutorialManager : MonoBehaviour
 
     private void Start()
     {
+        foreach (GameObject card in cards)
+        {
+            card.GetComponent<Animator>().playbackTime = 0;
+        }
         currentCard = cards[0];
+        cards[0].GetComponent<Animator>().playbackTime = 1;
     }
 
     public void MoveForwards()
@@ -97,7 +102,8 @@ public class TutorialManager : MonoBehaviour
 
             yield return null;
         }
-        
+        currentCard.GetComponent<Animator>().playbackTime = 1;
+        prevCard.GetComponent<Animator>().playbackTime = 0;
         cardGroup.transform.localPosition = newCardLocation;
         currentCard.transform.localScale = activeCardScale;
         prevCard.transform.localScale = inactiveCardScale;

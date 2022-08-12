@@ -225,7 +225,7 @@ public class Zombie : MonoBehaviour
         }
         if (finalGO.tag == "Volcano")
         {
-            finalGO.GetComponent<Volcano>().smokeFX.GetComponent<Animator>().SetTrigger("ZombieDeath");
+            //finalGO.GetComponent<Volcano>().smokeFX.GetComponent<Animator>().SetTrigger("ZombieDeath");
             gm.UpdateZombiesKilled();
         }
     }
