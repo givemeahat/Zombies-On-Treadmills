@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class IntroManager : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class IntroManager : MonoBehaviour
     TextMeshProEffect tutorialTextEffect;
     public int lineTracker = 0;
     bool hasFinishedLine = true;
+
+    public GameObject faderPanel;
 
     public GameObject continueSymbol;
 
@@ -29,9 +32,9 @@ public class IntroManager : MonoBehaviour
         {
             if (!hasFinishedLine)
             {
-                tutorialText.text = lines[lineTracker];
-                tutorialTextEffect.Finish();
-                hasFinishedLine = true;
+                //tutorialText.text = lines[lineTracker];
+                //tutorialTextEffect.Finish();
+               //hasFinishedLine = true;
                 return;
             }
             else
@@ -73,7 +76,7 @@ public class IntroManager : MonoBehaviour
         }
         if (lineTracker > lines.Length - 1)
         {
-            //end intro here
+            StartCoroutine(EndTutorial());
             return;
         }
         int currentImage = 0;
@@ -85,7 +88,13 @@ public class IntroManager : MonoBehaviour
         tutorialTextEffect.Play();
         StartCoroutine(WaitToPlayActiveAnimation(currentImage));
     }
-
+    IEnumerator EndTutorial()
+    {
+        faderPanel.SetActive(true);
+        float waitTime = faderPanel.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length;
+        yield return new WaitForSeconds(waitTime);
+        SceneManager.LoadScene(2);
+    }
     IEnumerator WaitToPlayActiveAnimation(int currImage)
     {
         //float tutorialTimer = lines[lineTracker].Length / 50 + .5f;
@@ -96,6 +105,7 @@ public class IntroManager : MonoBehaviour
 
         if (currImage == 2 && lineTracker == 2) waitTime = 2f;
         if (currImage == 2 && lineTracker == 3) waitTime = 9f;
+        if (currImage == 2 && lineTracker == 6) waitTime = 6f;
 
         yield return new WaitForSeconds(waitTime);
         continueSymbol.GetComponent<Animator>().Play("Return Symbol_Active");

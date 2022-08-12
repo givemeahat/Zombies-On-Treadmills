@@ -109,6 +109,7 @@ public class Rotate : MonoBehaviour
     }
     public void OnMouseDown()
     {
+        if (EventSystem.current.IsPointerOverGameObject()) return;
         if (lr == null)
         {
             lr = gameObject.AddComponent<LineRenderer>();
@@ -117,7 +118,7 @@ public class Rotate : MonoBehaviour
         lr.positionCount = 2;
         startPos = cam.ScreenToWorldPoint(Input.mousePosition) + camOffset;
         lr.SetPosition(0, startPos);
-        lr.useWorldSpace = true;
+        //lr.useWorldSpace = true;
         tm.tmm.activeTreadmill = tm;
         tm.GetComponent<AudioSource>().PlayOneShot(tm.GetComponent<AudioSource>().clip);
     }
