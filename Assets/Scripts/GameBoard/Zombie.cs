@@ -31,10 +31,7 @@ public class Zombie : MonoBehaviour
 
     public void NextTreadmill()
     {
-        if (gameObject.name == "Zombie_Sasha(Clone)")
-        {
-            if (!GetComponent<Animator>().GetBool("IsWalking")) GetComponent<Animator>().SetBool("IsWalking", true);
-        }
+        if (!GetComponent<Animator>().GetBool("IsWalking")) GetComponent<Animator>().SetBool("IsWalking", true);
         float devianceRoll = Random.Range(.01f, 1);
         if (devianceRoll >= randomness)
         {
@@ -120,27 +117,24 @@ public class Zombie : MonoBehaviour
 
     public void DetermineType(RaycastHit2D hit)
     {
-        if (gameObject.name == "Zombie_Sasha(Clone)")
+        switch (currentDirection)
         {
-            switch (currentDirection)
-            {
-                case 0:
-                    GetComponent<Animator>().SetBool("IsVertical", true);
-                    GetComponent<Animator>().SetBool("IsFacingAway", false);
-                    break;
-                case 90:
-                    GetComponent<Animator>().SetBool("IsVertical", false);
-                    GetComponent<Animator>().SetBool("IsFacingAway", false);
-                    break;
-                case 180:
-                    GetComponent<Animator>().SetBool("IsVertical", true);
-                    GetComponent<Animator>().SetBool("IsFacingAway", true);
-                    break;
-                case 270:
-                    GetComponent<Animator>().SetBool("IsVertical", false);
-                    GetComponent<Animator>().SetBool("IsFacingAway", false);
-                    break;
-            }
+            case 0:
+                GetComponent<Animator>().SetBool("IsVertical", true);
+                GetComponent<Animator>().SetBool("IsFacingAway", false);
+                break;
+            case 90:
+                GetComponent<Animator>().SetBool("IsVertical", false);
+                GetComponent<Animator>().SetBool("IsFacingAway", false);
+                break;
+            case 180:
+                GetComponent<Animator>().SetBool("IsVertical", true);
+                GetComponent<Animator>().SetBool("IsFacingAway", true);
+                break;
+            case 270:
+                GetComponent<Animator>().SetBool("IsVertical", false);
+                GetComponent<Animator>().SetBool("IsFacingAway", false);
+                break;
         }
 
         currentTreadmill.rotation.SetActive(true);
