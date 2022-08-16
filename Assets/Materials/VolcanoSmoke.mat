@@ -479,8 +479,8 @@ Material:
     - _InnerOutlineDistortionIntensity: {r: 0.01, g: 0.01, b: 0, a: 0}
     - _InnerOutlineNoiseScale: {r: 4, g: 4, b: 0, a: 0}
     - _InnerOutlineNoiseSpeed: {r: 0, g: 0.1, b: 0, a: 0}
-    - _MaskPosition: {r: 0.83, g: 0, b: 0, a: 0}
-    - _MaskScale: {r: 1, g: 1, b: 0, a: 0}
+    - _MaskPosition: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskScale: {r: 1, g: 1, b: 1, a: 1}
     - _MetalColor: {r: 5.992157, g: 3.639216, b: 0.3137255, a: 1}
     - _MetalHighlightColor: {r: 5.992157, g: 3.796078, b: 0.6588235, a: 1}
     - _MetalNoiseDistortion: {r: 0.5, g: 0.5, b: 0, a: 0}
@@ -503,8 +503,8 @@ Material:
     - _RecolorPurpleTint: {r: 1, g: 1, b: 1, a: 0.5019608}
     - _RecolorRedTint: {r: 1, g: 1, b: 1, a: 0.5019608}
     - _RecolorYellowTint: {r: 1, g: 1, b: 1, a: 0.5019608}
-    - _RectMax: {r: 1, g: 1, b: 0, a: 0}
-    - _RectMin: {r: 0, g: 0, b: 0, a: 0}
+    - _RectMax: {r: 1, g: 1, b: 1, a: 1}
+    - _RectMin: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShineColor: {r: 11.98431, g: 11.98431, b: 11.98431, a: 0}
     - _SineGlowColor: {r: 0, g: 2.007843, b: 2.996078, a: 0}
