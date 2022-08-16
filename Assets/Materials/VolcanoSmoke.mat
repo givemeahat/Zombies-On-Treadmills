@@ -8,9 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: VolcanoSmoke
-  m_Shader: {fileID: -6465566751694194690, guid: 65c89d0f8d2c63e41b6d6bd315effbe9, type: 3}
-  m_ShaderKeywords: PIXELSNAP_ON _ENABLEDIRECTIONALALPHAFADE_ON _SHADERSPACE_UI_ELEMENT
-    _SOURCEALPHADISSOLVEINVERT_ON _TIMESETTINGS_CUSTOM_VALUE _UBERFADING_NONE
+  m_Shader: {fileID: 4800000, guid: f0eeb02d08e6f3a40b4225bb5b1c8de5, type: 3}
+  m_ShaderKeywords: PIXELSNAP_ON _DIRECTIONALALPHAFADEINVERT_ON _ENABLEDIRECTIONALALPHAFADE_ON
+    _SHADERSPACE_OBJECT _SOURCEALPHADISSOLVEINVERT_ON _TIMESETTINGS_CUSTOM_VALUE
+    _UBERFADING_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -57,7 +58,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DirectionalAlphaFadeNoiseTexture:
-        m_Texture: {fileID: 2800000, guid: cd21d0de17dcd734691f79979be13330, type: 3}
+        m_Texture: {fileID: 2800000, guid: 014a164d3769fe44ca23e3f8e6c50eed, type: 3}
         m_Scale: {x: 0, y: 0}
         m_Offset: {x: 0, y: 0}
     - _DirectionalDistortionNoiseTexture:
@@ -193,11 +194,11 @@ Material:
     - _CustomFadeSmoothness: 1.36
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DirectionalAlphaFadeFade: 0
-    - _DirectionalAlphaFadeInvert: 0
-    - _DirectionalAlphaFadeNoiseFactor: -10000
-    - _DirectionalAlphaFadeRotation: 190
-    - _DirectionalAlphaFadeWidth: 0.5
+    - _DirectionalAlphaFadeFade: -0.04
+    - _DirectionalAlphaFadeInvert: 1
+    - _DirectionalAlphaFadeNoiseFactor: 0.51
+    - _DirectionalAlphaFadeRotation: 68
+    - _DirectionalAlphaFadeWidth: 0.55
     - _DirectionalDistortionFade: 0
     - _DirectionalDistortionInvert: 0
     - _DirectionalDistortionNoiseFactor: 0.2
@@ -342,7 +343,7 @@ Material:
     - _RectWidth: 100
     - _Saturation: 1
     - _ScreenWidthUnits: 10
-    - _ShaderSpace: 5
+    - _ShaderSpace: 2
     - _ShiftHueFade: 1
     - _ShiftHueSpeed: 0.5
     - _ShineContrast: 2
@@ -439,7 +440,7 @@ Material:
     - _ColorReplaceColor: {r: 1, g: 0, b: 0, a: 0}
     - _ColorReplaceTargetColor: {r: 0, g: 0, b: 0, a: 0}
     - _CustomFadeNoiseScale: {r: 1, g: 1, b: 0, a: 0}
-    - _DirectionalAlphaFadeNoiseScale: {r: 0, g: 0, b: 0, a: 0}
+    - _DirectionalAlphaFadeNoiseScale: {r: 0.3, g: 0.3, b: 0, a: 0}
     - _DirectionalDistortionDistortion: {r: 0, g: 0.1, b: 0, a: 0}
     - _DirectionalDistortionDistortionScale: {r: 1, g: 1, b: 0, a: 0}
     - _DirectionalDistortionNoiseScale: {r: 0.4, g: 0.4, b: 0, a: 0}
