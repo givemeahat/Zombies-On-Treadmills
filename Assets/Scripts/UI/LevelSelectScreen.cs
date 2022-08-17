@@ -16,7 +16,8 @@ public class LevelSelectScreen : MonoBehaviour
     public void ZoomOnPoint(Vector2 currentPos, Vector2 buttonPos)
     {
         transform.pivot = currentPos;
-        offset = new Vector2(buttonPos.x, -buttonPos.x);
+
+        offset = new Vector2(-buttonPos.x - 150, buttonPos.x + 150);
         StartCoroutine(ZoomOnPoint());
     }
     public void ZoomOut()
@@ -43,7 +44,7 @@ public class LevelSelectScreen : MonoBehaviour
             this.transform.localScale = scale;
             yield return null;
         }
-        transform.pivot = Vector2.zero;
+        transform.pivot = new Vector2 (.5f, .5f);
     }
     IEnumerator ZoomOnPoint()
     {
