@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class LevelSelectButton : MonoBehaviour
 {
-
+    public Vector2 anchorPoint;
     public void TriggerZoomIn()
     {
-        Vector2 pos = new Vector2(transform.localPosition.x, transform.localPosition.y);
-        GetComponentInParent<LevelSelectScreen>().ZoomOnPoint(pos);
+        GetComponentInParent<LevelSelectScreen>().ZoomOnPoint(anchorPoint);
     }
 }
