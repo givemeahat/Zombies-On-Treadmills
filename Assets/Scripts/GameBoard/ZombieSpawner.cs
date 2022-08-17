@@ -5,7 +5,8 @@ using UnityEngine;
 public class ZombieSpawner : MonoBehaviour
 {
     public GameManager gm;
-    public GameObject[] zombiePrefabs;
+    public GameObject[] specialZombiePrefabs;
+    public GameObject[] basicZombiePrefabs;
     public List<Zombie> zombiesSpawned;
     public int numberOfZombies;
 
@@ -59,7 +60,16 @@ public class ZombieSpawner : MonoBehaviour
         Debug.Log("Spawning");
         for (var x = 0; x < numberOfZombies; x++)
         {
-            GameObject zombie = Instantiate(zombiePrefabs[Random.Range(0, zombiePrefabs.Length)], new Vector3(this.transform.position.x, this.transform.position.y+10, this.transform.position.z), Quaternion.identity);
+            GameObject zombie;
+            int roll = Random.Range(0, 100);
+            if (roll < 97)
+            {
+                zombie = Instantiate(basicZombiePrefabs[Random.Range(0, basicZombiePrefabs.Length)], new Vector3(this.transform.position.x, this.transform.position.y + 10, this.transform.position.z), Quaternion.identity);
+            }
+            else
+            {
+                zombie = Instantiate(specialZombiePrefabs[Random.Range(0, specialZombiePrefabs.Length)], new Vector3(this.transform.position.x, this.transform.position.y + 10, this.transform.position.z), Quaternion.identity);
+            }
             zombie.GetComponent<Zombie>().gm = gm;
             zombie.GetComponent<Zombie>().spawner = this;
             zombie.GetComponent<Zombie>().randomness = randomness;

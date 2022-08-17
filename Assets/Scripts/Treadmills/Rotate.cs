@@ -117,6 +117,7 @@ public class Rotate : MonoBehaviour
         lr.enabled = true;
         lr.positionCount = 2;
         startPos = cam.ScreenToWorldPoint(Input.mousePosition) + camOffset;
+        //startPos = cam.ScreenToWorldPoint(Input.mousePosition);
         lr.SetPosition(0, startPos);
         //lr.useWorldSpace = true;
         tm.tmm.activeTreadmill = tm;
