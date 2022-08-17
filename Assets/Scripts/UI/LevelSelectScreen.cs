@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelSelectScreen : MonoBehaviour
 {
     RectTransform transform;
+    Vector2 offset;
 
     // Start is called before the first frame update
     void Start()
@@ -12,9 +13,10 @@ public class LevelSelectScreen : MonoBehaviour
         transform = GetComponent<RectTransform>();
     }
 
-    public void ZoomOnPoint(Vector2 currentPos)
+    public void ZoomOnPoint(Vector2 currentPos, Vector2 buttonPos)
     {
         transform.pivot = currentPos;
+        offset = new Vector2(buttonPos.x, -buttonPos.x);
         StartCoroutine(ZoomOnPoint());
     }
     public void ZoomOut()
@@ -25,6 +27,8 @@ public class LevelSelectScreen : MonoBehaviour
     {
         Vector3 startScale = this.transform.localScale;
         Vector3 endScale = new Vector3(1, 1, 1);
+        Vector3 startPos = offset;
+        Vector2 endPos = Vector2.zero;
         float time = 0;
         float waitTime = .3f;
 
@@ -32,6 +36,10 @@ public class LevelSelectScreen : MonoBehaviour
         {
             time += Time.deltaTime;
             Vector3 scale = Vector3.Lerp(startScale, endScale, time / waitTime);
+            Vector2 position = Vector2.Lerp(startPos, endPos, time / waitTime);
+            this.transform.localScale = scale;
+            this.GetComponent<RectTransform>().SetLeft(position.x);
+            this.GetComponent<RectTransform>().SetRight(position.y);
             this.transform.localScale = scale;
             yield return null;
         }
@@ -41,6 +49,8 @@ public class LevelSelectScreen : MonoBehaviour
     {
         Vector3 startScale = this.transform.localScale;
         Vector3 endScale = new Vector3(2, 2, 2);
+        Vector3 startPos = Vector2.zero;
+        Vector2 endPos = offset;
         float time = 0;
         float waitTime = .3f;
 
@@ -48,7 +58,10 @@ public class LevelSelectScreen : MonoBehaviour
         {
             time += Time.deltaTime;
             Vector3 scale = Vector3.Lerp(startScale, endScale, time / waitTime);
+            Vector2 position = Vector2.Lerp(startPos, endPos, time / waitTime);
             this.transform.localScale = scale;
+            this.GetComponent<RectTransform>().SetLeft(position.x);
+            this.GetComponent<RectTransform>().SetRight(position.y);
             yield return null;
         }
     }
