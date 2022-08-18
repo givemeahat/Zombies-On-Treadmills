@@ -59,14 +59,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 9e1b17669cf750640a56aee4b547b09d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -273,7 +273,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Here's some tutorial text! :)
+  m_text: 'Be sure to account for the Deviance Rate when you''re planning your treadmill
+    layout!
+
+
+    Good Luck!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75bb16f00aab8e1458b4fa17ae2cae4e, type: 2}
   m_sharedMaterial: {fileID: 2937740554737369448, guid: 75bb16f00aab8e1458b4fa17ae2cae4e, type: 2}

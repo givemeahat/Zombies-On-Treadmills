@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        zombieNoncomplianceRate.text = "Zombie Noncompliance: " + randomness * 100 + "%";
+        zombieNoncomplianceRate.text = "Zombie Deviance: " + randomness * 100 + "%";
         if (this.GetComponent<SpawnManager>().isFrenzy)
         {
             numberOfZombiesTotal = this.GetComponent<SpawnManager>().numberOfSpawns * this.GetComponent<SpawnManager>().zombiesToSpawn;
