@@ -64,7 +64,6 @@ public class Rotate : MonoBehaviour
                 //moving right
                 if (endPos.x > startPos.x)
                 {
-                    Debug.Log("moving right");
                     tm.currentDirection = 90;
                     tm.Rotate();
                     return;
@@ -72,7 +71,6 @@ public class Rotate : MonoBehaviour
                 //moving left
                 if (endPos.x < startPos.x)
                 {
-                    Debug.Log("moving left");
                     tm.currentDirection = 270;
                     tm.Rotate();
                     return;
@@ -83,7 +81,6 @@ public class Rotate : MonoBehaviour
                 //moving up
                 if (endPos.y > startPos.y)
                 {
-                    Debug.Log("moving up");
                     tm.currentDirection = 180;
                     tm.Rotate();
                     return;
@@ -91,7 +88,6 @@ public class Rotate : MonoBehaviour
                 //moving down
                 if (endPos.y < startPos.y)
                 {
-                    Debug.Log("moving down");
                     tm.currentDirection = 0;
                     tm.Rotate();
                     return;
@@ -130,6 +126,7 @@ public class Rotate : MonoBehaviour
     }
     public void OnMouseOver()
     {
+        if (EventSystem.current.IsPointerOverGameObject()) return;
         isMouseOver = true;
         if (Input.GetMouseButton(0))
         {

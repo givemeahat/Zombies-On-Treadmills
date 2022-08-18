@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 public class DataManager : MonoBehaviour
 {
     public Vector2[] scores;
+    public string[] levelNames;
+    public int[] levelBuildIndex;
+    public Sprite[] levelScreenshot;
+
     public GameObject levelSelectScreen;
     public int currentLevel;
 
