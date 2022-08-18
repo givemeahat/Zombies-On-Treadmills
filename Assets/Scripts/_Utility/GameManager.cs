@@ -93,7 +93,7 @@ public class GameManager : MonoBehaviour
 
     public void OpenLevelSelect()
     {
-        dataManager.levelSelectScreen.SetActive(true);
+        dataManager.OpenLevelSelect();
     }
 
     public void EndGame()

@@ -25,11 +25,13 @@ public class DataManager : MonoBehaviour
     {
         //Open level select
         levelSelectScreen.SetActive(true);
+        levelSelectScreen.GetComponent<Animator>().Play("LevelSelect_Open");
     }
     public void CloseLevelSelect()
     {
         //Close level select
-        levelSelectScreen.SetActive(false);
+        //levelSelectScreen.SetActive(false);
+        StartCoroutine(CloseLvlSelect());
     }
     public void GoToScene(int sceneNumber)
     {
@@ -53,5 +55,17 @@ public class DataManager : MonoBehaviour
     public void WipeData()
     {
         SaveSystem.WipePlayer();
+    }
+
+    IEnumerator CloseLvlSelect()
+    {
+        float time = 0;
+        float waitTime = .3f;
+        levelSelectScreen.GetComponent<Animator>().Play("LevelSelect_Close");
+        while (time < waitTime)
+        {
+            yield return null;
+        }
+        levelSelectScreen.gameObject.SetActive(false);
     }
 }

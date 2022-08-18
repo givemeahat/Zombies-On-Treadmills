@@ -18,6 +18,7 @@ public class LevelSelectScreen : MonoBehaviour
 
     public void ZoomOnPoint(Vector2 currentPos, Vector2 buttonPos, int levelNumber)
     {
+        if (!detailsPanel.isActiveAndEnabled) detailsPanel.gameObject.SetActive(true);
         if (isZoomedIn)
         {
             detailsPanel.baseLevelNumber = levelNumber;

@@ -13,6 +13,7 @@ public class LevelSelectButton : MonoBehaviour
 
     private void Start()
     {
+        if (!isActive) GetComponent<Button>().interactable = false;
         lvlSelect = GetComponentInParent<LevelSelectScreen>();
     }
 
@@ -22,6 +23,7 @@ public class LevelSelectButton : MonoBehaviour
     }
     public void TriggerZoomIn()
     {
+        if (lvlSelect.GetComponent<RectTransform>().pivot == anchorPoint) return;
         lvlSelect.ZoomOnPoint(anchorPoint, this.GetComponent<RectTransform>().anchoredPosition, levelNumber);
     }
 
