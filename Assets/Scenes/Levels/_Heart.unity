@@ -10537,7 +10537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727512, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: orthographic size
-      value: 2
+      value: 2.25
       objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727514, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: maxFov

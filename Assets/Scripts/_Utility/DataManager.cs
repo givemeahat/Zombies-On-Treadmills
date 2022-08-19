@@ -15,6 +15,8 @@ public class DataManager : MonoBehaviour
     public GameObject levelSelectScreen;
     public int currentLevel;
 
+    public GameObject loadingScreen;
+
     void Start()
     {
         DontDestroyOnLoad(this);
@@ -48,6 +50,11 @@ public class DataManager : MonoBehaviour
             levelButtons[currentLevel + 1].interactable = true;
         }
     }
+    public void LoadLevel(int index)
+    {
+        StartCoroutine(CloseLvlSelect());
+        StartCoroutine(TransitionToScene(index));
+    }
 
     public void SavePlayer()
     {
@@ -65,7 +72,6 @@ public class DataManager : MonoBehaviour
     {
         SaveSystem.WipePlayer();
     }
-
     IEnumerator CloseLvlSelect()
     {
         float time = 0;
@@ -76,5 +82,36 @@ public class DataManager : MonoBehaviour
             yield return null;
         }
         levelSelectScreen.gameObject.SetActive(false);
+    }
+    IEnumerator TransitionToScene(int index)
+    {
+        loadingScreen.GetComponent<Image>().material.SetVector("_HalftonePosition", new Vector4(0, .5f, 0, 0));
+        Time.timeScale = 1f;
+        loadingScreen.SetActive(true);
+        float startValue = 2f;
+        float endValue = 0f;
+        float time = 0;
+        float waitTime = 1f;
+        while (time < waitTime)
+        {
+            time += Time.deltaTime;
+            float fade = Mathf.Lerp(startValue, endValue, time/waitTime);
+            loadingScreen.GetComponent<Image>().material.SetFloat("_HalftoneFade", fade);
+            yield return null;
+        }
+        loadingScreen.GetComponent<Image>().material.SetVector("_HalftonePosition", new Vector4 (1, .5f, 0, 0));
+        SceneManager.LoadScene(index);
+        startValue = 0f;
+        endValue = 2f;
+        time = 0f;
+        waitTime = 1f;
+        while (time < waitTime)
+        {
+            time += Time.deltaTime;
+            float fade = Mathf.Lerp(startValue, endValue, time / waitTime);
+            loadingScreen.GetComponent<Image>().material.SetFloat("_HalftoneFade", fade);
+            yield return null;
+        }
+        loadingScreen.SetActive(false);
     }
 }

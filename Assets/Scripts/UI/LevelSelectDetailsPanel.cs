@@ -25,6 +25,6 @@ public class LevelSelectDetailsPanel : MonoBehaviour
     }
     public void LoadLevel()
     {
-        SceneManager.LoadScene(buildIndexToLoad);
+        data.LoadLevel(buildIndexToLoad);
     }
 }
