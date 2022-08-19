@@ -5077,6 +5077,7 @@ GameObject:
   - component: {fileID: 8316453508570049571}
   - component: {fileID: 8316453508570049570}
   - component: {fileID: 8316453508570049582}
+  - component: {fileID: 8366815417431913851}
   m_Layer: 0
   m_Name: GM
   m_TagString: GM
@@ -5150,6 +5151,18 @@ MonoBehaviour:
   zombiesToSpawn: 1
   spawnerPrefab: {fileID: 3319871645084280497, guid: 4c0ff0eaa99decd448b1e2c427242f87, type: 3}
   treadmills: []
+--- !u!114 &8366815417431913851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8316453508570049581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f19e3c699377d747ad9867a0f4b3c67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8394631296651350951
 GameObject:
   m_ObjectHideFlags: 0
@@ -6428,11 +6441,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
---- !u!224 &1544098316508250403 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6480927037093651398, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
-  m_PrefabInstance: {fileID: 5520672009521062629}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1544098316508250429 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6480927037093651416, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
@@ -6444,6 +6452,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &1544098316508250403 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6480927037093651398, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
+  m_PrefabInstance: {fileID: 5520672009521062629}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5520672009886026057
 PrefabInstance:
   m_ObjectHideFlags: 0
