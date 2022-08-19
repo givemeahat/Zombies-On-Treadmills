@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class DataManager : MonoBehaviour
@@ -9,6 +10,7 @@ public class DataManager : MonoBehaviour
     public string[] levelNames;
     public int[] levelBuildIndex;
     public Sprite[] levelScreenshot;
+    public Button[] levelButtons;
 
     public GameObject levelSelectScreen;
     public int currentLevel;
@@ -38,6 +40,13 @@ public class DataManager : MonoBehaviour
         SavePlayer();
         SceneManager.LoadScene(sceneNumber);
         //Save game here
+    }
+    public void UnlockLevel()
+    {
+        if (!levelButtons[currentLevel + 1].interactable)
+        {
+            levelButtons[currentLevel + 1].interactable = true;
+        }
     }
 
     public void SavePlayer()

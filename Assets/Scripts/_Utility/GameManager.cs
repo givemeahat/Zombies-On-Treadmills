@@ -46,6 +46,7 @@ public class GameManager : MonoBehaviour
             Instantiate(lvlMgrPrefab);
             dataManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<DataManager>();
         }
+        dataManager.currentLevel = level;
     }
 
     private void Start()
@@ -99,6 +100,7 @@ public class GameManager : MonoBehaviour
     public void EndGame()
     {
         currentGameState = GameState.END;
+        dataManager.UnlockLevel();
         levelEndScreen.SetActive(true);
         Vector2 finalRatio = new Vector2(peopleKilled, zombiesKilled);
         dataManager.SaveScore(level, finalRatio);

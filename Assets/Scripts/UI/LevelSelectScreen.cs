@@ -91,7 +91,6 @@ public class LevelSelectScreen : MonoBehaviour
     }
     IEnumerator GoToOtherPoint(Vector2 currentPos)
     {
-
         Vector3 startScale = this.transform.localScale;
         Vector3 endScale = new Vector3(1, 1, 1);
         Vector3 startPos = offset;

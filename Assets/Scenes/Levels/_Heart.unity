@@ -10527,10 +10527,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1544098315412803005, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -450.79996
-      objectReference: {fileID: 0}
     - target: {fileID: 1544098315729571535, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 4
