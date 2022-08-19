@@ -38,6 +38,13 @@ public class LevelSelectScreen : MonoBehaviour
         offset = new Vector2(-buttonPos.x - 150, buttonPos.x + 150);
         if (!isZoomedIn) StartCoroutine(ZoomOnPoint());
     }
+    public void ResetScreen()
+    {
+        GetComponent<RectTransform>().SetLeft(0);
+        GetComponent<RectTransform>().SetRight(0);
+        transform.localScale = new Vector3(1, 1, 1);
+        transform.pivot = new Vector2(.5f, .5f);
+    }
     public void ZoomOut()
     {
         Time.timeScale = 1f;

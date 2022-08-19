@@ -29,6 +29,9 @@ public class DataManager : MonoBehaviour
     {
         //Open level select
         levelSelectScreen.SetActive(true);
+        levelSelectScreen.GetComponentInChildren<LevelSelectScreen>().ResetScreen();
+        if (levelSelectScreen.GetComponentInChildren<LevelSelectScreen>().detailsPanel.gameObject.activeInHierarchy)
+            levelSelectScreen.GetComponentInChildren<LevelSelectScreen>().detailsPanel.gameObject.SetActive(false);
         levelSelectScreen.GetComponent<Animator>().Play("LevelSelect_Open");
     }
     public void CloseLevelSelect()
@@ -85,8 +88,9 @@ public class DataManager : MonoBehaviour
     }
     IEnumerator TransitionToScene(int index)
     {
-        loadingScreen.GetComponent<Image>().material.SetVector("_HalftonePosition", new Vector4(0, .5f, 0, 0));
         Time.timeScale = 1f;
+        loadingScreen.GetComponent<Image>().material.SetVector("_HalftonePosition", new Vector4(0, .5f, 0, 0));
+        yield return new WaitForSeconds(.2f);
         loadingScreen.SetActive(true);
         float startValue = 2f;
         float endValue = 0f;
