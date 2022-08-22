@@ -64,6 +64,12 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        if (dataManager == null)
+        {
+            Instantiate(lvlMgrPrefab);
+            dataManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<DataManager>();
+            dataManager.currentLevel = level;
+        }
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.E))
         {
             if (!menu.activeInHierarchy)

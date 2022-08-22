@@ -383,8 +383,8 @@ MonoBehaviour:
   - Oh, and maybe the fact that it rains zombies with an insatiable hunger for human
     flesh.
   - "The residents of Willow Springs don\u2019t have a hero in a cape, or a strong
-    local government to take care of their needs. And yet\u2026 they needn\u2019t
-    worry about things such as these. Why?"
+    local government to take care of their needs. And yet\u2026 they need not worry
+    about things such as these. Why?"
   - "Treadmills. That\u2019s why."
   tutorialText: {fileID: 792551358}
   lineTracker: 0
@@ -591,7 +591,7 @@ MonoBehaviour:
   DurationInSeconds: 1
   Amplitude: 1
   CharacterDurationRatio: 0
-  CharactersPerDuration: 25
+  CharactersPerDuration: 20
   Gradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}

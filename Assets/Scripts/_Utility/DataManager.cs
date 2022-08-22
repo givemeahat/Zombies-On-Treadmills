@@ -16,6 +16,8 @@ public class DataManager : MonoBehaviour
     public int currentLevel;
 
     public GameObject loadingScreen;
+    public Button closeButton;
+    bool destroy;
 
     void Start()
     {
@@ -55,6 +57,7 @@ public class DataManager : MonoBehaviour
     }
     public void LoadLevel(int index)
     {
+        if (!closeButton.isActiveAndEnabled) destroy = true;
         StartCoroutine(CloseLvlSelect());
         StartCoroutine(TransitionToScene(index));
     }
@@ -117,5 +120,7 @@ public class DataManager : MonoBehaviour
             yield return null;
         }
         loadingScreen.SetActive(false);
+        if (destroy)
+            Destroy(this.gameObject);
     }
 }

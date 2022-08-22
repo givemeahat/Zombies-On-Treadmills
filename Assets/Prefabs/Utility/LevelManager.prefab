@@ -932,6 +932,7 @@ MonoBehaviour:
   levelSelectScreen: {fileID: 6333739807379228119}
   currentLevel: 0
   loadingScreen: {fileID: 8265001509663587073}
+  closeButton: {fileID: 5806909213244557805}
 --- !u!1 &6333739808724144189
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,7 +992,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!114 &6333739808724144130
 MonoBehaviour:
@@ -1419,16 +1420,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
---- !u!224 &5806909213244557804 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6480927037093651398, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
-  m_PrefabInstance: {fileID: 677415591880141354}
-  m_PrefabAsset: {fileID: 0}
 --- !u!82 &4812705384775816842 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 5452878282158488736, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
   m_PrefabInstance: {fileID: 677415591880141354}
   m_PrefabAsset: {fileID: 0}
+--- !u!224 &5806909213244557804 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6480927037093651398, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
+  m_PrefabInstance: {fileID: 677415591880141354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5806909213244557805 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6480927037093651399, guid: d2542bd8a57936749b8ac989a3f0aaea, type: 3}
+  m_PrefabInstance: {fileID: 677415591880141354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1298306101446747984
 PrefabInstance:
   m_ObjectHideFlags: 0

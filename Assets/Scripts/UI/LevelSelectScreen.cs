@@ -71,7 +71,7 @@ public class LevelSelectScreen : MonoBehaviour
             yield return null;
         }
         transform.pivot = new Vector2 (.5f, .5f);
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
         isZoomedIn = false;
     }
     IEnumerator ZoomOnPoint()
@@ -93,7 +93,7 @@ public class LevelSelectScreen : MonoBehaviour
             this.GetComponent<RectTransform>().SetRight(position.y);
             yield return null;
         }
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
         isZoomedIn = true;
     }
     IEnumerator GoToOtherPoint(Vector2 currentPos)
@@ -135,7 +135,7 @@ public class LevelSelectScreen : MonoBehaviour
             this.GetComponent<RectTransform>().SetRight(position.y);
             yield return null;
         }
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
         isZoomedIn = true;
     }
 }
