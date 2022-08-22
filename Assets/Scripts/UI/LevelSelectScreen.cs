@@ -42,7 +42,7 @@ public class LevelSelectScreen : MonoBehaviour
     {
         GetComponent<RectTransform>().SetLeft(0);
         GetComponent<RectTransform>().SetRight(0);
-        transform.localScale = new Vector3(1, 1, 1);
+        this.transform.localScale = new Vector3(1, 1, 1);
         transform.pivot = new Vector2(.5f, .5f);
     }
     public void ZoomOut()
