@@ -28,8 +28,12 @@ public class TutorialManager : MonoBehaviour
     public Button forwardButton;
     public Button backwardButton;
 
+    DataManager dm;
+
     private void Start()
     {
+        dm = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<DataManager>();
+        if (dm.hasFinishedTutorial) this.gameObject.SetActive(false);
         foreach (GameObject card in cards)
         {
             card.GetComponent<Animator>().playbackTime = 0;
@@ -38,6 +42,18 @@ public class TutorialManager : MonoBehaviour
         cards[0].GetComponent<Animator>().playbackTime = 1;
     }
 
+    private void Update()
+    {
+        if (dm == null)
+        {
+            dm = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<DataManager>();
+        }   
+    }
+    public void FinishTutorial()
+    {
+        dm.hasFinishedTutorial = true;
+        this.gameObject.SetActive(false);
+    }
     public void MoveForwards()
     {
         if (!hasFinishedTransition)
