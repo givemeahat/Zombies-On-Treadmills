@@ -15,24 +15,27 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelSelect_Intro.unity
     guid: 32528932abf1c234db21d1ac03c9d1d5
   - enabled: 1
-    path: Assets/Scenes/Levels/_Heart.unity
+    path: Assets/Scenes/Levels/00_Humble Beginnings.unity
+    guid: d19bd501fc3d94f1480e5b3e423c2aaa
+  - enabled: 1
+    path: Assets/Scenes/Levels/01_Heart.unity
     guid: 56091e32c843e4f42b19695675b3f27a
   - enabled: 1
-    path: Assets/Scenes/Levels/_Castle Court.unity
+    path: Assets/Scenes/Levels/02_Castle Court.unity
     guid: 8a9e7ea99e8370947bc8bab6b0dce628
   - enabled: 1
-    path: Assets/Scenes/Levels/_Octo-goner.unity
-    guid: b7d70495d31c0a545a1aa023bcfef580
-  - enabled: 1
-    path: Assets/Scenes/Levels/_Imposter.unity
+    path: Assets/Scenes/Levels/03_Imposter.unity
     guid: aa725a3a7c77587478bb8ee4519a6f47
   - enabled: 1
-    path: Assets/Scenes/Levels/_The Boombox.unity
-    guid: 1e03d828389f13441aa5e95fa1dd1287
+    path: Assets/Scenes/Levels/04_Octo-goner.unity
+    guid: b7d70495d31c0a545a1aa023bcfef580
   - enabled: 1
-    path: Assets/Scenes/Levels/_We All Follow The Same Path.unity
+    path: Assets/Scenes/Levels/05_We All Follow The Same Path.unity
     guid: 3e4d2a90e9eba9f45b5486711e0d56fe
   - enabled: 1
-    path: Assets/Scenes/Levels/_The Not So Good Dinosaur.unity
+    path: Assets/Scenes/Levels/07_The Not So Good Dinosaur.unity
     guid: 2328ef9c694851445b6e5b3a8dda71e1
+  - enabled: 1
+    path: Assets/Scenes/Levels/08_The Boombox.unity
+    guid: 1e03d828389f13441aa5e95fa1dd1287
   m_configObjects: {}

@@ -97,7 +97,11 @@ public class GameManager : MonoBehaviour
         int levelNum = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(levelNum);
     }
-
+    public void NextLevel()
+    {
+        int levelNum = SceneManager.GetActiveScene().buildIndex + 1;
+        SceneManager.LoadScene(levelNum);
+    }
     public void OpenLevelSelect()
     {
         dataManager.OpenLevelSelect();
