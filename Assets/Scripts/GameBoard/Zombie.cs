@@ -19,9 +19,13 @@ public class Zombie : MonoBehaviour
 
     public float randomness;
     bool isCompliant;
+    public Material zombieMat;
 
     public void Spawn()
     {
+        Renderer rend = this.GetComponent<SpriteRenderer>();
+        rend.material = new Material(zombieMat);
+
         this.GetComponent<Animator>().Play("Zombie_Fall In");
         nextWaypoint = startTreadmill.waypoint;
         StartCoroutine(MoveToWaypoint(fallSpeed));
@@ -175,7 +179,22 @@ public class Zombie : MonoBehaviour
 
     IEnumerator DestroyZombie()
     {
-        yield return new WaitForSeconds(speed + .1f);
+        yield return new WaitForSeconds(speed);
+        float startBurnPerc = 0f;
+        float endBurnPerc = 0.019f;
+        float startDisPerc = 0f;
+        float endDisPerc = 1f;
+        float time = 0f;
+        float waitTime = .5f;
+        while (time < waitTime)
+        {
+            time += Time.deltaTime;
+            float burnPerc = Mathf.Lerp(startBurnPerc, endBurnPerc, time / waitTime);
+            float disPerc = Mathf.Lerp(startDisPerc, endDisPerc, time / waitTime);
+            zombieRend.material.SetFloat("_BurnFade", burnPerc);
+            zombieRend.material.SetFloat("_SourceAlphaDissolveFade", disPerc);
+            yield return null;
+        }
         gm.zombiesInScene.Remove(this.gameObject);
         gm.CheckZombies();
         Destroy(this.gameObject);
@@ -205,7 +224,6 @@ public class Zombie : MonoBehaviour
         Vector3 startPos = this.transform.position;
         Vector3 endPos = nextWaypoint.position;
         float time = 0;
-       
         while (time < speed)
         {
             time += Time.deltaTime;

@@ -27,8 +27,6 @@ public class CameraDrag : MonoBehaviour
     {
         float xMove = Input.GetAxis("Horizontal");
         float yMove = Input.GetAxis("Vertical");
-        if (xMove != 0) Debug.Log("X");
-        if (yMove != 0) Debug.Log("Y");
         rb.velocity = new Vector3(xMove, yMove, rb.velocity.z) * speed;
 
         float fov = GetComponent<Camera>().orthographicSize;
