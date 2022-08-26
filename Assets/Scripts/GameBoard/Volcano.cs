@@ -21,9 +21,8 @@ public class Volcano : MonoBehaviour
         rend.material = new Material(smokeMat);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Burn()
     {
-        
+        this.GetComponent<Animator>().SetTrigger("Burning");
     }
 }

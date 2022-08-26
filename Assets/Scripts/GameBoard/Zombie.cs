@@ -173,6 +173,7 @@ public class Zombie : MonoBehaviour
     {
         if (coll.gameObject.tag == "House" || coll.gameObject.tag == "Volcano")
         {
+            if (coll.gameObject.tag == "Volcano") coll.gameObject.GetComponent<Volcano>().Burn();
             StartCoroutine(DestroyZombie());
         }
     }
