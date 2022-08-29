@@ -132,6 +132,7 @@ public class Rotate : MonoBehaviour
         {
             tm.GetComponent<SpriteRenderer>().material.SetFloat("_OutlineEnabled", 1);
 
+            if (tm.tmm.activeTreadmill == null) return;
             if (tm.currentDirection != tm.tmm.activeTreadmill.currentDirection)
             {
                 tm.currentDirection = tm.tmm.activeTreadmill.currentDirection;

@@ -159,6 +159,7 @@ public class Zombie : MonoBehaviour
             House house = hit.collider.gameObject.GetComponent<House>();
             nextWaypoint = house.waypoint;
             StartCoroutine(MoveToFinalWaypoint(house.gameObject));
+            StartCoroutine(DestroyZombie());
         }
         if (hit.collider.gameObject.tag == "Volcano")
         {
@@ -166,6 +167,7 @@ public class Zombie : MonoBehaviour
             currentTreadmill = null;
             nextWaypoint = volcano.waypoint;
             StartCoroutine(MoveToFinalWaypoint(volcano.gameObject));
+            StartCoroutine(BeginScaleZombie());
         }
     }
 
@@ -174,26 +176,70 @@ public class Zombie : MonoBehaviour
         if (coll.gameObject.tag == "House" || coll.gameObject.tag == "Volcano")
         {
             if (coll.gameObject.tag == "Volcano") coll.gameObject.GetComponent<Volcano>().Burn();
-            StartCoroutine(DestroyZombie());
+            if (coll.gameObject.tag == "House") coll.gameObject.GetComponent<House>().Flash();
         }
     }
-
-    IEnumerator DestroyZombie()
+    IEnumerator BeginScaleZombie()
     {
-        yield return new WaitForSeconds(speed);
-        float startBurnPerc = 0f;
-        float endBurnPerc = 0.019f;
-        float startDisPerc = 0f;
-        float endDisPerc = 1f;
+        float yVal = this.transform.localPosition.y;
+        float jumpHeight = 0f;
+        if (currentDirection == 90 || currentDirection == 270) jumpHeight = yVal + .25f;
+        if (currentDirection == 0 || currentDirection == 180) jumpHeight = yVal + 1;
+        float startScale = 1.25f;
+        float endScale = 0f;
         float time = 0f;
         float waitTime = .5f;
         while (time < waitTime)
         {
             time += Time.deltaTime;
-            float burnPerc = Mathf.Lerp(startBurnPerc, endBurnPerc, time / waitTime);
-            float disPerc = Mathf.Lerp(startDisPerc, endDisPerc, time / waitTime);
+
+            float newYVal = Mathf.Lerp(yVal, jumpHeight, time / waitTime);
+            this.transform.localPosition = new Vector3(this.transform.position.x, newYVal, this.transform.position.z);
+
+            yield return null;
+        }
+        time = 0f;
+        waitTime = .5f;
+
+        float startBurnPerc = 0f;
+        float endBurnPerc = 0.019f;
+        float startDisPerc = 0f;
+        float endDisPerc = 1f;
+        zombieRend.material.SetFloat("_SourceAlphaDissolveNoiseFactor", -0.65f);
+        //StartCoroutine(DestroyZombie());
+        while (time < waitTime)
+        {
+            time += Time.deltaTime;
+
+            float newYVal = Mathf.Lerp(jumpHeight, yVal, time / waitTime);
+            //float newScale = Mathf.Lerp(1.25f, .0f, time / (waitTime/2));
+            float burnPerc = Mathf.Lerp(startBurnPerc, endBurnPerc, time / (waitTime / 1.5f));
+            float disPerc = Mathf.Lerp(startDisPerc, endDisPerc, time / (waitTime));
+
+            this.transform.localPosition = new Vector3(this.transform.position.x, newYVal, this.transform.position.z);
+            //this.transform.localScale = new Vector3(newScale, newScale, newScale);
             zombieRend.material.SetFloat("_BurnFade", burnPerc);
             zombieRend.material.SetFloat("_SourceAlphaDissolveFade", disPerc);
+
+
+            yield return null;
+        }
+        gm.zombiesInScene.Remove(this.gameObject);
+        gm.CheckZombies();
+        Destroy(this.gameObject);
+    }
+    IEnumerator DestroyZombie()
+    {
+        float startScale = 1.25f;
+        float endScale = 0f;
+        float time = 0f;
+        float waitTime = .5f;
+        while (time < waitTime)
+        {
+            time += Time.deltaTime;
+
+            float newScale = Mathf.Lerp(startScale, endScale, time / waitTime);
+            this.transform.localScale = new Vector3(newScale, newScale, newScale);
             yield return null;
         }
         gm.zombiesInScene.Remove(this.gameObject);

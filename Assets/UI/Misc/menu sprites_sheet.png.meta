@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: -8783486311309059521
     second: menu sprites_sheet_5
+  - first:
+      213: 8068038353145048842
+    second: menu sprites_sheet_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -242,6 +245,27 @@ TextureImporter:
       bones: []
       spriteID: f3adaec9cb9ca1680800000000000000
       internalID: -8783486311309059521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu sprites_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f2079c22e67ff60800000000000000
+      internalID: 8068038353145048842
       vertices: []
       indices: 
       edges: []

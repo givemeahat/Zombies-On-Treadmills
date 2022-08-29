@@ -8,14 +8,8 @@ public class House : MonoBehaviour
     public Transform waypoint;
 
     // Start is called before the first frame update
-    void Start()
+    public void Flash()
     {
-        //gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        GetComponent<Animator>().SetTrigger("Flash");
     }
 }
