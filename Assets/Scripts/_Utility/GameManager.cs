@@ -100,7 +100,7 @@ public class GameManager : MonoBehaviour
     public void NextLevel()
     {
         int levelNum = SceneManager.GetActiveScene().buildIndex + 1;
-        SceneManager.LoadScene(levelNum);
+        dataManager.LoadLevel(levelNum);
     }
     public void OpenLevelSelect()
     {
@@ -160,7 +160,7 @@ public class GameManager : MonoBehaviour
     }
     public void PauseGame()
     {
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
     }
     public void NormalTimeMode()
     {

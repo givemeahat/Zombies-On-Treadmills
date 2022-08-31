@@ -167,24 +167,53 @@ public class Zombie : MonoBehaviour
             currentTreadmill = null;
             nextWaypoint = volcano.waypoint;
             StartCoroutine(MoveToFinalWaypoint(volcano.gameObject));
-            StartCoroutine(BeginScaleZombie());
+            if (currentDirection == 0 || currentDirection == 180) StartCoroutine(BeginScaleZombieVertical());
+            else StartCoroutine(BeginScaleZombieHorizontal());
         }
     }
 
     public void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.gameObject.tag == "House" || coll.gameObject.tag == "Volcano")
+        if (coll.gameObject.tag == "Volcano")
         {
             if (coll.gameObject.tag == "Volcano") coll.gameObject.GetComponent<Volcano>().Burn();
-            if (coll.gameObject.tag == "House") coll.gameObject.GetComponent<House>().Flash();
+            //if (coll.gameObject.tag == "House") coll.gameObject.GetComponent<House>().Flash();
         }
     }
-    IEnumerator BeginScaleZombie()
+    IEnumerator BeginScaleZombieVertical()
+    {
+        float time = 0f;
+        float waitTime = .5f;
+
+        float startBurnPerc = 0f;
+        float endBurnPerc = 0.019f;
+        float startDisPerc = 0f;
+        float endDisPerc = 1f;
+
+        yield return new WaitForSeconds(.5f);
+        zombieRend.material.SetFloat("_SourceAlphaDissolveNoiseFactor", -0.65f);
+        //StartCoroutine(DestroyZombie());
+        while (time < waitTime)
+        {
+            time += Time.deltaTime;
+            float burnPerc = Mathf.Lerp(startBurnPerc, endBurnPerc, time / (waitTime / 1.5f));
+            float disPerc = Mathf.Lerp(startDisPerc, endDisPerc, time / (waitTime));
+
+            zombieRend.material.SetFloat("_BurnFade", burnPerc);
+            zombieRend.material.SetFloat("_SourceAlphaDissolveFade", disPerc);
+
+
+            yield return null;
+        }
+        gm.zombiesInScene.Remove(this.gameObject);
+        gm.CheckZombies();
+        Destroy(this.gameObject);
+    }
+
+    IEnumerator BeginScaleZombieHorizontal()
     {
         float yVal = this.transform.localPosition.y;
-        float jumpHeight = 0f;
-        if (currentDirection == 90 || currentDirection == 270) jumpHeight = yVal + .25f;
-        if (currentDirection == 0 || currentDirection == 180) jumpHeight = yVal + 1;
+        float jumpHeight = yVal + .25f;
         float startScale = 1.25f;
         float endScale = 0f;
         float time = 0f;

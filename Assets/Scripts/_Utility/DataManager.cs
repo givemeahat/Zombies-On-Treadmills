@@ -59,7 +59,7 @@ public class DataManager : MonoBehaviour
     public void LoadLevel(int index)
     {
         if (!closeButton.isActiveAndEnabled) destroy = true;
-        StartCoroutine(CloseLvlSelect());
+        if (levelSelectScreen.activeInHierarchy) StartCoroutine(CloseLvlSelect());
         StartCoroutine(TransitionToScene(index));
     }
 
