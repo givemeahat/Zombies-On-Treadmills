@@ -10598,6 +10598,14 @@ PrefabInstance:
       propertyPath: boxModifier
       value: 1.125
       objectReference: {fileID: 0}
+    - target: {fileID: 5586880736611658174, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -9.449997
+      objectReference: {fileID: 0}
+    - target: {fileID: 5794493277873627215, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -14.600006
+      objectReference: {fileID: 0}
     - target: {fileID: 6037915067497200176, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 70.59703
@@ -10614,9 +10622,37 @@ PrefabInstance:
       propertyPath: enableShadowEffect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6267812380672756829, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -17.100006
+      objectReference: {fileID: 0}
+    - target: {fileID: 6267812380672756829, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 224.10004
+      objectReference: {fileID: 0}
     - target: {fileID: 6423901197044181338, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -15.349991
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761359232203104817, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -72.95435
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761359233063292759, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 42.460022
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761359233204659015, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 42.450012
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545418151895725675, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 42.460022
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545418152037079675, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 42.450012
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049570, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: randomness

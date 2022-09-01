@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: -4781267612385873293
     second: Guidebook Page_Template_1
+  - first:
+      213: -3197188292174088565
+    second: Guidebook Page_Template_2
+  - first:
+      213: -2243505817723502871
+    second: Guidebook Page_Template_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -146,6 +152,48 @@ TextureImporter:
       bones: []
       spriteID: 372f8a3507685adb0800000000000000
       internalID: -4781267612385873293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guidebook Page_Template_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86fcec003e41a3d0800000000000000
+      internalID: -3197188292174088565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guidebook Page_Template_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee711b68577dd0e0800000000000000
+      internalID: -2243505817723502871
       vertices: []
       indices: 
       edges: []
