@@ -108,11 +108,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3234240603247752397}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -248, y: -286}
+  m_AnchoredPosition: {x: -248, y: -221}
   m_SizeDelta: {x: 160, y: 72.399994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3234240601932373508
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9bec4226b6bb2654f83cdf6e1cf03ab1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bf2d74e0d528e5a4bb26535cdbd92cbb, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -240,11 +240,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3234240603247752397}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 248, y: -286}
+  m_AnchoredPosition: {x: 248, y: -221}
   m_SizeDelta: {x: 160, y: 72.399994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3234240602223618770
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9bec4226b6bb2654f83cdf6e1cf03ab1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bf2d74e0d528e5a4bb26535cdbd92cbb, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -375,7 +375,7 @@ RectTransform:
   - {fileID: 6930042552009803604}
   - {fileID: 6930042551645836259}
   m_Father: {fileID: 3234240603247752397}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -638,9 +638,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 3234240602674305015}
   - {fileID: 3234240601932373505}
   - {fileID: 3234240602223618767}
-  - {fileID: 3234240602674305015}
   m_Father: {fileID: 3234240603068425709}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1149,16 +1149,40 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3234240603068425714}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CardClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TutorialManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
---- !u!224 &6930042552009803604 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5534396498070850164, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
-  m_PrefabInstance: {fileID: 3234240601848220960}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6930042552009803607 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5534396498070850167, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+  m_PrefabInstance: {fileID: 3234240601848220960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &6930042552009803604 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5534396498070850164, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
   m_PrefabInstance: {fileID: 3234240601848220960}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3234240602182930676
@@ -1304,8 +1328,37 @@ PrefabInstance:
       propertyPath: m_text
       value: Click & drag treadmills in the direction you want them to be rotated.
       objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3234240603068425714}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CardClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TutorialManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+--- !u!1 &6930042551272446595 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5534396498070850167, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+  m_PrefabInstance: {fileID: 3234240602182930676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &6930042551272446592 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5534396498070850164, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
@@ -1314,11 +1367,6 @@ RectTransform:
 --- !u!224 &3841404421488627584 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1850201296992444276, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
-  m_PrefabInstance: {fileID: 3234240602182930676}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6930042551272446595 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5534396498070850167, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
   m_PrefabInstance: {fileID: 3234240602182930676}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3234240602447717603
@@ -1597,6 +1645,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tutorial Card (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3234240603068425714}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CardClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TutorialManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
 --- !u!1 &6930042551645836256 stripped
@@ -1768,6 +1840,30 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 24
       objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3234240603068425714}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CardClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TutorialManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
 --- !u!224 &3841404419529900266 stripped
@@ -1928,15 +2024,35 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 27
       objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3234240603068425714}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CardClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TutorialManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947333841056833855, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
---- !u!1 &3234240603164745191 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5534396498070850167, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
-  m_PrefabInstance: {fileID: 6930042551163049872}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &3234240603164745188 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5534396498070850164, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
+  m_PrefabInstance: {fileID: 6930042551163049872}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3234240603164745191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5534396498070850167, guid: 5323393fc444fef4bafe92643fc69cc9, type: 3}
   m_PrefabInstance: {fileID: 6930042551163049872}
   m_PrefabAsset: {fileID: 0}

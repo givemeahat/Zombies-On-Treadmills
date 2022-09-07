@@ -100,6 +100,13 @@ public class TutorialManager : MonoBehaviour
         StartCoroutine(SwitchCards(newCardLocation));
     }
 
+    public void CardClick(int cardNum)
+    {
+        if (cardNum == tracker) return;
+        if (cardNum > tracker) MoveForwards();
+        if (cardNum < tracker) MoveBackwards();
+    }
+
     IEnumerator SwitchCards(Vector3 newCardLocation)
     {
         float elapsedTime = 0;
