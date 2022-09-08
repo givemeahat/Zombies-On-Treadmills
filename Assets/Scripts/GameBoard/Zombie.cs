@@ -159,7 +159,6 @@ public class Zombie : MonoBehaviour
             House house = hit.collider.gameObject.GetComponent<House>();
             nextWaypoint = house.waypoint;
             StartCoroutine(MoveToFinalWaypoint(house.gameObject));
-            StartCoroutine(DestroyZombie());
         }
         if (hit.collider.gameObject.tag == "Volcano")
         {
@@ -309,6 +308,8 @@ public class Zombie : MonoBehaviour
         }
         if (finalGO.tag == "House")
         {
+            StartCoroutine(DestroyZombie());
+            Debug.Log("people killin people dyin");
             gm.UpdatePeopleKilled();
         }
         if (finalGO.tag == "Volcano")

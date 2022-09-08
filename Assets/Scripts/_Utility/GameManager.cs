@@ -47,6 +47,7 @@ public class GameManager : MonoBehaviour
             dataManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<DataManager>();
         }
         dataManager.currentLevel = level;
+        dataManager.UnlockLevels();
     }
 
     private void Start()
@@ -144,6 +145,7 @@ public class GameManager : MonoBehaviour
     }
     public void UpdatePeopleKilled()
     {
+        Debug.Log("killed person");
         peopleKilled++;
         peopleKilledText.text = "People Killed: " + peopleKilled;
         ratioPeopleKilledText.text = "People Killed: " + peopleKilled;

@@ -56,6 +56,13 @@ public class DataManager : MonoBehaviour
             levelButtons[currentLevel + 1].interactable = true;
         }
     }
+    public void UnlockLevels()
+    {
+        for (var x = 0; x < currentLevel + 1; x++)
+        {
+            levelButtons[x].interactable = true;
+        }
+    }
     public void LoadLevel(int index)
     {
         if (!closeButton.isActiveAndEnabled) destroy = true;
