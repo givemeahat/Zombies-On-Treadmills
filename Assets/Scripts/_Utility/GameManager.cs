@@ -9,7 +9,10 @@ public class GameManager : MonoBehaviour
     public enum GameState { PLANNING, RUNNING, END };
     public GameState currentGameState = GameState.PLANNING;
 
+    public string levelName;
     public int level;
+    public Text levelTitleText;
+    public Text frenzyTitleText;
     public DataManager dataManager;
     public GameObject lvlMgrPrefab;
     public float zombiesKilled = 0;
@@ -48,8 +51,19 @@ public class GameManager : MonoBehaviour
         }
         dataManager.currentLevel = level;
         dataManager.UnlockLevels();
+        levelTitleText.text = levelName;
+        if (this.gameObject.GetComponent<SpawnManager>().isFrenzy)
+        {
+            Debug.Log("wooo frenzzyyyyy");
+            frenzyTitleText.gameObject.SetActive(true);
+        }
+        StartCoroutine(CloseLevelTitle());
     }
-
+    IEnumerator CloseLevelTitle()
+    {
+        yield return new WaitForSeconds(2.5f);
+        levelTitleText.gameObject.SetActive(false);
+    }
     private void Start()
     {
         zombieNoncomplianceRate.text = "Zombie Deviance: " + randomness * 100 + "%";
