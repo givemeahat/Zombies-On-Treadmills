@@ -52,6 +52,8 @@ public class TutorialManager : MonoBehaviour
     public void FinishTutorial()
     {
         dm.hasFinishedTutorial = true;
+        GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().levelTitle.SetActive(true);
+        GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().RemoveLevelTitle();
         this.gameObject.SetActive(false);
     }
     public void MoveForwards()
@@ -106,7 +108,6 @@ public class TutorialManager : MonoBehaviour
         if (cardNum > tracker) MoveForwards();
         if (cardNum < tracker) MoveBackwards();
     }
-
     IEnumerator SwitchCards(Vector3 newCardLocation)
     {
         float elapsedTime = 0;

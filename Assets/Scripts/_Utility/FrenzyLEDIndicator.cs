@@ -14,9 +14,8 @@ public class FrenzyLEDIndicator : MonoBehaviour
         SpawnManager spawnManager = GetComponentInParent<SpawnManager>();
         if (spawnManager.isFrenzy)
         {
-            ledImage.sprite = onSprite;
-            ledImage.color = Color.white;
+            this.GetComponent<Animator>().Play("LED_On");
         }
-        else ledImage.sprite = offSprite;
+        else this.GetComponent<Animator>().Play("LED_Off");
     }
 }

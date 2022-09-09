@@ -11188,8 +11188,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6428566, y: 8.480173, z: 11.650234}
-  m_Center: {x: -2.28, y: -2.950368, z: -5.325117}
+  m_Size: {x: 1.6601057, y: 8.480173, z: 11.650234}
+  m_Center: {x: -1.7713757, y: -2.950368, z: -5.325117}
 --- !u!54 &1782002467
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11217,8 +11217,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6428566, y: 8.480173, z: 11.650234}
-  m_Center: {x: 4.12, y: -2.950368, z: -5.325117}
+  m_Size: {x: 1.5147841, y: 8.480173, z: 11.650234}
+  m_Center: {x: 3.6840363, y: -2.950368, z: -5.325117}
 --- !u!65 &1782002469
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11603,7 +11603,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727514, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: maxFov
-      value: 3.6
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727514, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: boxModifier

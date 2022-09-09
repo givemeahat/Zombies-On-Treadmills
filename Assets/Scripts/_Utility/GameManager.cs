@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 
     public string levelName;
     public int level;
+    public GameObject levelTitle;
     public Text levelTitleText;
     public Text frenzyTitleText;
     public DataManager dataManager;
@@ -37,6 +38,9 @@ public class GameManager : MonoBehaviour
     public List<GameObject> zombiesInScene;
     float currentTimeScale = 1;
 
+    public bool isTutorial;
+
+
     private void Awake()
     {
         Time.timeScale = 1;
@@ -57,9 +61,13 @@ public class GameManager : MonoBehaviour
             Debug.Log("wooo frenzzyyyyy");
             frenzyTitleText.gameObject.SetActive(true);
         }
+        if (!isTutorial) StartCoroutine(CloseLevelTitle());
+    }
+    public void RemoveLevelTitle()
+    {
         StartCoroutine(CloseLevelTitle());
     }
-    IEnumerator CloseLevelTitle()
+    public IEnumerator CloseLevelTitle()
     {
         yield return new WaitForSeconds(2.5f);
         levelTitleText.gameObject.SetActive(false);
