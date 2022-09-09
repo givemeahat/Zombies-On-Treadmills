@@ -58,7 +58,6 @@ public class GameManager : MonoBehaviour
         levelTitleText.text = levelName;
         if (this.gameObject.GetComponent<SpawnManager>().isFrenzy)
         {
-            Debug.Log("wooo frenzzyyyyy");
             frenzyTitleText.gameObject.SetActive(true);
         }
         if (!isTutorial) StartCoroutine(CloseLevelTitle());
@@ -128,6 +127,10 @@ public class GameManager : MonoBehaviour
     public void OpenLevelSelect()
     {
         dataManager.OpenLevelSelect();
+    }
+    public void GoToIntro()
+    {
+        dataManager.LoadLevel(1);
     }
 
     public void EndGame()
