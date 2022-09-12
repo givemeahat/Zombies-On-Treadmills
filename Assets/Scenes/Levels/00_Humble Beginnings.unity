@@ -135,8 +135,16 @@ PrefabInstance:
       value: Tutorial Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 3234240603068425708, guid: b3b0c37aa1bcd5648833535549a02869, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1180871255}
+    - target: {fileID: 3234240603068425708, guid: b3b0c37aa1bcd5648833535549a02869, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3234240603068425708, guid: b3b0c37aa1bcd5648833535549a02869, type: 3}
       propertyPath: m_SortingOrder
-      value: 9
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 3234240603068425709, guid: b3b0c37aa1bcd5648833535549a02869, type: 3}
       propertyPath: m_Pivot.x

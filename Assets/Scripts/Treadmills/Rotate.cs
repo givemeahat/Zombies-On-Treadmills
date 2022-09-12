@@ -110,11 +110,11 @@ public class Rotate : MonoBehaviour
         {
             lr = gameObject.AddComponent<LineRenderer>();
         }
-        lr.enabled = true;
         lr.positionCount = 2;
         startPos = cam.ScreenToWorldPoint(Input.mousePosition) + camOffset;
         //startPos = cam.ScreenToWorldPoint(Input.mousePosition);
         lr.SetPosition(0, startPos);
+        lr.enabled = true;
         //lr.useWorldSpace = true;
         tm.tmm.activeTreadmill = tm;
         tm.GetComponent<AudioSource>().PlayOneShot(tm.GetComponent<AudioSource>().clip);
