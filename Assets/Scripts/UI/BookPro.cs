@@ -128,7 +128,12 @@ namespace BookCurlPro
             LeftPageShadow.rectTransform.sizeDelta = new Vector2(pageWidth, shadowPageHeight);
             LeftPageShadow.rectTransform.pivot = new Vector2(1, (pageWidth / 2) / shadowPageHeight);
         }
+        public void JumpToPage(int num)
+        {
+            currentPaper = num;
 
+            UpdatePages();
+        }
         /// <summary>
         /// transform point from global (world-space) to local space
         /// </summary>
