@@ -114,10 +114,10 @@ public class Rotate : MonoBehaviour
         startPos = cam.ScreenToWorldPoint(Input.mousePosition) + camOffset;
         //startPos = cam.ScreenToWorldPoint(Input.mousePosition);
         lr.SetPosition(0, startPos);
-        lr.enabled = true;
-        //lr.useWorldSpace = true;
+        lr.useWorldSpace = true;
         tm.tmm.activeTreadmill = tm;
         tm.GetComponent<AudioSource>().PlayOneShot(tm.GetComponent<AudioSource>().clip);
+        lr.enabled = true;
     }
     public void OnMouseDrag()
     {

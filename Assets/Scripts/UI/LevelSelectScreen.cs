@@ -13,7 +13,7 @@ public class LevelSelectScreen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform = GetComponent<RectTransform>();
+        transform = this.GetComponent<RectTransform>();
     }
 
     public void ZoomOnPoint(Vector2 currentPos, Vector2 buttonPos, int levelNumber)
@@ -42,8 +42,8 @@ public class LevelSelectScreen : MonoBehaviour
     {
         GetComponent<RectTransform>().SetLeft(0);
         GetComponent<RectTransform>().SetRight(0);
-        this.transform.localScale = new Vector3(1, 1, 1);
-        transform.pivot = new Vector2(.5f, .5f);
+        //transform.localScale = new Vector3(1, 1, 1);
+        //transform.pivot = new Vector2(.5f, .5f);
     }
     public void ZoomOut()
     {

@@ -7,7 +7,7 @@ public static class SaveSystem
     public static void SavePlayer(DataManager dataManager)
     {
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/player.gusthegoat";
+        string path = Application.persistentDataPath + "/player.zombie";
 
         FileStream stream = new FileStream(path, FileMode.Create);
 
@@ -20,7 +20,7 @@ public static class SaveSystem
 
     public static PlayerData LoadPlayer()
     {
-        string path = Application.persistentDataPath + "/player.gusthegoat";
+        string path = Application.persistentDataPath + "/player.zombie";
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();
@@ -40,7 +40,7 @@ public static class SaveSystem
     }
     public static void WipePlayer()
     {
-        string path = Application.persistentDataPath + "/player.gusthegoat";
+        string path = Application.persistentDataPath + "/player.zombie";
         if (File.Exists(path))
         {
             File.Delete(path);

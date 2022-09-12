@@ -91,6 +91,7 @@ public class GameManager : MonoBehaviour
             Instantiate(lvlMgrPrefab);
             dataManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<DataManager>();
             dataManager.currentLevel = level;
+            dataManager.UnlockLevels();
         }
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.E))
         {
@@ -132,7 +133,6 @@ public class GameManager : MonoBehaviour
     {
         dataManager.LoadLevel(1);
     }
-
     public void EndGame()
     {
         currentGameState = GameState.END;

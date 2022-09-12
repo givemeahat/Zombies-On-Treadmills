@@ -17,6 +17,7 @@ public class DataManager : MonoBehaviour
 
     public GameObject loadingScreen;
     public Button closeButton;
+    public bool isTemp;
     bool destroy;
     public bool hasFinishedTutorial;
 
@@ -45,7 +46,7 @@ public class DataManager : MonoBehaviour
     }
     public void GoToScene(int sceneNumber)
     {
-        //SavePlayer();
+        SavePlayer();
         SceneManager.LoadScene(sceneNumber);
         //Save game here
     }
@@ -65,7 +66,8 @@ public class DataManager : MonoBehaviour
     }
     public void LoadLevel(int index)
     {
-        if (!closeButton.isActiveAndEnabled) destroy = true;
+        if (isTemp) destroy = true;
+        else destroy = false;
         if (levelSelectScreen.activeInHierarchy) StartCoroutine(CloseLvlSelect());
         StartCoroutine(TransitionToScene(index));
     }
@@ -85,7 +87,9 @@ public class DataManager : MonoBehaviour
     public void WipeData()
     {
         SaveSystem.WipePlayer();
+        Debug.Log("bye bye");
     }
+
     IEnumerator CloseLvlSelect()
     {
         float time = 0;
