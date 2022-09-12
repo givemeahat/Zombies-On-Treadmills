@@ -173,12 +173,7 @@ namespace BookCurlPro
             }
 
         }
-        public void JumpToPage(int num)
-        {
-            currentPaper = num;
 
-            UpdatePages();
-        }
         /// <summary>
         /// Update page orders
         /// This function should be called whenever the current page changed, the dragging of the page started or the page has been flipped

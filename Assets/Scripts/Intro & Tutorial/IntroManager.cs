@@ -88,6 +88,10 @@ public class IntroManager : MonoBehaviour
         tutorialTextEffect.Play();
         StartCoroutine(WaitToPlayActiveAnimation(currentImage));
     }
+    public void SkipTutorial()
+    {
+        StartCoroutine(EndTutorial());
+    }
     IEnumerator EndTutorial()
     {
         faderPanel.SetActive(true);
