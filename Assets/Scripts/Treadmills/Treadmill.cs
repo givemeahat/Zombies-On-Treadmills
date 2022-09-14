@@ -33,12 +33,17 @@ public class Treadmill : MonoBehaviour
     GameObject gm;
     public TreadmillManager tmm;
 
+    public bool isFrozen;
+
     private void Start()
     {
         anim = this.GetComponent<Animator>();
         tmm = this.GetComponentInParent<TreadmillManager>();
-        if (currentDirection == 0 || currentDirection == 180) anim.Play("Treadmill_Running_Vertical");
-        if (currentDirection == 90 || currentDirection == 270) anim.Play("Treadmill_Running_Horizontal");
+        if (!isFrozen)
+        {
+            if (currentDirection == 0 || currentDirection == 180) anim.Play("Treadmill_Running_Vertical");
+            if (currentDirection == 90 || currentDirection == 270) anim.Play("Treadmill_Running_Horizontal");
+        }
         anim.speed = 0;
         gm = GameObject.FindGameObjectWithTag("GM");
         gm.GetComponent<SpawnManager>().treadmills.Add(this.gameObject);

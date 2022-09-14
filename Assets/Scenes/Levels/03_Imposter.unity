@@ -190,6 +190,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 837655387454805933, guid: 9bb03d39aa748a745becbc2fa0ab5a6d, type: 3}
   m_PrefabInstance: {fileID: 551484094}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &44751727 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8130757804033030424, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+  m_PrefabInstance: {fileID: 5520672008766476636}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &51564639 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2180578217378772305, guid: b211b50ce8e904842b3894f9bc2c54dd, type: 3}
@@ -13142,6 +13147,14 @@ PrefabInstance:
     - target: {fileID: 6423901197044181338, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -15.349991
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605028813614557685, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 44751727}
+    - target: {fileID: 6605028813614557685, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayOneShot
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049570, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: level

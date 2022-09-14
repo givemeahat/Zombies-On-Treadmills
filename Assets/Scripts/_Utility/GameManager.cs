@@ -60,6 +60,7 @@ public class GameManager : MonoBehaviour
         {
             frenzyTitleText.gameObject.SetActive(true);
         }
+        if (!levelTitle.activeInHierarchy) levelTitle.SetActive(true);
         if (!isTutorial) StartCoroutine(CloseLevelTitle());
     }
     public void RemoveLevelTitle()

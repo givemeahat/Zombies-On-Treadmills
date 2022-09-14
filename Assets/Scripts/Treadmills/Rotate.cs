@@ -14,7 +14,7 @@ public class Rotate : MonoBehaviour
     Camera cam;
     LineRenderer lr;
 
-    Vector3 camOffset = new Vector3(0, 0, 10);
+    Vector3 camOffset = new Vector3(0, 0, 20);
 
     bool isMouseOver = false;
 
@@ -106,18 +106,18 @@ public class Rotate : MonoBehaviour
     public void OnMouseDown()
     {
         if (EventSystem.current.IsPointerOverGameObject()) return;
-        if (lr == null)
+        /*if (lr == null)
         {
             lr = gameObject.AddComponent<LineRenderer>();
-        }
+        }*/
         lr.positionCount = 2;
-        startPos = cam.ScreenToWorldPoint(Input.mousePosition) + camOffset;
+        startPos = cam.ScreenToWorldPoint(Input.mousePosition + camOffset);
         //startPos = cam.ScreenToWorldPoint(Input.mousePosition);
         lr.SetPosition(0, startPos);
         lr.useWorldSpace = true;
         tm.tmm.activeTreadmill = tm;
         tm.GetComponent<AudioSource>().PlayOneShot(tm.GetComponent<AudioSource>().clip);
-        lr.enabled = true;
+        //lr.enabled = true;
     }
     public void OnMouseDrag()
     {
