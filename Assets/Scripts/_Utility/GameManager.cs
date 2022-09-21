@@ -40,6 +40,10 @@ public class GameManager : MonoBehaviour
 
     public bool isTutorial;
 
+    public GameObject guideBook;
+    public GameObject[] guideBookPages;
+    public Sprite[] missingPages;
+
 
     private void Awake()
     {
@@ -60,7 +64,7 @@ public class GameManager : MonoBehaviour
         {
             frenzyTitleText.gameObject.SetActive(true);
         }
-        if (!levelTitle.activeInHierarchy) levelTitle.SetActive(true);
+        if (!levelTitle.activeInHierarchy && !isTutorial) levelTitle.SetActive(true);
         if (!isTutorial) StartCoroutine(CloseLevelTitle());
     }
     public void RemoveLevelTitle()
@@ -141,6 +145,13 @@ public class GameManager : MonoBehaviour
         levelEndScreen.SetActive(true);
         Vector2 finalRatio = new Vector2(peopleKilled, zombiesKilled);
         dataManager.SaveScore(level, finalRatio);
+    }
+
+    public void UpdateTornPage()
+    {
+        guideBookPages[5].GetComponent<Image>().sprite = missingPages[1];
+        guideBookPages[6].GetComponent<Image>().sprite = missingPages[0];
+        dataManager.hasUpdatedGuidebook = true;
     }
 
     #region SAVE SYSTEM

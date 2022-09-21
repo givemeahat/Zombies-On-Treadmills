@@ -18,8 +18,9 @@ public class DataManager : MonoBehaviour
     public GameObject loadingScreen;
     public Button closeButton;
     public bool isTemp;
-    bool destroy;
     public bool hasFinishedTutorial;
+    public bool hasUpdatedGuidebook;
+    bool destroy;
 
     void Start()
     {
