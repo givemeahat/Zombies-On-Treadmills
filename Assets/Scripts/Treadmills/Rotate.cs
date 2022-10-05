@@ -111,13 +111,14 @@ public class Rotate : MonoBehaviour
             lr = gameObject.AddComponent<LineRenderer>();
         }*/
         lr.positionCount = 2;
-        startPos = cam.ScreenToWorldPoint(Input.mousePosition + camOffset);
+        //startPos = cam.ScreenToWorldPoint(Input.mousePosition + camOffset);
         //startPos = cam.ScreenToWorldPoint(Input.mousePosition);
+        startPos = this.GetComponentInParent<Transform>().position;
         lr.SetPosition(0, startPos);
         lr.useWorldSpace = true;
         tm.tmm.activeTreadmill = tm;
         tm.GetComponent<AudioSource>().PlayOneShot(tm.GetComponent<AudioSource>().clip);
-        //lr.enabled = true;
+        lr.enabled = true;
     }
     public void OnMouseDrag()
     {
