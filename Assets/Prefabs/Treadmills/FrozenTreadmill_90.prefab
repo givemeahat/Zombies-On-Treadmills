@@ -372,6 +372,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 837655387454805933}
     m_Modifications:
+    - target: {fileID: 1388723429736373379, guid: e863451715b7d2546a7749d2f59000d3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2206575669076515388, guid: e863451715b7d2546a7749d2f59000d3, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -420,11 +424,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rotation
       objectReference: {fileID: 0}
-    - target: {fileID: 6346364858219476038, guid: e863451715b7d2546a7749d2f59000d3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1388723429736373379, guid: e863451715b7d2546a7749d2f59000d3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e863451715b7d2546a7749d2f59000d3, type: 3}
 --- !u!1 &3057823067591681928 stripped
 GameObject:

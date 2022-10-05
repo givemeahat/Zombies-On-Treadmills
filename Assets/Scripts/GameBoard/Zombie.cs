@@ -144,7 +144,8 @@ public class Zombie : MonoBehaviour
         currentTreadmill.rotation.SetActive(true);
         if (hit.collider.gameObject.tag == "Rotation")
         {
-            currentTreadmill = hit.collider.gameObject.GetComponent<Rotate>().tm;
+            //if (!hit.collider.gameObject.GetComponent<Treadmill>().isFrozen) currentTreadmill = hit.collider.gameObject.GetComponent<Rotate>().tm;
+            currentTreadmill = hit.collider.gameObject.GetComponentInParent<Treadmill>();
             nextWaypoint = currentTreadmill.waypoint;
             StartCoroutine(MoveToWaypoint(speed));
         }
