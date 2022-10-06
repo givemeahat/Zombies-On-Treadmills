@@ -105,23 +105,46 @@ public class Rotate : MonoBehaviour
     }
     public void OnMouseDown()
     {
-        if (EventSystem.current.IsPointerOverGameObject()) return;
+        /*if (EventSystem.current.IsPointerOverGameObject()) return;
         /*if (lr == null)
         {
             lr = gameObject.AddComponent<LineRenderer>();
-        }*/
+        }
         lr.positionCount = 2;
+        lr.SetPosition(0, new Vector2(0, 0));
+        lr.SetPosition(1, new Vector2(0, 0));
         //startPos = cam.ScreenToWorldPoint(Input.mousePosition + camOffset);
         //startPos = cam.ScreenToWorldPoint(Input.mousePosition);
-        startPos = this.GetComponentInParent<Transform>().position;
+        startPos = this.GetComponentInParent<Transform>().localPosition;
+        startPos = cam.ScreenToWorldPoint(Input.mousePosition + camOffset);
         lr.SetPosition(0, startPos);
         lr.useWorldSpace = true;
         tm.tmm.activeTreadmill = tm;
         tm.GetComponent<AudioSource>().PlayOneShot(tm.GetComponent<AudioSource>().clip);
-        lr.enabled = true;
+        lr.enabled = true;*/
     }
     public void OnMouseDrag()
     {
+        if (!lr.enabled)
+        {
+            if (EventSystem.current.IsPointerOverGameObject()) return;
+            /*if (lr == null)
+            {
+                lr = gameObject.AddComponent<LineRenderer>();
+            }*/
+            lr.positionCount = 2;
+            lr.SetPosition(0, new Vector2(0, 0));
+            lr.SetPosition(1, new Vector2(0, 0));
+            //startPos = cam.ScreenToWorldPoint(Input.mousePosition + camOffset);
+            //startPos = cam.ScreenToWorldPoint(Input.mousePosition);
+            startPos = this.GetComponentInParent<Transform>().localPosition;
+            startPos = cam.ScreenToWorldPoint(Input.mousePosition + camOffset);
+            lr.SetPosition(0, startPos);
+            lr.useWorldSpace = true;
+            tm.tmm.activeTreadmill = tm;
+            tm.GetComponent<AudioSource>().PlayOneShot(tm.GetComponent<AudioSource>().clip);
+            lr.enabled = true;
+        }
         endPos = cam.ScreenToWorldPoint(Input.mousePosition) + camOffset;
         lr.SetPosition(1, endPos);
     }
@@ -145,6 +168,8 @@ public class Rotate : MonoBehaviour
     private void OnMouseUp()
     {
         lr.enabled = false;
+        lr.SetPosition(0, new Vector2(0, 0));
+        lr.SetPosition(1, new Vector2(0, 0));
         isMouseOver = false;
         startPos = new Vector3(0, 0, 0);
         endPos = new Vector3(0, 0, 0);
