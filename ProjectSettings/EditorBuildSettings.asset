@@ -33,9 +33,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/05_We All Follow The Same Path.unity
     guid: 3e4d2a90e9eba9f45b5486711e0d56fe
   - enabled: 1
+    path: Assets/Scenes/Levels/06_Traffic Jam.unity
+    guid: 3734d4efc828cfa4bbd24144ecea1f02
+  - enabled: 1
     path: Assets/Scenes/Levels/07_The Not So Good Dinosaur.unity
     guid: 2328ef9c694851445b6e5b3a8dda71e1
   - enabled: 1
     path: Assets/Scenes/Levels/08_The Boombox.unity
     guid: 1e03d828389f13441aa5e95fa1dd1287
+  - enabled: 1
+    path: Assets/Scenes/Levels/10_The Spiral.unity
+    guid: cddb59d7f52b71340bdcf0059652a89d
   m_configObjects: {}
