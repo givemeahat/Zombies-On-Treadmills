@@ -23,10 +23,21 @@ public class DataManager : MonoBehaviour
     bool destroy;
     public float volumeLevel;
 
+    public AudioSource audioSource;
+    public Queue<AudioClip> clipQueue;
+    public AudioClip[] soundtrack;
+
     void Start()
     {
         DontDestroyOnLoad(this);
         LoadPlayer();
+        PlayNextSong();
+    }
+    void PlayNextSong()
+    {
+        audioSource.clip = soundtrack[Random.Range(0, soundtrack.Length)];
+        audioSource.Play();
+        Invoke("PlayNextSong", audioSource.clip.length - (audioSource.clip.length/5));
     }
     public void SaveScore(int levelNum, Vector2 ratio)
     {
