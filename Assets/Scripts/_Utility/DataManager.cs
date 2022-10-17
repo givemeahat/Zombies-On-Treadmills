@@ -21,10 +21,12 @@ public class DataManager : MonoBehaviour
     public bool hasFinishedTutorial;
     public bool hasUpdatedGuidebook;
     bool destroy;
+    public float volumeLevel;
 
     void Start()
     {
         DontDestroyOnLoad(this);
+        LoadPlayer();
     }
     public void SaveScore(int levelNum, Vector2 ratio)
     {
@@ -81,8 +83,22 @@ public class DataManager : MonoBehaviour
     public void LoadPlayer()
     {
         PlayerData data = SaveSystem.LoadPlayer();
+        if (data == null)
+        {
+            Debug.Log("beepbop");
+            SavePlayer();
+            return;
+        }
         currentLevel = data.currentLevel;
-        scores = data.scores;
+        hasFinishedTutorial = data.hasFinishedTutorial;
+        volumeLevel = data.volumeLevel;
+        GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().slider.GetComponent<Slider>().value = volumeLevel;
+        for (int i = 0; i < scores.Length; i++)
+        {
+            scores[i].x = data.humanDeaths[i];
+            scores[i].y = data.zombieDeaths[i];
+        }
+        //scores = data.scores;
         Debug.Log("has loaded player");
     }
     public void WipeData()
@@ -104,6 +120,8 @@ public class DataManager : MonoBehaviour
     }
     IEnumerator TransitionToScene(int index)
     {
+        
+        SavePlayer();
         Time.timeScale = 1f;
         loadingScreen.GetComponent<Image>().material.SetVector("_HalftonePosition", new Vector4(0, .5f, 0, 0));
         yield return new WaitForSeconds(.2f);

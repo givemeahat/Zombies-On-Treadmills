@@ -44,6 +44,7 @@ public class GameManager : MonoBehaviour
     public GameObject[] guideBookPages;
     public Sprite[] missingPages;
 
+    public GameObject slider;
 
     private void Awake()
     {
@@ -57,6 +58,9 @@ public class GameManager : MonoBehaviour
             Instantiate(lvlMgrPrefab);
             dataManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<DataManager>();
         }
+        //WipeGame();
+        //slider.GetComponent<Slider>().value = dataManager.volumeLevel;
+        //AudioListener.volume = slider.GetComponent<Slider>().value;
         dataManager.currentLevel = level;
         dataManager.UnlockLevels();
         levelTitleText.text = levelName;
@@ -87,6 +91,7 @@ public class GameManager : MonoBehaviour
         {
             numberOfZombiesTotal = this.GetComponent<SpawnManager>().zombieSpawners.Count * this.GetComponent<SpawnManager>().zombiesToSpawn;
         }
+        //slider.GetComponent<Slider>().value = dataManager.volumeLevel;
     }
 
     private void Update()
@@ -104,6 +109,10 @@ public class GameManager : MonoBehaviour
             {
                 menu.SetActive(true);
             }
+        }
+        if (slider.GetComponent<Slider>().value != dataManager.volumeLevel)
+        {
+            slider.GetComponent<Slider>().value = dataManager.volumeLevel;
         }
     }
 
@@ -127,6 +136,14 @@ public class GameManager : MonoBehaviour
     }
     public void NextLevel()
     {
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            if(dataManager.currentLevel != 0)
+            {
+                dataManager.LoadLevel(dataManager.levelBuildIndex[dataManager.currentLevel]);
+                return;
+            }
+        }
         int levelNum = SceneManager.GetActiveScene().buildIndex + 1;
         dataManager.LoadLevel(levelNum);
     }
@@ -189,6 +206,12 @@ public class GameManager : MonoBehaviour
         ratio = peopleKilled / numberOfZombiesTotal;
         ratio = ratio / 1;
         humanDeathsImage.fillAmount = ratio;
+    }
+    public void UpdateVolume()
+    {
+        dataManager.volumeLevel = slider.GetComponent<Slider>().value;
+        AudioListener.volume = slider.GetComponent<Slider>().value;
+        dataManager.SavePlayer();
     }
     #endregion
 
