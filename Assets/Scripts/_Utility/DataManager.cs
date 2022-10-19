@@ -22,6 +22,7 @@ public class DataManager : MonoBehaviour
     public bool hasUpdatedGuidebook;
     bool destroy;
     public float volumeLevel;
+    public bool musicIsMuted;
 
     public AudioSource audioSource;
     public Queue<AudioClip> clipQueue;
@@ -38,6 +39,20 @@ public class DataManager : MonoBehaviour
         audioSource.clip = soundtrack[Random.Range(0, soundtrack.Length)];
         audioSource.Play();
         Invoke("PlayNextSong", audioSource.clip.length - (audioSource.clip.length/5));
+    }
+    public void MuteMusic(bool isMuted)
+    {
+        if (isMuted)
+        {
+            audioSource.mute = true;
+            musicIsMuted = true;
+        }
+        else
+        {
+            audioSource.mute = false;
+            musicIsMuted = false;
+        }
+        SavePlayer();
     }
     public void SaveScore(int levelNum, Vector2 ratio)
     {
@@ -104,6 +119,7 @@ public class DataManager : MonoBehaviour
         hasFinishedTutorial = data.hasFinishedTutorial;
         volumeLevel = data.volumeLevel;
         GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().slider.GetComponent<Slider>().value = volumeLevel;
+        GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().muteMusicToggle.isOn = data.musicIsMuted;
         for (int i = 0; i < scores.Length; i++)
         {
             scores[i].x = data.humanDeaths[i];

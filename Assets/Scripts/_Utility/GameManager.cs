@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour
     public Sprite[] missingPages;
 
     public GameObject slider;
+    public Toggle muteMusicToggle;
 
     private void Awake()
     {
@@ -71,15 +72,6 @@ public class GameManager : MonoBehaviour
         if (!levelTitle.activeInHierarchy && !isTutorial) levelTitle.SetActive(true);
         if (!isTutorial) StartCoroutine(CloseLevelTitle());
     }
-    public void RemoveLevelTitle()
-    {
-        StartCoroutine(CloseLevelTitle());
-    }
-    public IEnumerator CloseLevelTitle()
-    {
-        yield return new WaitForSeconds(2.5f);
-        levelTitleText.gameObject.SetActive(false);
-    }
     private void Start()
     {
         zombieNoncomplianceRate.text = "Zombie Deviance: " + randomness * 100 + "%";
@@ -93,7 +85,6 @@ public class GameManager : MonoBehaviour
         }
         //slider.GetComponent<Slider>().value = dataManager.volumeLevel;
     }
-
     private void Update()
     {
         if (dataManager == null)
@@ -115,7 +106,19 @@ public class GameManager : MonoBehaviour
             slider.GetComponent<Slider>().value = dataManager.volumeLevel;
         }
     }
-
+    public void MuteMusic()
+    {
+        dataManager.MuteMusic(muteMusicToggle.isOn);
+    }
+    public void RemoveLevelTitle()
+    {
+        StartCoroutine(CloseLevelTitle());
+    }
+    public IEnumerator CloseLevelTitle()
+    {
+        yield return new WaitForSeconds(2.5f);
+        levelTitleText.gameObject.SetActive(false);
+    }
     public void CheckZombies()
     {
         if (zombiesInScene.Count > 0)

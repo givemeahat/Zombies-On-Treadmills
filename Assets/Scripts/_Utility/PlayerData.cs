@@ -11,6 +11,7 @@ public class PlayerData
     public float volumeLevel = 1;
     public bool hasFinishedTutorial;
     public bool hasUpdatedGuidebook;
+    public bool musicIsMuted;
 
     public PlayerData(DataManager lm)
     {
@@ -20,6 +21,7 @@ public class PlayerData
         hasFinishedTutorial = lm.hasFinishedTutorial;
         hasUpdatedGuidebook = lm.hasUpdatedGuidebook;
         volumeLevel = lm.volumeLevel;
+        musicIsMuted = lm.musicIsMuted;
         for (int i = 0; i < lm.scores.Length; i++)
         {
             humanDeaths[i] = lm.scores[i].x;
