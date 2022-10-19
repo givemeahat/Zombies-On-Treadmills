@@ -20621,14 +20621,6 @@ PrefabInstance:
       propertyPath: maxFov
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 5520672009897861392, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -383.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5520672009897861392, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -299
-      objectReference: {fileID: 0}
     - target: {fileID: 6423901197044181338, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -15.349991
