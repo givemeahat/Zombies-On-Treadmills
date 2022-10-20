@@ -1482,6 +1482,7 @@ MonoBehaviour:
   hasFinishedTutorial: 0
   hasUpdatedGuidebook: 0
   volumeLevel: 0
+  musicIsMuted: 0
   audioSource: {fileID: 8700855452689451623}
   soundtrack:
   - {fileID: 8300000, guid: 5a7c8248f3a712d479baa8f708cf1368, type: 3}
@@ -1643,7 +1644,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 20
   m_TargetDisplay: 0
 --- !u!114 &6333739808724144130
 MonoBehaviour:
