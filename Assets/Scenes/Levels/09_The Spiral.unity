@@ -1510,7 +1510,9 @@ GameObject:
   - component: {fileID: 232890335}
   - component: {fileID: 232890337}
   - component: {fileID: 232890336}
-  m_Layer: 0
+  - component: {fileID: 232890339}
+  - component: {fileID: 232890338}
+  m_Layer: 8
   m_Name: Lava
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20903,6 +20905,36 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &232890338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232890334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 58667715fcd22cb42992ced3908d4ee5, type: 2}
+  isGlobal: 0
+  blendDistance: 0
+  weight: 1
+  priority: 0
+--- !u!65 &232890339
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232890334}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.166544, y: 5.026969, z: 1}
+  m_Center: {x: 0.98325825, y: -2.106411, z: 0.5}
 --- !u!1001 &234908578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39678,6 +39710,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.000030517578
       objectReference: {fileID: 0}
+    - target: {fileID: 2666329604588979641, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: volumeTrigger
+      value: 
+      objectReference: {fileID: 232890335}
     - target: {fileID: 2717551841771013951, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
