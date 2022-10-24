@@ -21,8 +21,9 @@ public class DataManager : MonoBehaviour
     public bool hasFinishedTutorial;
     public bool hasUpdatedGuidebook;
     bool destroy;
-    public float volumeLevel;
+    public float volumeLevel = 1;
     public bool musicIsMuted;
+    public bool isFullScreen = true;
 
     public AudioSource audioSource;
     public Queue<AudioClip> clipQueue;
@@ -31,8 +32,11 @@ public class DataManager : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(this);
+        //WipeData();
         LoadPlayer();
         PlayNextSong();
+        if (isFullScreen) Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
+        else Screen.fullScreenMode = FullScreenMode.Windowed;
     }
     void PlayNextSong()
     {
@@ -111,6 +115,8 @@ public class DataManager : MonoBehaviour
         PlayerData data = SaveSystem.LoadPlayer();
         if (data == null)
         {
+            volumeLevel = 1;
+            isFullScreen = true;
             Debug.Log("beepbop");
             SavePlayer();
             return;
@@ -118,6 +124,7 @@ public class DataManager : MonoBehaviour
         currentLevel = data.currentLevel;
         hasFinishedTutorial = data.hasFinishedTutorial;
         volumeLevel = data.volumeLevel;
+        isFullScreen = data.isFullScreen;
         GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().slider.GetComponent<Slider>().value = volumeLevel;
         GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().muteMusicToggle.isOn = data.musicIsMuted;
         for (int i = 0; i < scores.Length; i++)

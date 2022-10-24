@@ -46,6 +46,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject slider;
     public Toggle muteMusicToggle;
+    public Toggle isFullScreenMode;
 
     private void Awake()
     {
@@ -65,6 +66,7 @@ public class GameManager : MonoBehaviour
         dataManager.currentLevel = level;
         dataManager.UnlockLevels();
         levelTitleText.text = levelName;
+        //isFullScreenMode.isOn = dataManager.isFullScreen;
         if (this.gameObject.GetComponent<SpawnManager>().isFrenzy)
         {
             frenzyTitleText.gameObject.SetActive(true);
@@ -83,6 +85,9 @@ public class GameManager : MonoBehaviour
         {
             numberOfZombiesTotal = this.GetComponent<SpawnManager>().zombieSpawners.Count * this.GetComponent<SpawnManager>().zombiesToSpawn;
         }
+
+        if (dataManager.musicIsMuted) muteMusicToggle.isOn = true;
+        if (dataManager.isFullScreen) isFullScreenMode.isOn = true;
         //slider.GetComponent<Slider>().value = dataManager.volumeLevel;
     }
     private void Update()
@@ -105,10 +110,18 @@ public class GameManager : MonoBehaviour
         {
             slider.GetComponent<Slider>().value = dataManager.volumeLevel;
         }
+        if (Input.GetKeyDown(KeyCode.X)) WipeGame();
     }
     public void MuteMusic()
     {
         dataManager.MuteMusic(muteMusicToggle.isOn);
+    }
+    public void ToggleFS()
+    {
+        if (isFullScreenMode.isOn) Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
+        else Screen.fullScreenMode = FullScreenMode.Windowed;
+        dataManager.isFullScreen = isFullScreenMode.isOn;
+        dataManager.SavePlayer();
     }
     public void RemoveLevelTitle()
     {
@@ -187,7 +200,11 @@ public class GameManager : MonoBehaviour
     {
         dataManager.WipeData();
     }
-
+    public void QuitGame()
+    {
+        dataManager.SavePlayer();
+        Application.Quit();
+    }
     #endregion
 
     #region UPDATING UI STUFF

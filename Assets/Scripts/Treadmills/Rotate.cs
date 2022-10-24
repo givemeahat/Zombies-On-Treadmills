@@ -30,36 +30,11 @@ public class Rotate : MonoBehaviour
         cam = Camera.main;
     }
 
-    /*void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (lr == null)
-            {
-                lr = gameObject.AddComponent<LineRenderer>();
-            }
-            lr.enabled = true;
-            lr.positionCount = 2;
-            startPos = cam.ScreenToWorldPoint(Input.mousePosition) + camOffset;
-            lr.SetPosition(0, startPos);
-            lr.useWorldSpace = true;
-        }
-        if (Input.GetMouseButton(0))
-        {
-            endPos = cam.ScreenToWorldPoint(Input.mousePosition) + camOffset;
-            lr.SetPosition(1, endPos);
-        }
-        if (Input.GetMouseButtonUp(0))
-        {
-            lr.enabled = false;
-        }
-    }*/
-
     public void Update()
     {
         if (Input.GetMouseButton(0) && isMouseOver)
         {
-            if (Mathf.Abs(endPos.y - startPos.y) < .1f)
+            if (Mathf.Abs(endPos.y - startPos.y) < .2f)
             {
                 //moving right
                 if (endPos.x > startPos.x)
@@ -76,7 +51,7 @@ public class Rotate : MonoBehaviour
                     return;
                 }
             }
-            else if (Mathf.Abs(endPos.x - startPos.x) < .1f)
+            else if (Mathf.Abs(endPos.x - startPos.x) < .2f)
             {
                 //moving up
                 if (endPos.y > startPos.y)
