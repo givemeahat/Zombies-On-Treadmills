@@ -304,7 +304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -613,7 +613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 8ac3e1be53b22d3468da1f157774c460, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -710,6 +710,7 @@ GameObject:
   - component: {fileID: 965695226}
   - component: {fileID: 965695228}
   - component: {fileID: 965695227}
+  - component: {fileID: 965695229}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -833,6 +834,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965695225}
   m_CullTransparentMesh: 1
+--- !u!225 &965695229
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965695225}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &1063879553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1466,6 +1479,7 @@ GameObject:
   - component: {fileID: 1421043699}
   - component: {fileID: 1421043701}
   - component: {fileID: 1421043702}
+  - component: {fileID: 1421043703}
   m_Layer: 5
   m_Name: Settings Button
   m_TagString: Untagged
@@ -1490,7 +1504,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -361.8}
-  m_SizeDelta: {x: 344.2, y: 50}
+  m_SizeDelta: {x: 151.7, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1421043699
 MonoBehaviour:
@@ -1611,7 +1625,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.69901097, g: 0.3820755, b: 1, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -1753,6 +1767,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!225 &1421043703
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421043697}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1488813433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1764,6 +1790,7 @@ GameObject:
   - component: {fileID: 1488813434}
   - component: {fileID: 1488813436}
   - component: {fileID: 1488813435}
+  - component: {fileID: 1488813437}
   m_Layer: 5
   m_Name: version
   m_TagString: Untagged
@@ -1888,6 +1915,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488813433}
   m_CullTransparentMesh: 1
+--- !u!225 &1488813437
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488813433}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &1588773265
 GameObject:
   m_ObjectHideFlags: 0
