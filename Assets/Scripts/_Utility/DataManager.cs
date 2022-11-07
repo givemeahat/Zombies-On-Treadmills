@@ -126,8 +126,12 @@ public class DataManager : MonoBehaviour
         hasUpdatedGuidebook = data.hasUpdatedGuidebook;
         volumeLevel = data.volumeLevel;
         isFullScreen = data.isFullScreen;
-        GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().slider.GetComponent<Slider>().value = volumeLevel;
-        GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().muteMusicToggle.isOn = data.musicIsMuted;
+        if (GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager> != null)
+        {
+            GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().slider.GetComponent<Slider>().value = volumeLevel;
+            GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().muteMusicToggle.isOn = data.musicIsMuted;
+        }
+
         for (int i = 0; i < scores.Length; i++)
         {
             scores[i].x = data.humanDeaths[i];
@@ -146,7 +150,8 @@ public class DataManager : MonoBehaviour
         musicIsMuted = false;
         isFullScreen = true;
         GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().slider.GetComponent<Slider>().value = volumeLevel;
-        GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().muteMusicToggle.isOn = false;
+        GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().muteMusicToggle.isOn = false
+            ;
         for (int i = 0; i < scores.Length; i++)
         {
             scores[i].x = 0;

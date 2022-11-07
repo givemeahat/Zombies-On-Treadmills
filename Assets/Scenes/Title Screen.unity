@@ -1763,6 +1763,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5520672008552727512, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520672008552727512, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_ForceIntoRT
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520672008552727512, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: orthographic size
+      value: 1.89
+      objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727514, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2601,7 +2613,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 256.6, y: 22.200012}
+  m_AnchoredPosition: {x: 256.59998, y: 22.199951}
   m_SizeDelta: {x: 344.2, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488813435
@@ -2624,7 +2636,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: version 1.0
+  m_text: Version 1.0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e62a4f6b7b58eff4f8a7d980601ffcf6, type: 2}
   m_sharedMaterial: {fileID: -2554544991112763778, guid: e62a4f6b7b58eff4f8a7d980601ffcf6, type: 2}
