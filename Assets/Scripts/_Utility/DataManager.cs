@@ -126,7 +126,7 @@ public class DataManager : MonoBehaviour
         hasUpdatedGuidebook = data.hasUpdatedGuidebook;
         volumeLevel = data.volumeLevel;
         isFullScreen = data.isFullScreen;
-        if (GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager> != null)
+        if (GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>() != null)
         {
             GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().slider.GetComponent<Slider>().value = volumeLevel;
             GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().muteMusicToggle.isOn = data.musicIsMuted;
