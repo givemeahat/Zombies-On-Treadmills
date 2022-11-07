@@ -135,7 +135,8 @@ GameObject:
   - component: {fileID: 280153584}
   - component: {fileID: 280153583}
   - component: {fileID: 280153582}
-  m_Layer: 5
+  - component: {fileID: 280153586}
+  m_Layer: 8
   m_Name: Intro Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +177,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1024, y: 768}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -191,8 +192,8 @@ Canvas:
   m_GameObject: {fileID: 280153581}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 2035256440}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -228,6 +229,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &280153586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280153581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: e6d7daa9a3a074d4cbefac671989b916, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
 --- !u!1 &544750038
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +258,7 @@ GameObject:
   - component: {fileID: 544750041}
   - component: {fileID: 544750040}
   - component: {fileID: 544750042}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Fader Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -333,7 +351,8 @@ GameObject:
   m_Component:
   - component: {fileID: 554960371}
   - component: {fileID: 554960372}
-  m_Layer: 5
+  - component: {fileID: 554960373}
+  m_Layer: 8
   m_Name: Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,8 +396,9 @@ MonoBehaviour:
     still leave their doors unlocked, kids play in the streets...
   - ...and there's always a warm slice of pie with your name on it down at Lisa's
     Diner.
-  - "Yes, Willow Springs is a wonderful place to live. The only downside, if one
-    had to pick something\u2026"
+  - "Yes, Willow Springs is a wonderful place to live, full of life, love, and small
+    town charm. Willow Springs has a little something for everyone. The only downside,
+    if one had to pick something\u2026"
   - ...would be the many active volcanoes scattered across the town.
   - Oh, and maybe the fact that it rains zombies with an insatiable hunger for human
     flesh.
@@ -394,6 +414,19 @@ MonoBehaviour:
   - {fileID: 1374441204}
   - {fileID: 2062918906}
   - {fileID: 1981939068}
+--- !u!65 &554960373
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554960370}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1166.298, y: 849.4146, z: 4375.239}
+  m_Center: {x: 2.1492622, y: 14.066667, z: -605.7611}
 --- !u!1 &584405121
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,7 +438,7 @@ GameObject:
   - component: {fileID: 584405122}
   - component: {fileID: 584405124}
   - component: {fileID: 584405123}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Text Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -430,10 +463,10 @@ RectTransform:
   m_Father: {fileID: 280153585}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -308.15503}
-  m_SizeDelta: {x: 1024, y: 151.69}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 75.84497}
+  m_SizeDelta: {x: 0, y: 151.69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &584405123
 MonoBehaviour:
@@ -551,7 +584,7 @@ GameObject:
   - component: {fileID: 792551359}
   - component: {fileID: 792551358}
   - component: {fileID: 792551357}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Tutorial Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -736,7 +769,7 @@ GameObject:
   - component: {fileID: 1123914716}
   - component: {fileID: 1123914718}
   - component: {fileID: 1123914717}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -811,7 +844,7 @@ GameObject:
   - component: {fileID: 1161028826}
   - component: {fileID: 1161028829}
   - component: {fileID: 1161028828}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Tutorial Image 3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -887,7 +920,7 @@ GameObject:
   - component: {fileID: 1374441207}
   - component: {fileID: 1374441206}
   - component: {fileID: 1374441208}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Tutorial Image 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -982,7 +1015,7 @@ GameObject:
   - component: {fileID: 1708528553}
   - component: {fileID: 1708528552}
   - component: {fileID: 1708528554}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1118,7 +1151,7 @@ GameObject:
   - component: {fileID: 1920208842}
   - component: {fileID: 1920208841}
   - component: {fileID: 1920208843}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Return
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1213,7 +1246,7 @@ GameObject:
   - component: {fileID: 1981939071}
   - component: {fileID: 1981939070}
   - component: {fileID: 1981939072}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Tutorial Image 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1309,6 +1342,7 @@ GameObject:
   - component: {fileID: 2035256440}
   - component: {fileID: 2035256439}
   - component: {fileID: 2035256442}
+  - component: {fileID: 2035256443}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1334,7 +1368,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1477,6 +1511,66 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2035256443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035256438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 2035256441}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1 &2062918906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,7 +1583,7 @@ GameObject:
   - component: {fileID: 2062918909}
   - component: {fileID: 2062918908}
   - component: {fileID: 2062918910}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Tutorial Image 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

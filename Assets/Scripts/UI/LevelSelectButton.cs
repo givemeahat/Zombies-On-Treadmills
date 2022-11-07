@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class LevelSelectButton : MonoBehaviour
 {
-    LevelSelectScreen lvlSelect;
+    public LevelSelectScreen lvlSelect;
     public Vector2 anchorPoint;
     public bool isActive;
 
@@ -14,7 +14,6 @@ public class LevelSelectButton : MonoBehaviour
     private void Start()
     {
         if (!isActive) GetComponent<Button>().interactable = false;
-        lvlSelect = GetComponentInParent<LevelSelectScreen>();
     }
 
     public void SetLevelButtonActive()

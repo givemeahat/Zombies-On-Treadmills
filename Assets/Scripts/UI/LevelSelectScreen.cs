@@ -65,8 +65,8 @@ public class LevelSelectScreen : MonoBehaviour
             Vector3 scale = Vector3.Lerp(startScale, endScale, time / waitTime);
             Vector2 position = Vector2.Lerp(startPos, endPos, time / waitTime);
             this.transform.localScale = scale;
-            this.GetComponent<RectTransform>().SetLeft(position.x);
-            this.GetComponent<RectTransform>().SetRight(position.y);
+            //this.GetComponent<RectTransform>().SetLeft(position.x);
+            //this.GetComponent<RectTransform>().SetRight(position.y);
             this.transform.localScale = scale;
             yield return null;
         }
@@ -89,8 +89,8 @@ public class LevelSelectScreen : MonoBehaviour
             Vector3 scale = Vector3.Lerp(startScale, endScale, time / waitTime);
             Vector2 position = Vector2.Lerp(startPos, endPos, time / waitTime);
             this.transform.localScale = scale;
-            this.GetComponent<RectTransform>().SetLeft(position.x);
-            this.GetComponent<RectTransform>().SetRight(position.y);
+            //this.GetComponent<RectTransform>().SetLeft(position.x);
+            //this.GetComponent<RectTransform>().SetRight(position.y);
             yield return null;
         }
         //Time.timeScale = 0f;
@@ -111,13 +111,12 @@ public class LevelSelectScreen : MonoBehaviour
             Vector3 scale = Vector3.Lerp(startScale, endScale, time / waitTime);
             Vector2 position = Vector2.Lerp(startPos, endPos, time / waitTime);
             this.transform.localScale = scale;
-            this.GetComponent<RectTransform>().SetLeft(position.x);
-            this.GetComponent<RectTransform>().SetRight(position.y);
+            //this.GetComponent<RectTransform>().SetLeft(position.x);
+            //this.GetComponent<RectTransform>().SetRight(position.y);
             this.transform.localScale = scale;
             yield return null;
         }
         transform.pivot = currentPos;
-
         startScale = this.transform.localScale;
         endScale = new Vector3(2, 2, 2);
         startPos = Vector2.zero;
@@ -131,8 +130,8 @@ public class LevelSelectScreen : MonoBehaviour
             Vector3 scale = Vector3.Lerp(startScale, endScale, time / waitTime);
             Vector2 position = Vector2.Lerp(startPos, endPos, time / waitTime);
             this.transform.localScale = scale;
-            this.GetComponent<RectTransform>().SetLeft(position.x);
-            this.GetComponent<RectTransform>().SetRight(position.y);
+            //this.GetComponent<RectTransform>().SetLeft(position.x);
+            //this.GetComponent<RectTransform>().SetRight(position.y);
             yield return null;
         }
         //Time.timeScale = 0f;

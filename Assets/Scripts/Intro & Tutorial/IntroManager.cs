@@ -107,9 +107,9 @@ public class IntroManager : MonoBehaviour
             waitTime = lines[lineTracker].Length / 20 + .2f;
         else waitTime = tutImages[currImage].GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length;
 
-        if (currImage == 2 && lineTracker == 2) waitTime = 2f;
+        if (currImage == 2 && lineTracker == 2) waitTime = 3f;
         if (currImage == 2 && lineTracker == 3) waitTime = 9f;
-        if (currImage == 2 && lineTracker == 6) waitTime = 6f;
+        if (currImage == 2 && lineTracker == 6) waitTime = 7f;
 
         yield return new WaitForSeconds(waitTime);
         continueSymbol.GetComponent<Animator>().Play("Return Symbol_Active");

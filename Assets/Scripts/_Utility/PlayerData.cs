@@ -11,9 +11,9 @@ public class PlayerData
     public float volumeLevel = 1;
     public bool hasFinishedTutorial;
     public bool hasUpdatedGuidebook;
-    public bool musicIsMuted;
+    public bool musicIsMuted = false;
     public bool isFullScreen = true;
-
+    
     public PlayerData(DataManager lm)
     {
         humanDeaths = new float[10];

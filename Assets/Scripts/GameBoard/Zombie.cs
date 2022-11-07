@@ -310,7 +310,6 @@ public class Zombie : MonoBehaviour
         if (finalGO.tag == "House")
         {
             StartCoroutine(DestroyZombie());
-            Debug.Log("people killin people dyin");
             gm.UpdatePeopleKilled();
         }
         if (finalGO.tag == "Volcano")

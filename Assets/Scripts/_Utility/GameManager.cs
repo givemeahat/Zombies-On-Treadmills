@@ -66,6 +66,7 @@ public class GameManager : MonoBehaviour
         dataManager.currentLevel = level;
         dataManager.UnlockLevels();
         levelTitleText.text = levelName;
+        isFullScreenMode.isOn = Screen.fullScreen;
         //isFullScreenMode.isOn = dataManager.isFullScreen;
         if (this.gameObject.GetComponent<SpawnManager>().isFrenzy)
         {
@@ -219,7 +220,6 @@ public class GameManager : MonoBehaviour
     }
     public void UpdatePeopleKilled()
     {
-        Debug.Log("killed person");
         peopleKilled++;
         peopleKilledText.text = "People Killed: " + peopleKilled;
         ratioPeopleKilledText.text = "People Killed: " + peopleKilled;

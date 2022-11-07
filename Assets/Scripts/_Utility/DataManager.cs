@@ -123,6 +123,7 @@ public class DataManager : MonoBehaviour
         }
         currentLevel = data.currentLevel;
         hasFinishedTutorial = data.hasFinishedTutorial;
+        hasUpdatedGuidebook = data.hasUpdatedGuidebook;
         volumeLevel = data.volumeLevel;
         isFullScreen = data.isFullScreen;
         GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().slider.GetComponent<Slider>().value = volumeLevel;
@@ -138,6 +139,19 @@ public class DataManager : MonoBehaviour
     public void WipeData()
     {
         SaveSystem.WipePlayer();
+        currentLevel = 0;
+        hasFinishedTutorial = false;
+        hasUpdatedGuidebook = false;
+        volumeLevel = 1;
+        musicIsMuted = false;
+        isFullScreen = true;
+        GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().slider.GetComponent<Slider>().value = volumeLevel;
+        GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>().muteMusicToggle.isOn = false;
+        for (int i = 0; i < scores.Length; i++)
+        {
+            scores[i].x = 0;
+            scores[i].y = 0;
+        }
         Debug.Log("bye bye");
     }
 
