@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: LoadingScreen
-  m_Shader: {fileID: 4800000, guid: 10d128fe4accb1042a98a3b3b8947207, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6e2eed3f9017db447814cf8cfbfa4fbe, type: 3}
   m_ShaderKeywords: _ENABLEHALFTONE_ON _HALFTONEINVERT_ON _SHADERSPACE_UV _TIMESETTINGS_LINEAR_DEFAULT
     _UBERFADING_NONE
   m_LightmapFlags: 4
@@ -144,6 +144,7 @@ Material:
     - _CamouflageSmoothnessB: 0.2
     - _CheckerboardDarken: 0.5
     - _CheckerboardTiling: 1
+    - _ColorMask: 15
     - _ColorReplaceBias: 1
     - _ColorReplaceBrightnessTolerance: 1
     - _ColorReplaceContrast: 1
@@ -270,6 +271,7 @@ Material:
     - _InnerOutlineDistortionToggle: 0
     - _InnerOutlineFade: 1
     - _InnerOutlineWidth: 0.02
+    - _IsText: 0
     - _MetalContrast: 2
     - _MetalFade: 1
     - _MetalHighlightContrast: 2
@@ -348,6 +350,11 @@ Material:
     - _SquishSquish: 0.1
     - _SquishStretch: 0.1
     - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
     - _StrongTintContrast: 0
     - _StrongTintFade: 1
     - _TimeFPS: 5
@@ -362,6 +369,7 @@ Material:
     - _UberFading: 0
     - _UberNoiseFactor: 0.2
     - _UberWidth: 0.3
+    - _UseUIAlphaClip: 0
     - _VibrateFade: 1
     - _VibrateFrequency: 100
     - _VibrateOffset: 0.04
