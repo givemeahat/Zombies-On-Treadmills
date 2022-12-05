@@ -17617,6 +17617,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3315509002265622926, guid: c69c2ae9d33fae6439e2cc7aa862ac04, type: 3}
   m_PrefabInstance: {fileID: 1137913660}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1293221593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1293221594}
+  - component: {fileID: 1293221596}
+  - component: {fileID: 1293221595}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1293221594
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293221593}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5520672008766476637}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -40}
+  m_SizeDelta: {x: 766.5, y: 51.86}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1293221595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293221593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ad0f01ffd7388ae4e9fb3a427fb29f86, type: 3}
+    m_FontSize: 17
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Thanks for playing!
+
+    For the full version of the game, please visit
+
+    laber-labs.com/pages/zombiesontreadmills.html'
+--- !u!222 &1293221596
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293221593}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1344393292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18698,6 +18781,14 @@ PrefabInstance:
       propertyPath: volumeTrigger
       value: 
       objectReference: {fileID: 232890335}
+    - target: {fileID: 3729662070229040085, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729662070229040085, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -143
+      objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727512, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: orthographic size
       value: 3.35
@@ -18721,6 +18812,10 @@ PrefabInstance:
     - target: {fileID: 6605028813614557685, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: PlayOneShot
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827126578350688356, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049570, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: level
@@ -18810,5 +18905,18 @@ PrefabInstance:
       propertyPath: zombieSpawners.Array.data[2]
       value: 
       objectReference: {fileID: 575445678}
+    - target: {fileID: 8841328789749214249, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -64
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841328789749214249, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -144
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+--- !u!224 &5520672008766476637 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5520672009225022921, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+  m_PrefabInstance: {fileID: 5520672008766476636}
+  m_PrefabAsset: {fileID: 0}
