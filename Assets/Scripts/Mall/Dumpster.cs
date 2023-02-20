@@ -11,11 +11,13 @@ public class Dumpster : MonoBehaviour
     public float maxCapacity;
 
     public Image fullnessBar;
+    public Color gaugeColor;
 
     // Start is called before the first frame update
     void Start()
     {
         Time.timeScale = 1;
+        gaugeColor = fullnessBar.color;
     }
 
     public void Update()
@@ -45,6 +47,10 @@ public class Dumpster : MonoBehaviour
         {
             _time += Time.deltaTime;
             fullnessBar.fillAmount = Mathf.Lerp(_currentFill, fillAmt, (_time / _duration));
+            if (fullnessBar.fillAmount <= .25f) fullnessBar.color = Color.green;
+            else if (fullnessBar.fillAmount > .25f && fullnessBar.fillAmount <= .5f) fullnessBar.color = Color.yellow;
+            else if (fullnessBar.fillAmount > .5f && fullnessBar.fillAmount <= .75f) fullnessBar.color = new Color (1, 0.6470588f, 0, 1);
+            else if (fullnessBar.fillAmount > .75f && fullnessBar.fillAmount <= 1f) fullnessBar.color = Color.red;
             yield return null;
         }
         fullnessBar.fillAmount = fillAmt;
