@@ -8,7 +8,6 @@ public class Volcano : MonoBehaviour
     public Transform waypoint;
     public GameObject smokeFX;
     public Material smokeMat;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -24,5 +23,6 @@ public class Volcano : MonoBehaviour
     public void Burn()
     {
         this.GetComponent<Animator>().SetTrigger("Burning");
+        if (GetComponent<Dumpster>()) GetComponent<Dumpster>().CheckCount();
     }
 }
