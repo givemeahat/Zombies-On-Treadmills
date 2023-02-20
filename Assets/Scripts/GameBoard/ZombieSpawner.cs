@@ -57,7 +57,7 @@ public class ZombieSpawner : MonoBehaviour
 
     public void BeginSpawn()
     {
-        Debug.Log("Spawning");
+        Debug.Log("Spawning "+ numberOfZombies + " Zombies");
         for (var x = 0; x < numberOfZombies; x++)
         {
             GameObject zombie;

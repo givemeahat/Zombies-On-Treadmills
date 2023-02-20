@@ -166,17 +166,21 @@ public class Zombie : MonoBehaviour
             Volcano volcano = hit.collider.gameObject.GetComponent<Volcano>();
             currentTreadmill = null;
             nextWaypoint = volcano.waypoint;
+            volcano.Burn();
             StartCoroutine(MoveToFinalWaypoint(volcano.gameObject));
             if (currentDirection == 0 || currentDirection == 180) StartCoroutine(BeginScaleZombieVertical());
             else StartCoroutine(BeginScaleZombieHorizontal());
         }
+        if (hit.collider.gameObject.tag == "Full") {
+            currentDirection += 90;
+            CheckDirections(); }
     }
 
     public void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.tag == "Volcano")
         {
-            if (coll.gameObject.tag == "Volcano") coll.gameObject.GetComponent<Volcano>().Burn();
+            //if (coll.gameObject.tag == "Volcano") coll.gameObject.GetComponent<Volcano>().Burn();
             //if (coll.gameObject.tag == "House") coll.gameObject.GetComponent<House>().Flash();
         }
     }
@@ -208,6 +212,8 @@ public class Zombie : MonoBehaviour
         gm.zombiesInScene.Remove(this.gameObject);
         gm.CheckZombies();
         Destroy(this.gameObject);
+        gm.UpdateZombiesKilled();
+
     }
 
     IEnumerator BeginScaleZombieHorizontal()
@@ -315,7 +321,7 @@ public class Zombie : MonoBehaviour
         if (finalGO.tag == "Volcano")
         {
             //finalGO.GetComponent<Volcano>().smokeFX.GetComponent<Animator>().SetTrigger("ZombieDeath");
-            gm.UpdateZombiesKilled();
+            //gm.UpdateZombiesKilled();
         }
     }
 }
