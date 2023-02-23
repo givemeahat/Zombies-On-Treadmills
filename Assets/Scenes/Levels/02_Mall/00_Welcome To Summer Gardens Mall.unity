@@ -17539,7 +17539,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782002463}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
@@ -18579,6 +18579,10 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2666329604588979641, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666329604588979641, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: volumeTrigger
       value: 
       objectReference: {fileID: 1782002465}
@@ -18600,7 +18604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727512, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: orthographic size
-      value: 3.02
+      value: 1.74
       objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727512, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_BackGroundColor.a
@@ -18608,15 +18612,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727512, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_BackGroundColor.b
-      value: 0.6997597
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727512, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_BackGroundColor.g
-      value: 0.7803408
+      value: 0.7877358
       objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727512, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_BackGroundColor.r
-      value: 0.8018868
+      value: 0.7932444
       objectReference: {fileID: 0}
     - target: {fileID: 5520672008552727513, guid: 8ed63ddc4316d3a40b25b713b3424883, type: 3}
       propertyPath: m_LocalPosition.y
