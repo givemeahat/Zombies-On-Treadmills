@@ -13,6 +13,7 @@ public class Dumpster : MonoBehaviour
     public Image fullnessBar;
     public Color gaugeColor;
 
+    public bool xlDumpster;
     public Sprite fullDumpsterSprite;
 
     // Start is called before the first frame update
@@ -34,7 +35,7 @@ public class Dumpster : MonoBehaviour
             this.gameObject.tag = "Full";
             fullnessBar.fillAmount = 1;
             fullnessBar.color = Color.red;
-            StartCoroutine(LockDumpster());
+            if (xlDumpster) StartCoroutine(LockDumpster());
             return;
         }
         float fillAmt = zombieCount / maxCapacity;

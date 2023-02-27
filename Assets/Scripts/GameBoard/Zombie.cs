@@ -25,14 +25,19 @@ public class Zombie : MonoBehaviour
     {
         Renderer rend = this.GetComponent<SpriteRenderer>();
         rend.material = new Material(zombieMat);
-
+        rend.sortingOrder = 99;
+        StartCoroutine(SpawnReorder(rend));
         this.GetComponent<Animator>().Play("Zombie_Fall In");
         nextWaypoint = startTreadmill.waypoint;
         StartCoroutine(MoveToWaypoint(fallSpeed));
         currentTreadmill = startTreadmill;
         zombieRend = GetComponent<SpriteRenderer>();
     }
-
+    IEnumerator SpawnReorder(Renderer rend)
+    {
+        yield return new WaitForSeconds(1.5f);
+        rend.sortingOrder = 25;
+    }
     public void NextTreadmill()
     {
         if (!GetComponent<Animator>().GetBool("IsWalking")) GetComponent<Animator>().SetBool("IsWalking", true);
