@@ -198,9 +198,10 @@ GameObject:
   - component: {fileID: 3670060683786022965}
   - component: {fileID: 9017349762923842912}
   - component: {fileID: 3466121650014826344}
-  - component: {fileID: 1446653005596529377}
   - component: {fileID: 9164975124335401785}
   - component: {fileID: 86946759238584137}
+  - component: {fileID: 5123421402746610755}
+  - component: {fileID: 5739085239232429187}
   m_Layer: 0
   m_Name: Mall_LVL1
   m_TagString: Untagged
@@ -323,21 +324,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1446653005596529377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8584702937463732207}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 5, y: -5}
-  m_UseGraphicAlpha: 1
 --- !u!225 &9164975124335401785
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -369,3 +355,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5123421402746610755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8584702937463732207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.16862746}
+  m_EffectDistance: {x: 1, y: -6.04}
+  m_UseGraphicAlpha: 1
+--- !u!114 &5739085239232429187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8584702937463732207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a5fae8bf1ccada4fa83528a488e8b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correspondingButtonAnim: {fileID: 0}
