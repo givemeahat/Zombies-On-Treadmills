@@ -183,6 +183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner
       objectReference: {fileID: 0}
+    - target: {fileID: 3319871645084280498, guid: 4c0ff0eaa99decd448b1e2c427242f87, type: 3}
+      propertyPath: numberOfZombies
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c0ff0eaa99decd448b1e2c427242f87, type: 3}
 --- !u!4 &138195952 stripped
@@ -3904,6 +3908,10 @@ PrefabInstance:
     - target: {fileID: 3319871645084280497, guid: 4c0ff0eaa99decd448b1e2c427242f87, type: 3}
       propertyPath: m_Name
       value: Spawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 3319871645084280498, guid: 4c0ff0eaa99decd448b1e2c427242f87, type: 3}
+      propertyPath: numberOfZombies
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c0ff0eaa99decd448b1e2c427242f87, type: 3}
