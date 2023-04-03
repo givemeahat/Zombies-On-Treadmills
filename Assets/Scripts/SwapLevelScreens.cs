@@ -9,6 +9,8 @@ public class SwapLevelScreens : MonoBehaviour
 
     public GameObject currentScreen;
 
+    public GameObject[] mallLevelButtons;
+
     public void Start()
     {
         DetectCurrentScreen();
@@ -24,12 +26,20 @@ public class SwapLevelScreens : MonoBehaviour
         {
             neighborhoodScreen.GetComponent<Canvas>().sortingOrder = 1001;
             mallScreen.GetComponent<Canvas>().sortingOrder = 1000;
+            foreach (GameObject button in mallLevelButtons)
+            {
+                button.GetComponent<Canvas>().sortingOrder = 1000;
+            }
             currentScreen = neighborhoodScreen;
         }
         else if (_currentLevel > 7)
         {
             neighborhoodScreen.GetComponent<Canvas>().sortingOrder = 1000;
             mallScreen.GetComponent<Canvas>().sortingOrder = 1001;
+            foreach (GameObject button in mallLevelButtons)
+            {
+                button.GetComponent<Canvas>().sortingOrder = 1020;
+            }
             currentScreen = mallScreen;
         }
     }
@@ -43,6 +53,20 @@ public class SwapLevelScreens : MonoBehaviour
         Debug.Log("Bonk");
         currentScreen.GetComponent<Animator>().SetTrigger("Swap");
         yield return new WaitForSeconds(.5f);
+        if (_nextScreen == neighborhoodScreen)
+        {
+            foreach (GameObject button in mallLevelButtons)
+            {
+                button.GetComponent<Canvas>().sortingOrder = 1000;
+            }
+        }
+        else
+        {
+            foreach (GameObject button in mallLevelButtons)
+            {
+                button.GetComponent<Canvas>().sortingOrder = 1020;
+            }
+        }
         _nextScreen.GetComponent<Canvas>().sortingOrder = 1001;
         currentScreen.GetComponent<Canvas>().sortingOrder = 1000;
         currentScreen = _nextScreen;
