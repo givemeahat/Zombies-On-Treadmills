@@ -16,7 +16,10 @@ public class ZombieTemperament : MonoBehaviour
     public void Start()
     {
         float _rate = gm.randomness;
-        temperamentLevel.fillAmount = _rate * 2;
+        if (_rate > 0)
+            temperamentLevel.fillAmount = _rate * 2;
+        else temperamentLevel.fillAmount = 0;
+
         if (_rate <= .1) temperamentLabel.text = "DOCILE";
         else if (_rate > .1 && _rate <= .15) temperamentLabel.text = "NUISANCE";
         else if (_rate > .15 && _rate <= .2) temperamentLabel.text = "ENERGETIC";
