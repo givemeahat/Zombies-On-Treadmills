@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fdc5e1eccedb29e4894bbfab99032590, type: 3}
-  m_Name: RandomTreadmills_Mall
+  m_Name: RandomTreadmills_Mall 2
   m_EditorClassIdentifier: 
   m_Cells:
   - m_Tile: {fileID: 0}
@@ -38,8 +38,8 @@ MonoBehaviour:
   m_FloodFillContiguousOnly: 1
   m_Anchor: {x: 0.5, y: 0.5, z: 0.5}
   m_Prefabs:
-  - {fileID: 4159507144940422705, guid: 0e189e00a03f4f94e8f29e29f4062b64, type: 3}
-  - {fileID: 7476827996756150692, guid: af529813d05707f4ab0eb9a46571e4f7, type: 3}
-  - {fileID: 7452917015697522468, guid: 9dd1f7dddf48d7446a6aa68ff510f287, type: 3}
-  - {fileID: 837655387454805942, guid: eb874ee4a28440640869233063fc7b52, type: 3}
+  - {fileID: 4159507144940422705, guid: 48e4b806913b5bc418d31ce88c06c364, type: 3}
+  - {fileID: 7476827996756150692, guid: 05a7b6236736ca34ea1d914e1a514fc5, type: 3}
+  - {fileID: 7452917015697522468, guid: fda609b854a52fa4caf8a08a386d1f04, type: 3}
+  - {fileID: 837655387454805942, guid: 0caef58f890ba75429ee1488df343a7f, type: 3}
   m_PerlinScale: 0.5

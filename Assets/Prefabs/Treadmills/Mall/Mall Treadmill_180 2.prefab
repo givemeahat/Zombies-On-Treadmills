@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 1502548552879252673}
   - component: {fileID: 5299924338764227602}
   m_Layer: 6
-  m_Name: Mall Treadmill_180
+  m_Name: Mall Treadmill_180 2
   m_TagString: Treadmill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108,7 +108,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 12
-  m_Sprite: {fileID: 21300000, guid: 60e0e2a1366ff4e4aa5bbc0d64cae371, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 62552ec8cd23e9540830a293d877bbab, type: 3}
   m_Color: {r: 0.6352511, g: 0.9716981, b: 0.62793696, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,8 +134,8 @@ MonoBehaviour:
   currentDirection: 180
   waypoint: {fileID: 7452917015362305675}
   spriteRend: {fileID: 0}
-  verticalSprite: {fileID: 21300000, guid: 60e0e2a1366ff4e4aa5bbc0d64cae371, type: 3}
-  horizontalSprite: {fileID: 21300000, guid: 814391b1853648e49a8df2e5a5de4014, type: 3}
+  verticalSprite: {fileID: 21300000, guid: 62552ec8cd23e9540830a293d877bbab, type: 3}
+  horizontalSprite: {fileID: 21300000, guid: c609fa3f43f91094cb6aa0ce24e11b28, type: 3}
   arrow: {fileID: 7452917016049297379}
   rotation: {fileID: 5587605553582600191}
   anim: {fileID: 0}
