@@ -18380,8 +18380,12 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049570, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
+      propertyPath: levelName
+      value: Welcome To Summer Gardens
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316453508570049570, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
       propertyPath: randomness
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049571, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
       propertyPath: m_RootOrder

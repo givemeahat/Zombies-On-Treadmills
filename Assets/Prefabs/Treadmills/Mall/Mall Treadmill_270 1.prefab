@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 12
-  m_Sprite: {fileID: 21300000, guid: 7fa55763f13ba5742a06780e3776cd97, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4d340ee89891b2a428a6886cf9b7b739, type: 3}
   m_Color: {r: 1, g: 0.8156863, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -104,8 +104,8 @@ MonoBehaviour:
   currentDirection: 270
   waypoint: {fileID: 837655387973706455}
   spriteRend: {fileID: 0}
-  verticalSprite: {fileID: 21300000, guid: 26646311e2e908e45969b54e9148adf1, type: 3}
-  horizontalSprite: {fileID: 21300000, guid: 7fa55763f13ba5742a06780e3776cd97, type: 3}
+  verticalSprite: {fileID: 21300000, guid: ecbf2dc205f86784a9e40543a86dc556, type: 3}
+  horizontalSprite: {fileID: 21300000, guid: 4d340ee89891b2a428a6886cf9b7b739, type: 3}
   arrow: {fileID: 837655387589282320}
   rotation: {fileID: 3057823067591681928}
   anim: {fileID: 0}
