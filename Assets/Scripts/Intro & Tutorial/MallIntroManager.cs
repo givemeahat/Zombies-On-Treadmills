@@ -31,13 +31,21 @@ public class MallIntroManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (tutorialTextEffect.IsFinished)
+        {
+            tutorialText.text = lines[lineTracker];
+            tutorialTextEffect.Finish();
+            hasFinishedLine = true;
+            continueSymbol.GetComponent<Animator>().Play("Return Symbol_Active");
+        }
         if (Input.GetKeyDown(KeyCode.Return))
         {
             if (!hasFinishedLine)
             {
-                //tutorialText.text = lines[lineTracker];
-                //tutorialTextEffect.Finish();
-                //hasFinishedLine = true;
+                tutorialText.text = lines[lineTracker];
+                tutorialTextEffect.Finish();
+                hasFinishedLine = true;
+                continueSymbol.GetComponent<Animator>().Play("Return Symbol_Active");
                 return;
             }
             else
@@ -76,7 +84,7 @@ public class MallIntroManager : MonoBehaviour
             tutImages[4].SetActive(true);
             tutImages[3].SetActive(false);
         }
-        if (lineTracker == 4)
+        if (lineTracker == 6)
         {
             tutImages[5].SetActive(true);
             tutImages[4].SetActive(false);
@@ -91,18 +99,19 @@ public class MallIntroManager : MonoBehaviour
 
         tutorialText.text = lines[lineTracker];
         tutorialTextEffect.Play();
-        StartCoroutine(WaitToPlayActiveAnimation(currentImage));
+        //StartCoroutine(WaitToPlayActiveAnimation(currentImage));
     }
 
-    IEnumerator WaitToPlayActiveAnimation(int currImage)
+    /*IEnumerator WaitToPlayActiveAnimation(int currImage)
     {
         //float tutorialTimer = lines[lineTracker].Length / 50 + .5f;
         float waitTime = 0f;
+        waitTime = tutorialTextEffect.IsFinished
         if (tutImages[currImage].GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length == 0 || tutImages[currImage].GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
             waitTime = lines[lineTracker].Length / 20 + .2f;
 
         yield return new WaitForSeconds(waitTime);
         continueSymbol.GetComponent<Animator>().Play("Return Symbol_Active");
         hasFinishedLine = true;
-    }
+    }*/
 }
