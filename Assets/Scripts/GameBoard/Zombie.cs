@@ -177,7 +177,7 @@ public class Zombie : MonoBehaviour
             else StartCoroutine(BeginScaleZombieHorizontal());
         }
         if (hit.collider.gameObject.tag == "Full") {
-            currentDirection += 90;
+            currentDirection += 90; 
             CheckDirections(); }
     }
 
