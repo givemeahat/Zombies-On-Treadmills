@@ -89,6 +89,11 @@ public class MallIntroManager : MonoBehaviour
             tutImages[5].SetActive(true);
             tutImages[4].SetActive(false);
         }
+        if (lineTracker == 7)
+        {
+            DataManager dm = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<DataManager>();
+            dm.LoadLevel(14);
+        }
         int currentImage = 0;
         if (tutImages[0].activeInHierarchy) currentImage = 0;
         if (tutImages[1].activeInHierarchy) currentImage = 1;
