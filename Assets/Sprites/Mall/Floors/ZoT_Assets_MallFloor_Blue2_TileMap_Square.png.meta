@@ -1,7 +1,514 @@
 fileFormatVersion: 2
 guid: 5b13fa6b3eb6fd84a948c0d51d96e070
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 776751635598444995
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_0
+  - first:
+      213: -7081754223236671529
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_1
+  - first:
+      213: -1159558785840046395
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_2
+  - first:
+      213: -7359541070081403295
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_3
+  - first:
+      213: 2906510715885102466
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_4
+  - first:
+      213: 215646486298464575
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_5
+  - first:
+      213: 356883317038469660
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_6
+  - first:
+      213: 7249099427889691815
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_7
+  - first:
+      213: -7405531137190250293
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_8
+  - first:
+      213: 2851105369488732807
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_9
+  - first:
+      213: 5085547846534520907
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_10
+  - first:
+      213: 2793751947249903408
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_11
+  - first:
+      213: 2997546933969857679
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_12
+  - first:
+      213: -6925078487795025683
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_13
+  - first:
+      213: 1986148397095442814
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_14
+  - first:
+      213: 7921512625707603209
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_15
+  - first:
+      213: -6526011848002939967
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_16
+  - first:
+      213: -897020966285086166
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_17
+  - first:
+      213: -3017299260513424332
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_18
+  - first:
+      213: -6617021821240004747
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_19
+  - first:
+      213: -2278797569507050797
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_20
+  - first:
+      213: 6992787308282144622
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_21
+  - first:
+      213: -3579379056350060933
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_22
+  - first:
+      213: -1299138242187451445
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_23
+  - first:
+      213: -2667420210748453363
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_24
+  - first:
+      213: -9218940851713971697
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_25
+  - first:
+      213: 3583627559801234948
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_26
+  - first:
+      213: -4293215193707517655
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_27
+  - first:
+      213: -260584368544721200
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_28
+  - first:
+      213: 8001876821603794982
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_29
+  - first:
+      213: 555069537114568249
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_30
+  - first:
+      213: -7457577309996047692
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_31
+  - first:
+      213: -747963424197300817
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_32
+  - first:
+      213: 34806195941941100
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_33
+  - first:
+      213: -4088979787284835770
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_34
+  - first:
+      213: -1764499749448837674
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_35
+  - first:
+      213: -388527800361937133
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_36
+  - first:
+      213: 4898895799810072974
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_37
+  - first:
+      213: 8013528515333855100
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_38
+  - first:
+      213: -3039311541322122876
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_39
+  - first:
+      213: 6016826883388537190
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_40
+  - first:
+      213: -8866722241267065989
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_41
+  - first:
+      213: 7125048224862664621
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_42
+  - first:
+      213: -1251958949540695854
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_43
+  - first:
+      213: -4646562272079601918
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_44
+  - first:
+      213: 3053640842413566436
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_45
+  - first:
+      213: 3892876107512629400
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_46
+  - first:
+      213: 7173691153664654884
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_47
+  - first:
+      213: 3373442088299818152
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_48
+  - first:
+      213: -1858014320168236557
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_49
+  - first:
+      213: -672180071048820283
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_50
+  - first:
+      213: -4387224140252761380
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_51
+  - first:
+      213: 4973655234521394246
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_52
+  - first:
+      213: 1807331226728655365
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_53
+  - first:
+      213: -3959267366256270157
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_54
+  - first:
+      213: 73729263781347987
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_55
+  - first:
+      213: 999711394511483891
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_56
+  - first:
+      213: 2178456592096616524
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_57
+  - first:
+      213: -6978658576187390364
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_58
+  - first:
+      213: 6855469664667554107
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_59
+  - first:
+      213: 5066859400837372533
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_60
+  - first:
+      213: -1680678869379178852
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_61
+  - first:
+      213: -4361572388539017884
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_62
+  - first:
+      213: 1992215262323406626
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_63
+  - first:
+      213: 3534598407309289739
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_64
+  - first:
+      213: 4894718950745630049
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_65
+  - first:
+      213: 8101430968216465757
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_66
+  - first:
+      213: -8276289030768365122
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_67
+  - first:
+      213: -5096901538521390153
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_68
+  - first:
+      213: -2245955838182148720
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_69
+  - first:
+      213: 3210791210003936982
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_70
+  - first:
+      213: -309228873929593888
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_71
+  - first:
+      213: 6827050947354103608
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_72
+  - first:
+      213: -9136327129028273168
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_73
+  - first:
+      213: -1909633903923877908
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_74
+  - first:
+      213: 3932087084592798206
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_75
+  - first:
+      213: -5660063391163677239
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_76
+  - first:
+      213: 4275829528037675903
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_77
+  - first:
+      213: -2542130977538409209
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_78
+  - first:
+      213: -2994234359101054395
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_79
+  - first:
+      213: -4403825248079964207
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_80
+  - first:
+      213: 5934879461846717926
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_81
+  - first:
+      213: -6437539776999597281
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_82
+  - first:
+      213: 1059859103277614006
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_83
+  - first:
+      213: 4601801063400936481
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_84
+  - first:
+      213: -4856646089176542000
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_85
+  - first:
+      213: 7095097600756313635
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_86
+  - first:
+      213: 1396002836152384156
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_87
+  - first:
+      213: -618219378759788498
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_88
+  - first:
+      213: -575852710930365518
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_89
+  - first:
+      213: 8579145351020343171
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_90
+  - first:
+      213: -3933139762194691162
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_91
+  - first:
+      213: 1313414591075029315
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_92
+  - first:
+      213: -1065829926685356028
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_93
+  - first:
+      213: -5062077300985332142
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_94
+  - first:
+      213: -2978951924467408321
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_95
+  - first:
+      213: -356411741503375181
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_96
+  - first:
+      213: -3216528271682803390
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_97
+  - first:
+      213: -8786626433297746948
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_98
+  - first:
+      213: 1574549927437876987
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_99
+  - first:
+      213: 3319057926362072549
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_100
+  - first:
+      213: 1099633671724432675
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_101
+  - first:
+      213: 7092927025902640224
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_102
+  - first:
+      213: 3468419316140141494
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_103
+  - first:
+      213: -7491340694385554554
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_104
+  - first:
+      213: -3670429450641040600
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_105
+  - first:
+      213: -7323923024838912430
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_106
+  - first:
+      213: -8582205055610482773
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_107
+  - first:
+      213: -196615267791966882
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_108
+  - first:
+      213: 7058918453896289185
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_109
+  - first:
+      213: -2085702503089887876
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_110
+  - first:
+      213: 7246132215494947438
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_111
+  - first:
+      213: 3822172871077536047
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_112
+  - first:
+      213: -262017406882014580
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_113
+  - first:
+      213: -1189194330859758988
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_114
+  - first:
+      213: -436657472296441604
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_115
+  - first:
+      213: -4936409001281616549
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_116
+  - first:
+      213: 3196274743782613349
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_117
+  - first:
+      213: 8572406563783759692
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_118
+  - first:
+      213: 5783607676338374936
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_119
+  - first:
+      213: -3779553422601761277
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_120
+  - first:
+      213: -1713139032269827394
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_121
+  - first:
+      213: 6657040300489397553
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_122
+  - first:
+      213: -5893359178109737261
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_123
+  - first:
+      213: -4054742991161870750
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_124
+  - first:
+      213: -2974213337050395656
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_125
+  - first:
+      213: -1628685867249726607
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_126
+  - first:
+      213: 8878407389496678335
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_127
+  - first:
+      213: 7360437577142323853
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_128
+  - first:
+      213: -7843023755398904701
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_129
+  - first:
+      213: -7301779567583592407
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_130
+  - first:
+      213: -2414164491727864035
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_131
+  - first:
+      213: 2988559197058253429
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_132
+  - first:
+      213: 3332455836600057505
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_133
+  - first:
+      213: 5511356184775532991
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_134
+  - first:
+      213: 8524072870544044904
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_135
+  - first:
+      213: -5728933336701430451
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_136
+  - first:
+      213: -3526680612734521350
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_137
+  - first:
+      213: -4621761143164658136
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_138
+  - first:
+      213: 698645642330530729
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_139
+  - first:
+      213: -5785539907178966030
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_140
+  - first:
+      213: -7416821476489022982
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_141
+  - first:
+      213: -2776340303333894027
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_142
+  - first:
+      213: -1238868069090379489
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_143
+  - first:
+      213: -153199514493225811
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_144
+  - first:
+      213: 6196639369875315091
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_145
+  - first:
+      213: 8267879469456497671
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_146
+  - first:
+      213: -5352433356882500273
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_147
+  - first:
+      213: 5661585571282239391
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_148
+  - first:
+      213: 4658248134866944186
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_149
+  - first:
+      213: 2504015105053848058
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_150
+  - first:
+      213: -6544882615674020731
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_151
+  - first:
+      213: 4030704986706021968
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_152
+  - first:
+      213: -932778668674761103
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_153
+  - first:
+      213: 7119269772696040376
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_154
+  - first:
+      213: -9006194696861031017
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_155
+  - first:
+      213: 6728205872661762203
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_156
+  - first:
+      213: 6677367890589422083
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_157
+  - first:
+      213: -5154551561548583578
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_158
+  - first:
+      213: -5322806483919648490
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_159
+  - first:
+      213: 422912037155112429
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_160
+  - first:
+      213: -1824120257698961497
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_161
+  - first:
+      213: -3893571770260171637
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_162
+  - first:
+      213: 7686046921051641257
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_163
+  - first:
+      213: -6817490881587770651
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_164
+  - first:
+      213: -3948060058745050505
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_165
+  - first:
+      213: -8979251803250804631
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_166
+  - first:
+      213: 3859608907675328000
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_167
+  - first:
+      213: -8328711123651633619
+    second: ZoT_Assets_MallFloor_Blue2_TileMap_Square_168
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +539,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,7 +548,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -68,7 +575,31 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +608,3556 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c98c864f7397ca00800000000000000
+      internalID: 776751635598444995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d71b510e0e88bd90800000000000000
+      internalID: -7081754223236671529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce12d98d6b68efe0800000000000000
+      internalID: -1159558785840046395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16656e7a368add990800000000000000
+      internalID: -7359541070081403295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285a234c810065820800000000000000
+      internalID: 2906510715885102466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3191e436512ef200800000000000000
+      internalID: 215646486298464575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12575a6c77e3f400800000000000000
+      internalID: 356883317038469660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac3ad4b589f99460800000000000000
+      internalID: 7249099427889691815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc83eaabaa44a3990800000000000000
+      internalID: -7405531137190250293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782b59d4a39219720800000000000000
+      internalID: 2851105369488732807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4061f072de739640800000000000000
+      internalID: 5085547846534520907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037e266189665c620800000000000000
+      internalID: 2793751947249903408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ca5d40e0d699920800000000000000
+      internalID: 2997546933969857679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de837455ecd25ef90800000000000000
+      internalID: -6925078487795025683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79d510b177309b10800000000000000
+      internalID: 1986148397095442814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905d21b53cddeed60800000000000000
+      internalID: 7921512625707603209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c35bcfecc2fe65a0800000000000000
+      internalID: -6526011848002939967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22ff7c0f242d83f0800000000000000
+      internalID: -897020966285086166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c6c041f466026d0800000000000000
+      internalID: -3017299260513424332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f2bf946bd9b24a0800000000000000
+      internalID: -6617021821240004747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da32822fa51060e0800000000000000
+      internalID: -2278797569507050797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67640ce10f5b0160800000000000000
+      internalID: 6992787308282144622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e18cd66bd735ec0800000000000000
+      internalID: -3579379056350060933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3aa40e6a888fde0800000000000000
+      internalID: -1299138242187451445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_24
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e04af637b6bfad0800000000000000
+      internalID: -2667420210748453363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_25
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a6040b32ebf0080800000000000000
+      internalID: -9218940851713971697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406a04d574a9bb130800000000000000
+      internalID: 3583627559801234948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929e0ca178f6b64c0800000000000000
+      internalID: -4293215193707517655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d65fdeb5e7326cf0800000000000000
+      internalID: -260584368544721200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6204020d2906c0f60800000000000000
+      internalID: 8001876821603794982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936ba599dc004b700800000000000000
+      internalID: 555069537114568249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b22ca0d2fc518890800000000000000
+      internalID: -7457577309996047692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad2cb38a33be95f0800000000000000
+      internalID: -747963424197300817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_33
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f1a110d08ab7000800000000000000
+      internalID: 34806195941941100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642922d3c860147c0800000000000000
+      internalID: -4088979787284835770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_35
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d516db93dc3387e0800000000000000
+      internalID: -1764499749448837674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317101a260cab9af0800000000000000
+      internalID: -388527800361937133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_37
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81255346cf5cf340800000000000000
+      internalID: 4898895799810072974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7710f92ab5c53f60800000000000000
+      internalID: 8013528515333855100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489ffb1914232d5d0800000000000000
+      internalID: -3039311541322122876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669f4630c20108350800000000000000
+      internalID: 6016826883388537190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b9837791313f480800000000000000
+      internalID: -8866722241267065989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da777724c9141e260800000000000000
+      internalID: 7125048224862664621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d07143f7f520aee0800000000000000
+      internalID: -1251958949540695854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f96f96b38148fb0800000000000000
+      internalID: -4646562272079601918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e96fa3da26b06a20800000000000000
+      internalID: 3053640842413566436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89845e6c136460630800000000000000
+      internalID: 3892876107512629400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_47
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e3b8ea8121e8360800000000000000
+      internalID: 7173691153664654884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_48
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac667fb4bfd0de20800000000000000
+      internalID: 3373442088299818152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_49
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f988cae1d10736e0800000000000000
+      internalID: -1858014320168236557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_50
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9c90869cfeba6f0800000000000000
+      internalID: -672180071048820283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2373293e27d13c0800000000000000
+      internalID: -4387224140252761380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ce8e09519f50540800000000000000
+      internalID: 4973655234521394246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ae1a0dc2ee41910800000000000000
+      internalID: 1807331226728655365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4af77be4bdd09c0800000000000000
+      internalID: -3959267366256270157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3920d31ff50f50100800000000000000
+      internalID: 73729263781347987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f374c37730bfdd00800000000000000
+      internalID: 999711394511483891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40e6828abe6b3e10800000000000000
+      internalID: 2178456592096616524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4660e9ddff2d62f90800000000000000
+      internalID: -6978658576187390364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31d9f29655832f50800000000000000
+      internalID: 6855469664667554107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a92c997c9115640800000000000000
+      internalID: 5066859400837372533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_61
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e162119770da8e0800000000000000
+      internalID: -1680678869379178852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_62
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465dafe65059873c0800000000000000
+      internalID: -4361572388539017884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_63
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227f5e2d935c5ab10800000000000000
+      internalID: 1992215262323406626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_64
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09e45b368a6d0130800000000000000
+      internalID: 3534598407309289739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165e09ec3f88de340800000000000000
+      internalID: 4894718950745630049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5134e8da801e6070800000000000000
+      internalID: 8101430968216465757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1f696e9f6b42d80800000000000000
+      internalID: -8276289030768365122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b36a452e0b2449b0800000000000000
+      internalID: -5096901538521390153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_69
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09530f39013c4d0e0800000000000000
+      internalID: -2245955838182148720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d63b3018950f8c20800000000000000
+      internalID: 3210791210003936982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_71
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebe12f3af565bbf0800000000000000
+      internalID: -309228873929593888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_72
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f09845aae8ebe50800000000000000
+      internalID: 6827050947354103608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_73
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb518ae1ee353180800000000000000
+      internalID: -9136327129028273168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_74
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce72391051e9f75e0800000000000000
+      internalID: -1909633903923877908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_75
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef91e0fce54919630800000000000000
+      internalID: 3932087084592798206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_76
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c50f73855a6371b0800000000000000
+      internalID: -5660063391163677239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_77
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73dfca2d4cc65b30800000000000000
+      internalID: 4275829528037675903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d7e4f385988bcd0800000000000000
+      internalID: -2542130977538409209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542238be6b75276d0800000000000000
+      internalID: -2994234359101054395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d71c43f44872e2c0800000000000000
+      internalID: -4403825248079964207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5922c1d6dec5250800000000000000
+      internalID: 5934879461846717926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bdd7c2ea349a6a0800000000000000
+      internalID: -6437539776999597281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b383d23d3065be00800000000000000
+      internalID: 1059859103277614006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124170f8fa1ecdf30800000000000000
+      internalID: 4601801063400936481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_85
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d497de0d1ab99cb0800000000000000
+      internalID: -4856646089176542000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e6ecb2da9d67260800000000000000
+      internalID: 7095097600756313635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_87
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9afc42ee299f5310800000000000000
+      internalID: 1396002836152384156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_88
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2892cf10c4ab67f0800000000000000
+      internalID: -618219378759788498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_89
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3cc0aa2092208f0800000000000000
+      internalID: -575852710930365518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_90
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fe2041e3f3f0770800000000000000
+      internalID: 8579145351020343171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abcb66993eaa69c0800000000000000
+      internalID: -3933139762194691162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34197df9c9f2a3210800000000000000
+      internalID: 1313414591075029315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_93
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40050f424596531f0800000000000000
+      internalID: -1065829926685356028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e7339c383efb9b0800000000000000
+      internalID: -5062077300985332142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_95
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3267230203a8a6d0800000000000000
+      internalID: -2978951924467408321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_96
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8b9e1d865cd0bf0800000000000000
+      internalID: -356411741503375181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_97
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249685c24989c53d0800000000000000
+      internalID: -3216528271682803390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_98
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3fa3dffc1af0680800000000000000
+      internalID: -8786626433297746948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_99
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe3d0211dce9d510800000000000000
+      internalID: 1574549927437876987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_100
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e581c15999af0e20800000000000000
+      internalID: 3319057926362072549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_101
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d71329ffea24f00800000000000000
+      internalID: 1099633671724432675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_102
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cd1b4dc832f6260800000000000000
+      internalID: 7092927025902640224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_103
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbe2a6ddfc422030800000000000000
+      internalID: 3468419316140141494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b88bb4459690890800000000000000
+      internalID: -7491340694385554554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_105
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b98658cd3001dc0800000000000000
+      internalID: -3670429450641040600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2561c2e00d23c5a90800000000000000
+      internalID: -7323923024838912430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_107
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf86cee8f1e5e880800000000000000
+      internalID: -8582205055610482773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_108
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d67d5a47b754df0800000000000000
+      internalID: -196615267791966882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_109
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab10fe1fe056f160800000000000000
+      internalID: 7058918453896289185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_110
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c752f2cbf981e03e0800000000000000
+      internalID: -2085702503089887876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_111
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62371cbbde6f8460800000000000000
+      internalID: 7246132215494947438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_112
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2126bab9f51b0530800000000000000
+      internalID: 3822172871077536047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_113
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a14d18e802d5cf0800000000000000
+      internalID: -262017406882014580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_114
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a12348e022f7fe0800000000000000
+      internalID: -1189194330859758988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_115
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8204ba75ea0f9f0800000000000000
+      internalID: -436657472296441604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_116
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b558194ea2a5e7bb0800000000000000
+      internalID: -4936409001281616549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56127b3e1f27b5c20800000000000000
+      internalID: 3196274743782613349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_118
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47de88e95e47f670800000000000000
+      internalID: 8572406563783759692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_119
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8190f5ce980834050800000000000000
+      internalID: 5783607676338374936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_120
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ec534ef245c8bc0800000000000000
+      internalID: -3779553422601761277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_121
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb253b27025b938e0800000000000000
+      internalID: -1713139032269827394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_122
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135512ef1ee826c50800000000000000
+      internalID: 6657040300489397553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_123
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d62bf64d05963ea0800000000000000
+      internalID: -5893359178109737261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_124
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266ba448bb8aab7c0800000000000000
+      internalID: -4054742991161870750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_125
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbc1ee5ab879b6d0800000000000000
+      internalID: -2974213337050395656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_126
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b81e735deb569e0800000000000000
+      internalID: -1628685867249726607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_127
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7172e1b70763b70800000000000000
+      internalID: 8878407389496678335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_128
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a4109aaf6852660800000000000000
+      internalID: 7360437577142323853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_129
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3848f76d27bf72390800000000000000
+      internalID: -7843023755398904701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92089f57b2edaaa90800000000000000
+      internalID: -7301779567583592407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_131
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ff2318f2a2f7ed0800000000000000
+      internalID: -2414164491727864035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57242e271ce797920800000000000000
+      internalID: 2988559197058253429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_133
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae39326de24f3e20800000000000000
+      internalID: 3332455836600057505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_134
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1a238ef354c7c40800000000000000
+      internalID: 5511356184775532991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_135
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86372500d179b4670800000000000000
+      internalID: 8524072870544044904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_136
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d459404cb7dbe70b0800000000000000
+      internalID: -5728933336701430451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_137
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affa3b9faa6be0fc0800000000000000
+      internalID: -3526680612734521350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_138
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e97f83ab43cdfb0800000000000000
+      internalID: -4621761143164658136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_139
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a36cf6928612b900800000000000000
+      internalID: 698645642330530729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_140
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f350c68b12a5bfa0800000000000000
+      internalID: -5785539907178966030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_141
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af13263c928221990800000000000000
+      internalID: -7416821476489022982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_142
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578de2c24357879d0800000000000000
+      internalID: -2776340303333894027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f193b421e08aecee0800000000000000
+      internalID: -1238868069090379489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_144
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da47ede6ad9bfddf0800000000000000
+      internalID: -153199514493225811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_145
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3995e9afca2eef550800000000000000
+      internalID: 6196639369875315091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_146
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c13b682986db270800000000000000
+      internalID: 8267879469456497671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_147
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f452117683658b5b0800000000000000
+      internalID: -5352433356882500273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_148
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f31c9a41ef19e40800000000000000
+      internalID: 5661585571282239391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_149
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0ce5a8ffb65a040800000000000000
+      internalID: 4658248134866944186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_150
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af172f0a87c00c220800000000000000
+      internalID: 2504015105053848058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_151
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cde14ffe7eb25a0800000000000000
+      internalID: -6544882615674020731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_152
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e020f64d0ffe730800000000000000
+      internalID: 4030704986706021968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_153
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e349f2eba1e03f0800000000000000
+      internalID: -932778668674761103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_154
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b339b5832abcc260800000000000000
+      internalID: 7119269772696040376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_155
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795679bd3a1930380800000000000000
+      internalID: -9006194696861031017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9093b7f7936f5d50800000000000000
+      internalID: 6728205872661762203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_157
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3029e21e7b6caac50800000000000000
+      internalID: 6677367890589422083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_158
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d267d2aaa5778b0800000000000000
+      internalID: -5154551561548583578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_159
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619c2dd44b79126b0800000000000000
+      internalID: -5322806483919648490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_160
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de50ed1d14c7ed500800000000000000
+      internalID: 422912037155112429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_161
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7624c4a4c6fa6e0800000000000000
+      internalID: -1824120257698961497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_162
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84572e9a1147f9c0800000000000000
+      internalID: -3893571770260171637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_163
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a59448c3f25aaa60800000000000000
+      internalID: 7686046921051641257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_164
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea0f7fe9286361a0800000000000000
+      internalID: -6817490881587770651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_165
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ae7965b4ca539c0800000000000000
+      internalID: -3948060058745050505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_166
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968337e1f0a436380800000000000000
+      internalID: -8979251803250804631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_167
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00edbe93ad5109530800000000000000
+      internalID: 3859608907675328000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Blue2_TileMap_Square_168
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e56e54c597a6c80800000000000000
+      internalID: -8328711123651633619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
