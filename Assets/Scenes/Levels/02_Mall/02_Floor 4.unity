@@ -11136,11 +11136,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049570, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
       propertyPath: level
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049570, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
       propertyPath: levelName
-      value: Entrance
+      value: Floor 4
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049570, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
       propertyPath: randomness

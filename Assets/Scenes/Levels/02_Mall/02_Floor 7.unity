@@ -21572,11 +21572,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049570, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
       propertyPath: level
-      value: 10
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049570, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
       propertyPath: levelName
-      value: Entrance
+      value: Floor 7
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049570, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
       propertyPath: randomness
@@ -23075,7 +23075,6 @@ Transform:
   - {fileID: 1974763516}
   - {fileID: 1945323944}
   - {fileID: 1041141310}
-  - {fileID: 2137734965}
   - {fileID: 779947344}
   - {fileID: 272909869}
   - {fileID: 675459648}
@@ -23102,6 +23101,7 @@ Transform:
   - {fileID: 1810671944}
   - {fileID: 891944326}
   - {fileID: 1985320014}
+  - {fileID: 2137734965}
   - {fileID: 69662545}
   - {fileID: 1498888717}
   - {fileID: 1402800955}

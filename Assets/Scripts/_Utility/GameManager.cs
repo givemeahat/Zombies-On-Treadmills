@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public int level;
     public GameObject levelTitle;
     public Text levelTitleText;
+    public GameObject mallLevelTitleAccent;
     public Text frenzyTitleText;
     public DataManager dataManager;
     public GameObject lvlMgrPrefab;
@@ -48,6 +49,10 @@ public class GameManager : MonoBehaviour
     public Toggle muteMusicToggle;
     public Toggle isFullScreenMode;
 
+    public Sprite neighborhoodLevelTitleImg;
+    public Sprite mallLevelTitleImg;
+
+
     private void Awake()
     {
         Time.timeScale = 1;
@@ -73,6 +78,22 @@ public class GameManager : MonoBehaviour
             frenzyTitleText.gameObject.SetActive(true);
         }
         if (!levelTitle.activeInHierarchy && !isTutorial) levelTitle.SetActive(true);
+        if (level < 9)
+        {
+            if (mallLevelTitleAccent.activeInHierarchy) mallLevelTitleAccent.SetActive(false);
+            levelTitle.GetComponent<Image>().sprite = neighborhoodLevelTitleImg;
+            levelTitleText.color = Color.white;
+        }
+        if (level >= 9)
+        {
+            if (!mallLevelTitleAccent.activeInHierarchy) mallLevelTitleAccent.SetActive(true);
+            levelTitle.GetComponent<Image>().sprite = mallLevelTitleImg;
+            if (level == 10 || level == 11) levelTitleText.color = Color.cyan;
+            if (level == 12 || level == 13) levelTitleText.color = Color.magenta;
+            if (level == 10 || level == 11) levelTitleText.color = Color.yellow;
+            if (level == 10 || level == 11) levelTitleText.color = Color.green;
+
+        }
         if (!isTutorial) StartCoroutine(CloseLevelTitle());
     }
     private void Start()

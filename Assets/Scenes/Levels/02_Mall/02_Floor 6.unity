@@ -10811,7 +10811,7 @@ Transform:
   m_Children:
   - {fileID: 585039209}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &767045546
 PrefabInstance:
@@ -12194,11 +12194,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049570, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
       propertyPath: level
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049570, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
       propertyPath: levelName
-      value: Entrance
+      value: Floor 6
       objectReference: {fileID: 0}
     - target: {fileID: 8316453508570049570, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
       propertyPath: randomness
@@ -13488,8 +13488,6 @@ Transform:
   - {fileID: 788304206}
   - {fileID: 1277083471}
   - {fileID: 361452000}
-  - {fileID: 1478500004}
-  - {fileID: 928185667}
   - {fileID: 662140514}
   - {fileID: 1355213953}
   - {fileID: 350599370}
@@ -13502,10 +13500,12 @@ Transform:
   - {fileID: 775189037}
   - {fileID: 246591031}
   - {fileID: 1611786473}
+  - {fileID: 1478500004}
   - {fileID: 91164213}
   - {fileID: 1932586949}
   - {fileID: 1480994304}
   - {fileID: 1723059477}
+  - {fileID: 928185667}
   - {fileID: 85815327}
   - {fileID: 949308947}
   - {fileID: 1750049779}
@@ -13572,7 +13572,6 @@ Transform:
   - {fileID: 1501986773}
   - {fileID: 1712468319}
   - {fileID: 584020590}
-  - {fileID: 1743988292}
   - {fileID: 1602125331}
   - {fileID: 724382698}
   - {fileID: 1270419550}
@@ -13581,6 +13580,7 @@ Transform:
   - {fileID: 633317386}
   - {fileID: 2088975777}
   - {fileID: 1019953303}
+  - {fileID: 1743988292}
   - {fileID: 134538303}
   - {fileID: 561481289}
   - {fileID: 1805396981}
