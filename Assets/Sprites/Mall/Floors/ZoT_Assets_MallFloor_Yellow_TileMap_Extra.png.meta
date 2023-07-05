@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 14a23336d1c6b2446b7dc583aabfa0f1
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7374584188810212828
+    second: ZoT_Assets_MallFloor_Yellow_TileMap_Extra_0
+  - first:
+      213: -3780561117428390502
+    second: ZoT_Assets_MallFloor_Yellow_TileMap_Extra_1
+  - first:
+      213: -3765081889671231512
+    second: ZoT_Assets_MallFloor_Yellow_TileMap_Extra_2
+  - first:
+      213: -1528999775313154822
+    second: ZoT_Assets_MallFloor_Yellow_TileMap_Extra_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +113,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Yellow_TileMap_Extra_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a41c3a0c638a990800000000000000
+      internalID: -7374584188810212828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Yellow_TileMap_Extra_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95e608a1bfb88bc0800000000000000
+      internalID: -3780561117428390502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Yellow_TileMap_Extra_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7c3e738fdbfbbc0800000000000000
+      internalID: -3765081889671231512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoT_Assets_MallFloor_Yellow_TileMap_Extra_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcaeca2ec6e7cae0800000000000000
+      internalID: -1528999775313154822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -9014,18 +9014,6 @@ PrefabInstance:
       propertyPath: m_Text
       value: FLOOR 1
       objectReference: {fileID: 0}
-    - target: {fileID: 483461558503382955, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 483461558503382955, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
-      propertyPath: m_Color.g
-      value: 0.82745105
-      objectReference: {fileID: 0}
-    - target: {fileID: 483461558503382955, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
-      propertyPath: m_Color.r
-      value: 0.41960788
-      objectReference: {fileID: 0}
     - target: {fileID: 3979517992727203663, guid: 6812cb4566c6ec14dae243376e7f59e1, type: 3}
       propertyPath: m_IsActive
       value: 0

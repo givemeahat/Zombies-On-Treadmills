@@ -88,10 +88,10 @@ public class GameManager : MonoBehaviour
         {
             if (!mallLevelTitleAccent.activeInHierarchy) mallLevelTitleAccent.SetActive(true);
             levelTitle.GetComponent<Image>().sprite = mallLevelTitleImg;
-            if (level == 10 || level == 11) levelTitleText.color = Color.cyan;
-            if (level == 12 || level == 13) levelTitleText.color = Color.magenta;
-            if (level == 10 || level == 11) levelTitleText.color = Color.yellow;
-            if (level == 10 || level == 11) levelTitleText.color = Color.green;
+            if (level == 9 || level == 10 || level == 11) levelTitleText.color = new Color (0.4196079f, 0.8274511f, 1, 1);
+            if (level == 12 || level == 13) levelTitleText.color = new Color(1, 0.4196079f, 0.8002242f, 1);
+            if (level == 14 || level == 15) levelTitleText.color = new Color(1, 0.8765869f, 0.4196079f, 1);
+            if (level == 16 || level == 17) levelTitleText.color = new Color(0.5961097f, 0.9245283f, 0.3968494f, 1);
 
         }
         if (!isTutorial) StartCoroutine(CloseLevelTitle());
