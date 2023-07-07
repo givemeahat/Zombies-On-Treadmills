@@ -326,6 +326,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5739085239232429187}
+        m_TargetAssemblyTypeName: DirectoryTextButton, Assembly-CSharp
+        m_MethodName: SendLevelInfoToLoader
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!225 &9164975124335401785
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -385,6 +409,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correspondingButtonAnim: {fileID: 0}
+  baseLevelNumber: 0
+  loader: {fileID: 0}
 --- !u!223 &7918745957109921818
 Canvas:
   m_ObjectHideFlags: 0

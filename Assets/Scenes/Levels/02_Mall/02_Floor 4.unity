@@ -10073,7 +10073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minFov: 0.5
-  maxFov: 4
+  maxFov: 8
   sensitivity: 2
   cameraBoxSize: {x: 0, y: 0, z: 0}
   speed: 5

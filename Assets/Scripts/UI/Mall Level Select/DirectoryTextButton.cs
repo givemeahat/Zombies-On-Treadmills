@@ -3,12 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
-public class DirectoryTextButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class DirectoryTextButton : MonoBehaviour//, //IPointerEnterHandler, IPointerExitHandler
 {
     public Animator correspondingButtonAnim;
 
-    public void OnPointerEnter(PointerEventData pointerEventData)
+    public int baseLevelNumber;
+    public MallLVLSelLoader loader;
+
+    public void SendLevelInfoToLoader()
+    {
+        loader.baseLevelNumber = baseLevelNumber;
+        loader.LoadData();
+    }
+
+    /*public void OnPointerEnter(PointerEventData pointerEventData)
     {
         if (!this.GetComponent<Button>().interactable)
             return;
@@ -27,5 +37,5 @@ public class DirectoryTextButton : MonoBehaviour, IPointerEnterHandler, IPointer
         correspondingButtonAnim.SetTrigger("Normal");
         if (correspondingButtonAnim.gameObject.GetComponent<Canvas>())
             correspondingButtonAnim.gameObject.GetComponent<Canvas>().sortingOrder = 1020;
-    }
+    }*/
 }
