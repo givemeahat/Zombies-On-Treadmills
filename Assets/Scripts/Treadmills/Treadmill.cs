@@ -22,7 +22,7 @@ public class Treadmill : MonoBehaviour
     //purple
     Color westColor = new Color(1, 0.8156863f, 1f, 1f);
     //green
-    Color northColor = new Color(0.8196079f, 1, 0.8196079f, 1);
+    Color northColor = new Color(0.6352f, 0.9716f, 0.6279f, 1);
     //orangey
     Color eastColor = new Color(1, 0.8823511f, 0.6179246f, 1);
     //reddish
@@ -53,7 +53,8 @@ public class Treadmill : MonoBehaviour
     }
     public void PlayAnimation()
     {
-        anim.speed = -1.5f;
+        Rotate();
+        anim.speed = 1.5f;
     }
     public void Rotate()
     {
