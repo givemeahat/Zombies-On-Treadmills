@@ -16,8 +16,8 @@ public class PlayerData
     
     public PlayerData(DataManager lm)
     {
-        humanDeaths = new float[10];
-        zombieDeaths = new float[10];
+        humanDeaths = new float[19];
+        zombieDeaths = new float[19];
         currentLevel = lm.currentLevel;
         isFullScreen = lm.isFullScreen;
         hasFinishedTutorial = lm.hasFinishedTutorial;

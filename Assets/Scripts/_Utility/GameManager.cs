@@ -80,13 +80,13 @@ public class GameManager : MonoBehaviour
         if (!levelTitle.activeInHierarchy && !isTutorial) levelTitle.SetActive(true);
         if (level < 9)
         {
-            if (mallLevelTitleAccent.activeInHierarchy) mallLevelTitleAccent.SetActive(false);
+            //if (mallLevelTitleAccent.activeInHierarchy) mallLevelTitleAccent.SetActive(false);
             levelTitle.GetComponent<Image>().sprite = neighborhoodLevelTitleImg;
             levelTitleText.color = Color.white;
         }
         if (level >= 9)
         {
-            if (!mallLevelTitleAccent.activeInHierarchy) mallLevelTitleAccent.SetActive(true);
+            //if (!mallLevelTitleAccent.activeInHierarchy) mallLevelTitleAccent.SetActive(true);
             levelTitle.GetComponent<Image>().sprite = mallLevelTitleImg;
             if (level == 9 || level == 10 || level == 11) levelTitleText.color = new Color (0.4196079f, 0.8274511f, 1, 1);
             if (level == 12 || level == 13) levelTitleText.color = new Color(1, 0.4196079f, 0.8002242f, 1);
@@ -98,7 +98,7 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-        zombieNoncomplianceRate.text = "Zombie Deviance: " + randomness * 100 + "%";
+        //zombieNoncomplianceRate.text = "Zombie Deviance: " + randomness * 100 + "%";
         if (this.GetComponent<SpawnManager>().isFrenzy)
         {
             numberOfZombiesTotal = this.GetComponent<SpawnManager>().numberOfSpawns * this.GetComponent<SpawnManager>().zombiesToSpawn;
