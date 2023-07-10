@@ -20,8 +20,8 @@ public class Rotate : MonoBehaviour
     bool isDragging = false;
 
     // Time management
-    private float downClickTime;
-    private float clickDeltaTime = 0.2F;
+    /*private float downClickTime;
+    private float clickDeltaTime = 0.2F;*/
 
     private void Awake()
     {
@@ -84,18 +84,35 @@ public class Rotate : MonoBehaviour
         }
     }
     public void OnMouseDown()
-    {
-        Debug.Log("hi");
-        downClickTime = Time.time;
+    {        /*if (EventSystem.current.IsPointerOverGameObject()) return;
+        /*if (lr == null)
+        {
+            lr = gameObject.AddComponent<LineRenderer>();
+        }
+        lr.positionCount = 2;
+        lr.SetPosition(0, new Vector2(0, 0));
+        lr.SetPosition(1, new Vector2(0, 0));
+        //startPos = cam.ScreenToWorldPoint(Input.mousePosition + camOffset);
+        //startPos = cam.ScreenToWorldPoint(Input.mousePosition);
+        startPos = this.GetComponentInParent<Transform>().localPosition;
+        startPos = cam.ScreenToWorldPoint(Input.mousePosition + camOffset);
+        lr.SetPosition(0, startPos);
+        lr.useWorldSpace = true;
+        tm.tmm.activeTreadmill = tm;
+        tm.GetComponent<AudioSource>().PlayOneShot(tm.GetComponent<AudioSource>().clip);
+        lr.enabled = true;*/
+
+        //Debug.Log("hi");
+        //downClickTime = Time.time;
     }
     public void OnMouseDrag()
     {
-        if (Time.time - downClickTime <= clickDeltaTime)
+        /*if (Time.time - downClickTime <= clickDeltaTime)
         {
             isDragging = false;
             return;
         }
-        isDragging = true;
+        isDragging = true;*/
         if (!lr.enabled)
         {
             if (EventSystem.current.IsPointerOverGameObject()) return;
@@ -138,7 +155,7 @@ public class Rotate : MonoBehaviour
     }
     private void OnMouseUp()
     {
-        if (Time.time - downClickTime <= clickDeltaTime && !isDragging)
+        /*if (Time.time - downClickTime <= clickDeltaTime && !isDragging)
         {
             switch (tm.currentDirection)
             {
@@ -157,7 +174,7 @@ public class Rotate : MonoBehaviour
             }
 
             tm.Rotate();
-        }
+        }*/
         lr.enabled = false;
         lr.SetPosition(0, new Vector2(0, 0));
         lr.SetPosition(1, new Vector2(0, 0));
@@ -165,7 +182,7 @@ public class Rotate : MonoBehaviour
         startPos = new Vector3(0, 0, 0);
         endPos = new Vector3(0, 0, 0);
         tm.GetComponent<SpriteRenderer>().material.SetFloat("_OutlineEnabled", 0);
-        isDragging = false;
+        //isDragging = false;
     }
     /*public void OnMouseExit()
     {

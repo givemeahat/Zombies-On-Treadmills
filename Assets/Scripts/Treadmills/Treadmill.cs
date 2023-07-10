@@ -53,7 +53,7 @@ public class Treadmill : MonoBehaviour
     }
     public void PlayAnimation()
     {
-        anim.speed = 1.5f;
+        anim.speed = -1.5f;
     }
     public void Rotate()
     {
@@ -61,7 +61,8 @@ public class Treadmill : MonoBehaviour
         switch (currentDirection)
         {
             case 0:
-                anim.Play("Treadmill_Running_Vertical");
+                anim.ResetTrigger("RunHorizontal");
+                anim.SetTrigger("RunVertical");
                 spriteRend.color = southColor;
                 spriteRend.sprite = verticalSprite;
                 arrow.transform.eulerAngles = new Vector3(arrow.transform.rotation.x, arrow.transform.rotation.y, 180);
@@ -71,7 +72,8 @@ public class Treadmill : MonoBehaviour
                 //this.GetComponent<AudioSource>().PlayOneShot(this.GetComponent<AudioSource>().clip);
                 break;
             case 90:
-                anim.Play("Treadmill_Running_Horizontal");
+                anim.ResetTrigger("RunVertical");
+                anim.SetTrigger("RunHorizontal");
                 spriteRend.color = eastColor;
                 spriteRend.sprite = horizontalSprite;
                 arrow.transform.eulerAngles = new Vector3(arrow.transform.rotation.x, arrow.transform.rotation.y, 270);
@@ -80,7 +82,8 @@ public class Treadmill : MonoBehaviour
                 spriteRend.flipY = false;
                 break;
             case 180:
-                anim.Play("Treadmill_Running_Vertical");
+                anim.ResetTrigger("RunHorizontal");
+                anim.SetTrigger("RunVertical");
                 spriteRend.color = northColor;
                 spriteRend.sprite = verticalSprite;
                 arrow.transform.eulerAngles = new Vector3(arrow.transform.rotation.x, arrow.transform.rotation.y, 0);
@@ -89,7 +92,8 @@ public class Treadmill : MonoBehaviour
                 spriteRend.flipY = false;
                 break;
             case 270:
-                anim.Play("Treadmill_Running_Horizontal");
+                anim.ResetTrigger("RunVertical");
+                anim.SetTrigger("RunHorizontal");
                 spriteRend.color = westColor;
                 spriteRend.sprite = horizontalSprite;
                 arrow.transform.eulerAngles = new Vector3(arrow.transform.rotation.x, arrow.transform.rotation.y, 90);
