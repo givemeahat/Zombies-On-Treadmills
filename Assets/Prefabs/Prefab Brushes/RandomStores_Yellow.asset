@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fdc5e1eccedb29e4894bbfab99032590, type: 3}
-  m_Name: RandomStores
+  m_Name: RandomStores_Yellow
   m_EditorClassIdentifier: 
   m_Cells:
   - m_Tile: {fileID: 0}
@@ -36,9 +36,12 @@ MonoBehaviour:
   m_Pivot: {x: 0, y: 0, z: 0}
   m_CanChangeZPosition: 0
   m_FloodFillContiguousOnly: 1
-  m_Anchor: {x: 0.5, y: 0.5, z: 0.5}
+  m_Anchor: {x: 0, y: 0, z: 0.5}
   m_Prefabs:
-  - {fileID: 3315509002265622924, guid: 9b1d8ddca56eb864ab5b8955cac8f917, type: 3}
-  - {fileID: 3315509002265622924, guid: 5093d6f5a10442d448e374023464a718, type: 3}
-  - {fileID: 3315509002265622924, guid: 6bf0d5593de2ba148af7c42104e51676, type: 3}
-  m_PerlinScale: 0.008
+  - {fileID: 3315509002265622924, guid: 72c48005cb9398a448de325cd7df3b4a, type: 3}
+  - {fileID: 3315509002265622924, guid: 7925ed84568950945ba96f69908b443f, type: 3}
+  - {fileID: 3315509002265622924, guid: 78fd20a58eb028742aae8f14a08d7514, type: 3}
+  - {fileID: 3315509002265622924, guid: 03d7813c45fb57146b31dfe5bd4bfbe0, type: 3}
+  - {fileID: 3315509002265622924, guid: cd2922ee6e33ded49a8b347aca096531, type: 3}
+  - {fileID: 3315509002265622924, guid: 3afd0dd269049e540a8623a7159c620e, type: 3}
+  m_PerlinScale: 0.857

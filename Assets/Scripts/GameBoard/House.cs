@@ -8,16 +8,16 @@ public class House : MonoBehaviour
     public Transform waypoint;
     public SpriteRenderer rend;
 
-    public Sprite[] storeSprites;
-    public bool isRandom = false;
+    //public Sprite[] storeSprites;
+    //public bool isRandom = false;
 
     private void Awake()
     {
-        if (isRandom)
+        /*if (isRandom)
         {
             int _spriteNum = Random.Range(0, storeSprites.Length);
             rend.sprite = storeSprites[_spriteNum];
-        }
+        }*/
     }
 
     // Start is called before the first frame update

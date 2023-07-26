@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc5e1eccedb29e4894bbfab99032590, type: 3}
+  m_Name: RandomStores_Green
+  m_EditorClassIdentifier: 
+  m_Cells:
+  - m_Tile: {fileID: 0}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Pivot: {x: 0, y: 0, z: 0}
+  m_CanChangeZPosition: 0
+  m_FloodFillContiguousOnly: 1
+  m_Anchor: {x: 0, y: 0, z: 0.5}
+  m_Prefabs:
+  - {fileID: 3315509002265622924, guid: ee8748e7b2bf2fd41b2e876586588eda, type: 3}
+  - {fileID: 3315509002265622924, guid: 674d877e765474e41ab796c6d0ec1025, type: 3}
+  - {fileID: 3315509002265622924, guid: 65c7f6bce97dc1b44981051ac6048011, type: 3}
+  - {fileID: 3315509002265622924, guid: 9e4a153c55bdf084c9f812191f6458ad, type: 3}
+  - {fileID: 3315509002265622924, guid: 5b1e717d4762b724d8327683a78a6a57, type: 3}
+  - {fileID: 3315509002265622924, guid: fb8a5c0f6086e88428af007f7a346f31, type: 3}
+  - {fileID: 3315509002265622924, guid: 55e5a031406ef864597f846b7517c140, type: 3}
+  m_PerlinScale: 0.857

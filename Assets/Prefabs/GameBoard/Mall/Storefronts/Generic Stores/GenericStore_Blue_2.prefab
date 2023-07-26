@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 28d23a3b4e1147d4a981161f00ee440d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e132c4a7782a384c9bcf31726a1466b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 3315509002265622961}
   - component: {fileID: 2346502539980669547}
   m_Layer: 6
-  m_Name: GenericStore_0
+  m_Name: GenericStore_Blue_2
   m_TagString: House
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,17 +133,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypoint: {fileID: 3315509002531101600}
   rend: {fileID: 3328351806782552764}
-  storeSprites:
-  - {fileID: 21300000, guid: 28d23a3b4e1147d4a981161f00ee440d, type: 3}
-  - {fileID: 21300000, guid: 0072293c44bef1247b28ef7eb486e9c2, type: 3}
-  - {fileID: 21300000, guid: b27ded8a1444f074286f6caa455de009, type: 3}
-  - {fileID: 21300000, guid: 09a551bf3260c7846b8f6daacafcd91e, type: 3}
-  - {fileID: 21300000, guid: f606903211e87294cae9aa9cb20db75e, type: 3}
-  - {fileID: 21300000, guid: 3cd8952c6b1466448a34a5c8c5753dbf, type: 3}
-  - {fileID: 21300000, guid: c7ba38ea43754a548a5a58778ac07051, type: 3}
-  - {fileID: 21300000, guid: 05f4ab16793999345b43637f020510e7, type: 3}
-  - {fileID: 21300000, guid: a85845a423caca74792ecc42ec871b7b, type: 3}
-  isRandom: 1
 --- !u!61 &3315509002265622927
 BoxCollider2D:
   m_ObjectHideFlags: 0
