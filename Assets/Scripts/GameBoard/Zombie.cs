@@ -267,6 +267,7 @@ public class Zombie : MonoBehaviour
         gm.zombiesInScene.Remove(this.gameObject);
         gm.CheckZombies();
         Destroy(this.gameObject);
+        gm.UpdateZombiesKilled();
     }
     IEnumerator DestroyZombie()
     {

@@ -36,7 +36,7 @@ public class Dumpster : MonoBehaviour
             this.gameObject.tag = "Full";
             fullnessBar.fillAmount = 1;
             fullnessBar.color = Color.red;
-            if (xlDumpster) StartCoroutine(LockDumpster());
+            StartCoroutine(LockDumpster());
             return;
         }
         float fillAmt = zombieCount / maxCapacity;
