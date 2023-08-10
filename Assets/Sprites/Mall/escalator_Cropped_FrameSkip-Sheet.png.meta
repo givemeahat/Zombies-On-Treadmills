@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: 588ab6d56a0b8a2468e8e4c8ff62bfe6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8447209474541629789
+    second: escalator_Cropped_FrameSkip-Sheet_0
+  - first:
+      213: -6737132791219224242
+    second: escalator_Cropped_FrameSkip-Sheet_1
+  - first:
+      213: 3362050007469371288
+    second: escalator_Cropped_FrameSkip-Sheet_2
+  - first:
+      213: 5249051199119645422
+    second: escalator_Cropped_FrameSkip-Sheet_3
+  - first:
+      213: 2544576995895837568
+    second: escalator_Cropped_FrameSkip-Sheet_4
+  - first:
+      213: -8818914209092538853
+    second: escalator_Cropped_FrameSkip-Sheet_5
+  - first:
+      213: 6179832123431077466
+    second: escalator_Cropped_FrameSkip-Sheet_6
+  - first:
+      213: 6684483958339462155
+    second: escalator_Cropped_FrameSkip-Sheet_7
+  - first:
+      213: 3152402959604895098
+    second: escalator_Cropped_FrameSkip-Sheet_8
+  - first:
+      213: -5829130530525185171
+    second: escalator_Cropped_FrameSkip-Sheet_9
+  - first:
+      213: -1440274230824310215
+    second: escalator_Cropped_FrameSkip-Sheet_10
+  - first:
+      213: -6042667988907763354
+    second: escalator_Cropped_FrameSkip-Sheet_11
+  - first:
+      213: -256193169641003784
+    second: escalator_Cropped_FrameSkip-Sheet_12
+  - first:
+      213: 3272772146636579453
+    second: escalator_Cropped_FrameSkip-Sheet_13
+  - first:
+      213: 8576608591243242727
+    second: escalator_Cropped_FrameSkip-Sheet_14
+  - first:
+      213: 8012926765320230697
+    second: escalator_Cropped_FrameSkip-Sheet_15
+  - first:
+      213: 1754134706553023136
+    second: escalator_Cropped_FrameSkip-Sheet_16
+  - first:
+      213: -9146822817355563577
+    second: escalator_Cropped_FrameSkip-Sheet_17
+  - first:
+      213: 8187393075431081209
+    second: escalator_Cropped_FrameSkip-Sheet_18
+  - first:
+      213: -7958786125916389867
+    second: escalator_Cropped_FrameSkip-Sheet_19
+  - first:
+      213: -8779851947943056007
+    second: escalator_Cropped_FrameSkip-Sheet_20
+  - first:
+      213: 2748862635320997515
+    second: escalator_Cropped_FrameSkip-Sheet_21
+  - first:
+      213: 513320632191941357
+    second: escalator_Cropped_FrameSkip-Sheet_22
+  - first:
+      213: 5004841586545694507
+    second: escalator_Cropped_FrameSkip-Sheet_23
+  - first:
+      213: 8870872201150173463
+    second: escalator_Cropped_FrameSkip-Sheet_24
+  - first:
+      213: -157612499753077708
+    second: escalator_Cropped_FrameSkip-Sheet_25
+  - first:
+      213: 771324879235471777
+    second: escalator_Cropped_FrameSkip-Sheet_26
+  - first:
+      213: -120994891167213883
+    second: escalator_Cropped_FrameSkip-Sheet_27
+  - first:
+      213: -3342043713589541208
+    second: escalator_Cropped_FrameSkip-Sheet_28
+  - first:
+      213: 3213007147493517279
+    second: escalator_Cropped_FrameSkip-Sheet_29
+  - first:
+      213: 4721092174892940648
+    second: escalator_Cropped_FrameSkip-Sheet_30
+  - first:
+      213: -3704754291075198095
+    second: escalator_Cropped_FrameSkip-Sheet_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3230
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aec1a6fcbb75ca80800000000000000
+      internalID: -8447209474541629789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3230
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e410eb6db65e082a0800000000000000
+      internalID: -6737132791219224242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3230
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89faf4c3ba668ae20800000000000000
+      internalID: 3362050007469371288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3230
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea5d53414068d840800000000000000
+      internalID: 5249051199119645422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3230
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0838008cb47205320800000000000000
+      internalID: 2544576995895837568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3230
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ee46e504cec9580800000000000000
+      internalID: -8818914209092538853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2584
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5648a8f29c23c550800000000000000
+      internalID: 6179832123431077466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2584
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04ee938ebe04cc50800000000000000
+      internalID: 6684483958339462155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2584
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dc3242ac59fbb20800000000000000
+      internalID: 3152402959604895098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2584
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b79a2aaa4ca1fa0800000000000000
+      internalID: -5829130530525185171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2584
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a619cc73e130ce0800000000000000
+      internalID: -1440274230824310215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2584
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6695781ca71242ca0800000000000000
+      internalID: -6042667988907763354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1938
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4aaa96ba1d17cf0800000000000000
+      internalID: -256193169641003784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1938
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72e01f6de83b6d20800000000000000
+      internalID: 3272772146636579453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1938
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eced9aa21c360770800000000000000
+      internalID: 8576608591243242727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1938
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927d1225072a33f60800000000000000
+      internalID: 8012926765320230697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1938
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aae648c830f75810800000000000000
+      internalID: 1754134706553023136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1938
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd751c0c15ff0180800000000000000
+      internalID: -9146822817355563577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1292
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f400999f967f9170800000000000000
+      internalID: 8187393075431081209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1292
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e32799f26bc8190800000000000000
+      internalID: -7958786125916389867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1292
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d2556cb23b72680800000000000000
+      internalID: -8779851947943056007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1292
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86f6a2b00ce52620800000000000000
+      internalID: 2748862635320997515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1292
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deafda1356eaf1700800000000000000
+      internalID: 513320632191941357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1292
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27982bf7e4c47540800000000000000
+      internalID: 5004841586545694507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 646
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711917d544bab1b70800000000000000
+      internalID: 8870872201150173463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 646
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4347e0c344c00ddf0800000000000000
+      internalID: -157612499753077708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 646
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9504914eb44ba00800000000000000
+      internalID: 771324879235471777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 646
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6575c99c3225ef0800000000000000
+      internalID: -120994891167213883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 646
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a60bab03fcae91d0800000000000000
+      internalID: -3342043713589541208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 646
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd764273af4e69c20800000000000000
+      internalID: 3213007147493517279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dbe54d150b48140800000000000000
+      internalID: 4721092174892940648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escalator_Cropped_FrameSkip-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173db54d991169cc0800000000000000
+      internalID: -3704754291075198095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
