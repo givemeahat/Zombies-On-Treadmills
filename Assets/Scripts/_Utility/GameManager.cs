@@ -242,7 +242,7 @@ public class GameManager : MonoBehaviour
     public void UpdatePeopleKilled()
     {
         peopleKilled++;
-        peopleKilledText.text = "People Killed By Zombies: " + peopleKilled;
+        peopleKilledText.text = "People Killed: " + peopleKilled;
         ratioPeopleKilledText.text = ""+peopleKilled;
         ratio = peopleKilled / numberOfZombiesTotal;
         ratio = ratio / 1;

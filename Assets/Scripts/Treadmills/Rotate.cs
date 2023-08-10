@@ -138,7 +138,7 @@ public class Rotate : MonoBehaviour
     }
     public void OnMouseOver()
     {
-        if (EventSystem.current.IsPointerOverGameObject()) return;
+        //if (EventSystem.current.IsPointerOverGameObject()) return;
         isMouseOver = true;
         if (Input.GetMouseButton(0))
         {
