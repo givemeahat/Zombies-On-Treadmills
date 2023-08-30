@@ -59,7 +59,10 @@ public class Zombie : MonoBehaviour
 
     public void CheckDirections()
     {
-        currentTreadmill.rotation.SetActive(false);
+        /*if (currentTreadmill != null)
+        {
+            currentTreadmill.rotation.SetActive(false);
+        }*/
         int layerMask = 1 << 7;
         layerMask = ~layerMask;
         //south
@@ -177,8 +180,25 @@ public class Zombie : MonoBehaviour
             else StartCoroutine(BeginScaleZombieHorizontal());
         }
         if (hit.collider.gameObject.tag == "Full") {
-            currentDirection += 90; 
-            CheckDirections(); }
+            int _rand = Random.Range(0, 3);
+            if (_rand == 0)
+            {
+                currentDirection = 0;
+            }
+            if (_rand == 1)
+            {
+                currentDirection = 90;
+            }
+            if (_rand == 2)
+            {
+                currentDirection = 180;
+            }
+            if (_rand == 3)
+            {
+                currentDirection = 270;
+            }
+            CheckDirections(); 
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D coll)
