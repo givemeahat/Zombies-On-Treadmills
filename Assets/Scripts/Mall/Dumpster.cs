@@ -15,6 +15,7 @@ public class Dumpster : MonoBehaviour
 
     public bool xlDumpster;
     public Sprite fullDumpsterSprite;
+    public Image lockIcon;
 
 
     // Start is called before the first frame update
@@ -46,6 +47,7 @@ public class Dumpster : MonoBehaviour
     {
         yield return new WaitForSeconds(.5f);
         fullnessBar.gameObject.SetActive(false);
+        lockIcon.gameObject.SetActive(true);
         this.GetComponent<SpriteRenderer>().sprite = fullDumpsterSprite;
         fullnessBar.gameObject.SetActive(false);
     }

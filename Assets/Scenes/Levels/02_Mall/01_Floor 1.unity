@@ -8566,6 +8566,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dumpster
       objectReference: {fileID: 0}
+    - target: {fileID: 7152915863248203116, guid: 08534734790b62243bade9a798e1e0e8, type: 3}
+      propertyPath: maxCapacity
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08534734790b62243bade9a798e1e0e8, type: 3}
 --- !u!4 &520691458 stripped
